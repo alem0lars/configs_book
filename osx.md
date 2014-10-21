@@ -359,7 +359,7 @@ $ tmuxinator doctor # Ensure TMuxinator install correctness
 #### Installation
 
 ```
-$ brew cask install teamviewer
+$ brew cask install teamviewer --appdir=/Applications
 ```
 
 
@@ -378,7 +378,7 @@ $ brew cask install teamviewer
 #### Installation
 
 ```
-$ brew cask install viscosity
+$ brew cask install viscosity --appdir=/Applications
 ```
 
 #### Configuration
@@ -422,6 +422,15 @@ $ brew install tcpflow
 ```
 
 
+### ipcalc
+
+#### Installation
+
+```
+$ brew install ipcalc
+```
+
+
 ### TOR
 
 #### Installation
@@ -433,16 +442,16 @@ $ brew install tor
 #### Configuration
 
 * Automatically load the TOR daemon:
-  
+
   ```
   $ ln -sfv /usr/local/opt/tor/*.plist ~/Library/LaunchAgents
   ```
 
 
-### ipcalc
+### CheatSheet
 
 #### Installation
 
 ```
-$ brew install ipcalc
+$ brew cask install cheatsheet --appdir=/Applications
 ```
