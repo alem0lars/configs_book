@@ -305,14 +305,14 @@ $ brew cask install vagrant vagrant-manager --appdir=/Applications
 $ sudo chown -R alem0lars:staff ~/.vagrant.d
 ```
 
-### Plugins:
+#### Plugins:
 
 ```
 $ vagrant plugin install vagrant-windows # Windows boxes support
 $ vagrant plugin install vagrant-cachier # Cache downloaded boxes
 ```
 
-# Configuration
+#### Configuration
 
 * Vagrant Manager
 
