@@ -8,7 +8,7 @@ Some script-kiddies can follow the tutorial without knowing what they are actual
 
 ## Installation
 
-Create a encrypted, case-sensitive partition and install OS X on it.
+Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 
 
 ## System setup
@@ -41,6 +41,8 @@ TODO
   $ brew install caskroom/cask/brew-cask # Install HomeBrew Cask
   ```
 
+#### Configuration
+
 * Tap the repositories:
   
   ```
@@ -54,7 +56,9 @@ TODO
 
 ### Git
 
-* Global-wise git configuration:
+#### Configuration
+
+* Global-wise:
   
   ```
   $ git config --global user.email "molari.alessandro@gmail.com" # Set the global email
@@ -66,7 +70,9 @@ TODO
 ### SSH Key
 
 * Login to LastPass and download the SSH keys:
+
   * The private key should go under: `~/.ssh/id_rsa`
+
   * The public key should go under:  `~/.ssh/id_rsa.pub`
 
 
@@ -88,10 +94,13 @@ $ brew cask install font-lato # Install the font Lato
 
 ### iTerm2
 
-* Install iTerm2
+* Install iTerm2:
+
   ```
-  $ brew cask install iterm2 --appdir=/Applications # Install iTerm2
+  $ brew cask install iterm2 --appdir=/Applications
   ```
+
+#### Configuration
 
 * The configuration should be already available through the vcsh configuration for `iterm2` (the `configs-iterm2` repository contents). You just need to load the preferences within iTerm 2 from `~/.iterm2`
 
@@ -100,15 +109,18 @@ $ brew cask install font-lato # Install the font Lato
 
 ### ZSH
 
-* Set ZSH as the default shell:
-  ```
-  $ chsh -s /bin/zsh
-  ```
-
 * Install Antigen, the ZSH package manager:
   
   ```
   $ brew install antigen
+  ```
+
+#### Configuration
+
+* Set ZSH as the default shell:
+
+  ```
+  $ chsh -s /bin/zsh
   ```
 
 * The configuration should be already available through the vcsh configuration for `zsh` (the `configs-zsh` repository contents)
@@ -116,12 +128,14 @@ $ brew cask install font-lato # Install the font Lato
 
 ### Google Chrome
 
-* Install Google Chrome
+* Install Google Chrome:
   
   ```
-  $ brew cask install google-chrome --appdir=/Applications # Install Google Chrome
+  $ brew cask install google-chrome --appdir=/Applications
   ```
-  
+
+#### Configuration
+
 * Make Google Chrome the default web browser
 
 * Login to sync everything (extensions, settings, etc)
@@ -131,4 +145,30 @@ $ brew cask install font-lato # Install the font Lato
 
 * Install from the Mac App Store
 
+#### Configuration
+
 * The configuration should be already available through the vcsh configuration for `moom` (the `configs-moom` repository contents)
+
+
+### Copy'em Paste
+
+* Install from the Mac App Store
+
+* Install the helper from [http://www.apprywhere.com/copyem-paste-helper.html](http://www.apprywhere.com/copyem-paste-helper.html)
+
+#### Configuration
+
+* Keybindings:
+
+  * ` ⌥ v`: Show the copy'em paste window
+
+
+### CleanApp
+
+* Install from [http://www.syniumsoftware.com/cleanapp/](http://www.syniumsoftware.com/cleanapp/)
+
+#### Configuration
+
+* When asked, install the logging service and its preference pane
+
+* Add the license from Lastpass
