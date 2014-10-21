@@ -280,6 +280,8 @@ $ brew cask install vmware-fusion
 
 * Remove the directory `~/Documents/Virtual Machines` and create `~/Documents/VMs/VMware`: this is where you will store your VMware virtual machines
 
+* Activate the software using the license stored in Lastpass
+
 
 ### VirtualBox
 
@@ -312,11 +314,13 @@ $ vagrant plugin install vagrant-cachier # Cache downloaded boxes
 
 # Configuration
 
-* Set autostart on login for Vagrant Manager
+* Vagrant Manager
 
-* Change the terminal to iTerm 2 in Vagrant Manager
+  * Set autostart on login
 
-* Allow automatic updates (to Beta versions) in Vagrant Manager
+  * Change the terminal to iTerm 2
+
+  * Allow automatic updates (to Beta versions)
 
 
 ### Chef
@@ -344,3 +348,47 @@ $ brew install tmux
 $ sudo gem install tmuxinator
 $ tmuxinator doctor # Ensure TMuxinator install correctness
 ```
+
+#### Configuration
+
+* The configuration should be already available through the vcsh configuration for `tmux` (the `configs-tmux` repository contents)
+
+
+### TeamViewer
+
+#### Installation
+
+```
+$ brew cask install teamviewer
+```
+
+
+### Apple Remote Desktop
+
+* Install from the Mac App Store
+
+
+### Jump Desktop
+
+* Install from the Mac App Store
+
+
+### Viscosity
+
+#### Installation
+
+```
+$ brew cask install viscosity
+```
+
+#### Configuration
+
+* Set autostart on login
+
+* Enable display IP address in menu
+
+* Disable Time Machine backups while connected
+
+* Enable automatic updates (for Beta versions too)
+
+* Activate the software using the license stored in Lastpass
