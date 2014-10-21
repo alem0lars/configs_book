@@ -1,4 +1,4 @@
 configs
 =======
 
-The starting point to configure the system
+For OSX read: Guides/OSX.md
