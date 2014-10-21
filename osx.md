@@ -93,23 +93,42 @@ $ brew cask install font-lato # Install the font Lato
   $ brew cask install iterm2 --appdir=/Applications # Install iTerm2
   ```
 
-* Load the preferences from `~/.iterm2`
+* The configuration should be already available through the vcsh configuration for `iterm2` (the `configs-iterm2` repository contents). You just need to load the preferences within iTerm 2 from `~/.iterm2`
 
 * Make iTerm2 the default terminal, by clicking on: `iTerm 2 ► Make iTerm2 Default Term`
 
 
 ### ZSH
 
-```
-$ chsh -s /bin/zsh     # Set ZSH as the default shell
-$ brew install antigen # Install Antigen, the ZSH package manager
-```
+* Set ZSH as the default shell:
+  ```
+  $ chsh -s /bin/zsh
+  ```
+
+* Install Antigen, the ZSH package manager:
+  
+  ```
+  $ brew install antigen
+  ```
+
+* The configuration should be already available through the vcsh configuration for `zsh` (the `configs-zsh` repository contents)
 
 
 ### Google Chrome
 
-```
-$ brew cask install google-chrome --appdir=/Applications # Install Google Chrome
-$ #=> Make Google Chrome the default web browser
-$ #=> Login to sync everything (extensions, settings, etc)
-```
+* Install Google Chrome
+  
+  ```
+  $ brew cask install google-chrome --appdir=/Applications # Install Google Chrome
+  ```
+  
+* Make Google Chrome the default web browser
+
+* Login to sync everything (extensions, settings, etc)
+
+
+### Moom
+
+* Install from the Mac App Store
+
+* The configuration should be already available through the vcsh configuration for `moom` (the `configs-moom` repository contents)
