@@ -1,4 +1,4 @@
 configs
 =======
 
-For the OSX setup read: osx.md
+For the OSX setup read: [osx.md](./osx.md)
