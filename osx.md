@@ -69,7 +69,9 @@ TODO
 ### Configuration management
 
 ```
-$ brew install vcsh mr # Install VCSH (and myrepos)
+$ brew install vcsh mr                                  # Install VCSH and MR
+$ vcsh clone git@github.com:alem0lars/configs-mr.git mr # Clone the MR repo
+$ mr up                                                 # Install the configurations
 ```
 
 
@@ -82,11 +84,14 @@ $ brew cask install font-lato # Install the font Lato
 
 ### iTerm2
 
-```
-$ brew cask install iterm2 --appdir=/Applications # Install iTerm2
-$ #=> Make "iTerm2 Default Term"
-$ #=> Load the preferences from <iCloud Drive>/Backups/iTerm2
-```
+* Install iTerm2
+  ```
+  $ brew cask install iterm2 --appdir=/Applications # Install iTerm2
+  ```
+
+* Load the preferences from `~/.iterm2`
+
+* Make iTerm2 the default terminal, by clicking on: `iTerm 2 ► Make iTerm2 Default Term`
 
 
 ### ZSH
