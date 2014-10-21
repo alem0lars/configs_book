@@ -92,6 +92,33 @@ $ brew cask install font-lato # Install the font Lato
 ```
 
 
+### QuickLook
+
+#### Extensions
+
+```
+$ brew cask install qlcolorcode        --appdir=/Applications
+$ brew cask install qlstephen          --appdir=/Applications
+$ brew cask install qlmarkdown         --appdir=/Applications
+$ brew cask install quicklook-json     --appdir=/Applications
+$ brew cask install qlprettypatch      --appdir=/Applications
+$ brew cask install quicklook-csv      --appdir=/Applications
+$ brew cask install betterzipql        --appdir=/Applications
+$ brew cask install webp-quicklook     --appdir=/Applications
+$ brew cask install suspicious-package --appdir=/Applications
+$ brew cask install provisionql        --appdir=/Applications
+$ brew cask install cert-quicklook     --appdir=/Applications
+```
+
+#### Configuration
+
+* Enable the text selection in QuickLook:
+
+  ```
+  $ defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
+  ```
+
+
 ### iTerm2
 
 * Install iTerm2:
@@ -126,6 +153,19 @@ $ brew cask install font-lato # Install the font Lato
 * The configuration should be already available through the vcsh configuration for `zsh` (the `configs-zsh` repository contents)
 
 
+### Paragon NTFS
+
+* Install Paragon NTFS:
+
+  ```
+  brew cask install paragon-ntfs --appdir=/Applications
+  ```
+
+#### Configuration
+
+* Activate the software using the license stored in Lastpass
+
+
 ### Google Chrome
 
 * Install Google Chrome:
@@ -158,7 +198,9 @@ $ brew cask install font-lato # Install the font Lato
 
 #### Configuration
 
-* Keybindings:
+* Set autostart on login
+
+* Set keybindings:
 
   * ` ⌥ v`: Show the copy'em paste window
 
@@ -171,4 +213,96 @@ $ brew cask install font-lato # Install the font Lato
 
 * When asked, install the logging service and its preference pane
 
-* Add the license from Lastpass
+* Activate the software using the license stored in Lastpass
+
+
+### LaunchControl
+
+* Install LaunchControl:
+  
+  ```
+  $ brew cask install launchcontrol --appdir=/Applications
+  ```
+
+
+### Terminal Notifier
+
+* Install Terminal Notifier:
+
+  ```
+  $ brew install terminal-notifier
+  $ brew linkapps
+  ```
+
+
+### pidof
+
+* Install pidof:
+
+  ```
+  $ brew install pidof
+  ```
+
+
+### hr
+
+* Install hr:
+
+  ```
+  $ brew install hr
+  ```
+
+
+### GPG
+
+* Install hr:
+
+  ```
+  $ brew install gpg --8192
+  ```
+
+
+### VMware fusion
+
+### VirtualBox
+
+### Vagrant
+
+* Install:
+
+  ```
+  $ brew cask install vagrant vagrant-manager --appdir=/Applications
+  ```
+
+### Plugins:
+
+* Plugin for having windows-based vagrant boxes:
+  
+  ```
+  $ sudo vagrant plugin install vagrant-windows
+  $ sudo vagrant plugin install vagrant-cachier
+  ```
+
+# Configuration
+
+* Set autostart on login for Vagrant Manager
+
+* Change the terminal to iTerm in Vagrant Manager
+
+* Allow automatic updates (to Beta versions) in Vagrant Manager
+
+
+### Chef
+
+* Install Chef:
+
+  ```
+  $ brew cask install chefdk --appdir=/Applications
+  ```
+
+* Install the Vagrant plugins:
+
+  ```
+  $ sudo vagrant plugin install vagrant-omnibus
+  $ sudo vagrant plugin install vagrant-berkshelf
+  ```
