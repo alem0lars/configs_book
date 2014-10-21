@@ -37,7 +37,7 @@ TODO
   
 ```
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-$ brew doctor 			                   # Check installation is correct
+$ brew doctor                          # Check installation is correct
 $ brew install caskroom/cask/brew-cask # Install HomeBrew Cask
 ```
 
