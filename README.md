@@ -1,4 +1,4 @@
 configs
 =======
 
-For OSX read: Guides/OSX.md
+For the OSX setup read: osx.md
