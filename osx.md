@@ -400,6 +400,7 @@ $ brew cask install viscosity
 
 ```
 $ brew install wireshark --with-lua --with-pcre --with-qt
+$ brew linkapps
 ```
 
 #### Add the capture interface
