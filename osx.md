@@ -2,7 +2,7 @@
 
 ## Some informations
 
-script-kiddies can follow the tutorial without knowing what they are actually doing, but the Hacker wants to know what he's doing, so here are some links:
+Some script-kiddies can follow the tutorial without knowing what they are actually doing, but the real Hacker wants to know what he's doing.. Here there're some links:
 * [How to manage configurations using MR and VCSH](http://www.martin-burger.net/blog/unix-shell/manage-dotfiles-quickly-and-effortlessly/)
 
 
@@ -22,6 +22,7 @@ TODO
 ### Create basic directories
 
 * Create the directories:
+  
   ```
   $ mkdir ~/Tmp      # Create the temporary directory
   $ mkdir ~/Projects # Create the projects directory
@@ -33,6 +34,7 @@ TODO
 ### HomeBrew
 
 * Install HomeBrew and HomeBrew Cask:
+  
   ```
   $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   $ brew doctor 			                   # Check installation is correct
@@ -40,6 +42,7 @@ TODO
   ```
 
 * Tap the repositories:
+  
   ```
   $ brew tap alem0lars/homebrew-repo     # Add the alem0lars repo
   $ brew tap homebrew/homebrew-science   # Add the science repo
@@ -52,6 +55,7 @@ TODO
 ### Git
 
 * Global-wise git configuration:
+  
   ```
   $ git config --global user.email "molari.alessandro@gmail.com" # Set the global email
   $ git config --global user.name "Alessandro Molari"            # Set the global name
@@ -62,8 +66,8 @@ TODO
 ### SSH Key
 
 * Login to LastPass and download the SSH keys:
-  * The private should go under: `~/.ssh/id_rsa`
-  * The public should go under: `~/.ssh/id_rsa.pub`
+  * The private key should go under: `~/.ssh/id_rsa`
+  * The public key should go under:  `~/.ssh/id_rsa.pub`
 
 
 ### Configuration management
