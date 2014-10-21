@@ -411,3 +411,38 @@ cd ~/Downloads && tar zxvf ChmodBPF.tar.gz && cd ~
 open ~/Downloads/ChmodBPF/Install\ ChmodBPF.app
 
 ```
+
+
+### TCPFlow
+
+#### Installation
+
+```
+$ brew install tcpflow
+```
+
+
+### TOR
+
+#### Installation
+
+```
+$ brew install tor
+```
+
+#### Configuration
+
+* Automatically load the TOR daemon:
+  
+  ```
+  $ ln -sfv /usr/local/opt/tor/*.plist ~/Library/LaunchAgents
+  ```
+
+
+### ipcalc
+
+#### Installation
+
+```
+$ brew install ipcalc
+```
