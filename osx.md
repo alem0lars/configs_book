@@ -33,13 +33,13 @@ TODO
 
 ### HomeBrew
 
-* Install HomeBrew and HomeBrew Cask:
+#### Installation
   
-  ```
-  $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  $ brew doctor 			                   # Check installation is correct
-  $ brew install caskroom/cask/brew-cask # Install HomeBrew Cask
-  ```
+```
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew doctor 			                   # Check installation is correct
+$ brew install caskroom/cask/brew-cask # Install HomeBrew Cask
+```
 
 #### Configuration
 
@@ -121,11 +121,11 @@ $ brew cask install cert-quicklook     --appdir=/Applications
 
 ### iTerm2
 
-* Install iTerm2:
+#### Installation
 
-  ```
-  $ brew cask install iterm2 --appdir=/Applications
-  ```
+```
+$ brew cask install iterm2 --appdir=/Applications
+```
 
 #### Configuration
 
@@ -136,11 +136,11 @@ $ brew cask install cert-quicklook     --appdir=/Applications
 
 ### ZSH
 
-* Install Antigen, the ZSH package manager:
-  
-  ```
-  $ brew install antigen
-  ```
+#### Package manager
+
+```
+$ brew install antigen
+```
 
 #### Configuration
 
@@ -155,11 +155,11 @@ $ brew cask install cert-quicklook     --appdir=/Applications
 
 ### Paragon NTFS
 
-* Install Paragon NTFS:
+#### Installation
 
-  ```
-  brew cask install paragon-ntfs --appdir=/Applications
-  ```
+```
+brew cask install paragon-ntfs --appdir=/Applications
+```
 
 #### Configuration
 
@@ -168,11 +168,11 @@ $ brew cask install cert-quicklook     --appdir=/Applications
 
 ### Google Chrome
 
-* Install Google Chrome:
+#### Installation
   
-  ```
-  $ brew cask install google-chrome --appdir=/Applications
-  ```
+```
+$ brew cask install google-chrome --appdir=/Applications
+```
 
 #### Configuration
 
@@ -218,91 +218,129 @@ $ brew cask install cert-quicklook     --appdir=/Applications
 
 ### LaunchControl
 
-* Install LaunchControl:
+#### Installation
   
-  ```
-  $ brew cask install launchcontrol --appdir=/Applications
-  ```
+```
+$ brew cask install launchcontrol --appdir=/Applications
+```
 
 
 ### Terminal Notifier
 
-* Install Terminal Notifier:
+#### Installation
 
-  ```
-  $ brew install terminal-notifier
-  $ brew linkapps
-  ```
+```
+$ brew install terminal-notifier
+$ brew linkapps
+```
 
 
 ### pidof
 
-* Install pidof:
+#### Installation
 
-  ```
-  $ brew install pidof
-  ```
+```
+$ brew install pidof
+```
 
 
 ### hr
 
-* Install hr:
+#### Installation
 
-  ```
-  $ brew install hr
-  ```
+```
+$ brew install hr
+```
 
 
 ### GPG
 
-* Install hr:
+#### Installation
 
-  ```
-  $ brew install gpg --8192
-  ```
+```
+$ brew install gpg --8192
+```
 
 
 ### VMware fusion
 
+#### Installation:
+
+```
+$ brew cask install vmware-fusion
+```
+
+#### Configuration
+
+* Set the default applications:
+ 
+  * Open Mail (mailto) with: `Mail.app`
+  
+  * Open Web Pages (http, https) with: `Google Chrome.app`
+
+* Remove the directory `~/Documents/Virtual Machines` and create `~/Documents/VMs/VMware`: this is where you will store your VMware virtual machines
+
+
 ### VirtualBox
+
+#### Installation:
+
+```
+$ brew cask install virtualbox
+```
+
+#### Configuration
+
+* Set the virtual machines folder to `~/Documents/VMs/VirtualBox`
+
 
 ### Vagrant
 
-* Install:
+#### Installation
 
-  ```
-  $ brew cask install vagrant vagrant-manager --appdir=/Applications
-  ```
+```
+$ brew cask install vagrant vagrant-manager --appdir=/Applications
+$ sudo chown -R alem0lars:staff ~/.vagrant.d
+```
 
 ### Plugins:
 
-* Plugin for having windows-based vagrant boxes:
-  
-  ```
-  $ sudo vagrant plugin install vagrant-windows
-  $ sudo vagrant plugin install vagrant-cachier
-  ```
+```
+$ vagrant plugin install vagrant-windows # Windows boxes support
+$ vagrant plugin install vagrant-cachier # Cache downloaded boxes
+```
 
 # Configuration
 
 * Set autostart on login for Vagrant Manager
 
-* Change the terminal to iTerm in Vagrant Manager
+* Change the terminal to iTerm 2 in Vagrant Manager
 
 * Allow automatic updates (to Beta versions) in Vagrant Manager
 
 
 ### Chef
 
-* Install Chef:
+#### Installation
 
-  ```
-  $ brew cask install chefdk --appdir=/Applications
-  ```
+```
+$ brew cask install chefdk --appdir=/Applications
+```
 
-* Install the Vagrant plugins:
+#### Vagrant plugins
 
-  ```
-  $ sudo vagrant plugin install vagrant-omnibus
-  $ sudo vagrant plugin install vagrant-berkshelf
-  ```
+```
+$ vagrant plugin install vagrant-omnibus
+$ vagrant plugin install vagrant-berkshelf
+```
+
+
+### TMux
+
+#### Installation
+
+```
+$ brew install tmux
+$ sudo gem install tmuxinator
+$ tmuxinator doctor # Ensure TMuxinator install correctness
+```
