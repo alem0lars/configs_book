@@ -392,3 +392,14 @@ $ brew cask install viscosity
 * Enable automatic updates (for Beta versions too)
 
 * Activate the software using the license stored in Lastpass
+
+
+### Wireshark
+
+#### Installation
+
+```
+$ brew install wireshark --with-lua --with-pcre --with-qt
+```
+
+#### Add the capture interface
