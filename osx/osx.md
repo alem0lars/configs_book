@@ -42,6 +42,16 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 
 * [ZSH](./software/zsh.md)
 
+* [Google Chrome](./software/google_chrome.md)
+
+* [Moom](./software/moom.md)
+
+* [Copy'em Paste](./software/copyempaste.md)
+
+* [CleanApp](./software/cleanapp.md)
+
+* [Launch Control](./software/launchcontrol.md)
+
 ### Configuration management
 
 ```
