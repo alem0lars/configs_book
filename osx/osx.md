@@ -52,6 +52,32 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 
 * [LaunchControl](./software/launchcontrol.md)
 
+* [Terminal Notifier](./software/terminal_notifier.md)
+
+* [pidof](./software/pidof.md)
+
+* [hr](./software/hr.md)
+
+* [GPG](./software/gpg.md)
+
+* [VMware Fusion](./software/vmware_fusion.md)
+
+* [VirtualBox](./software/virtualbox.md)
+
+* [Vagrant](./software/vagrant.md)
+
+* [Chef](./software/chef.md)
+
+* [TMux](./software/tmux.md)
+
+* [TeamViewer](./software/teamviewer.md)
+
+* [Apple Remote Desktop](./software/apple_remote_desktop.md)
+
+* [JUMP Desktop](./software/jump_desktop.md)
+
+* [Viscosity](./software/viscosity.md)
+
 ### Configuration management
 
 ```
