@@ -5,19 +5,15 @@
 Some script-kiddies can follow the tutorial without knowing what they are actually doing, but the real Hacker wants to know what he's doing.. Here there're some links:
 * [How to manage configurations using MR and VCSH](http://www.martin-burger.net/blog/unix-shell/manage-dotfiles-quickly-and-effortlessly/)
 
-
 ## Installation
 
 Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 
-
 ## System setup
-
 
 ### Tweak system preferences
 
-TODO
-
+`TODO`
 
 ### Create basic directories
 
@@ -29,7 +25,6 @@ TODO
   ```
 
 * Add the directories `~/Tmp`, `~/Projects`, `~/Public` as favorites.
-
 
 ### Setup software
 
@@ -43,6 +38,9 @@ TODO
 
 * [iTerm 2](./software/iterm2.md)
 
+* [Paragon NTFS](./software/paragon_ntfs.md)
+
+* [ZSH](./software/zsh.md)
 
 ### Configuration management
 
@@ -51,7 +49,6 @@ $ brew install vcsh mr                                  # Install VCSH and MR
 $ vcsh clone git@github.com:alem0lars/configs-mr.git mr # Clone the MR repo
 $ mr up                                                 # Install the configurations
 ```
-
 
 ### Fonts
 
