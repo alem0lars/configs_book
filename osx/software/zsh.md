@@ -14,4 +14,4 @@ $ brew install antigen
   $ chsh -s /bin/zsh
   ```
 
-* The configuration should be already available through the vcsh configuration for `zsh` (the `configs-zsh` repository contents)
+* The configuration should be available through the vcsh configuration for `zsh` (the `configs-zsh` repository contents)
