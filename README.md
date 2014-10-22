@@ -16,12 +16,9 @@ The entry point is: [Gentoo.md](./gentoo/gentoo.md)
 
 ## License
 
-All of the content (except as otherwise noted) is licensed under the Apache 2 license.
-
-You can read it [here](./LICENSE).
+All of the content (except as otherwise noted) is licensed under the [Apache 2 license](LICENSE).
 
 ## Links
 
 * Author website: [molarialessandro.info](https://molarialessandro.info)
 * Read the book [here](http://alem0lars.gitbooks.io/configuration-tutorials/)
-
