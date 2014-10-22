@@ -70,6 +70,7 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * [Better Zip](./software/better_zip.md)
 * [MacTeX](./software/mactex.md)
 * [Microsoft Office](./software/microsoft_office.md)
+* [TeXPad](./software/texpad.md)
 
 ### Configuration management
 
