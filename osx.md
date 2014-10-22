@@ -512,6 +512,10 @@ $ brew cask install mactex --appdir=/Applications
 ```
 
 
-### Office
+### Microsoft Office
 
 * Run the installer
+
+#### Configuration
+
+* Activate the software using the license stored in Lastpass
