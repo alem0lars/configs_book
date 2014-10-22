@@ -455,3 +455,37 @@ $ brew install tor
 ```
 $ brew cask install cheatsheet --appdir=/Applications
 ```
+
+
+### uTorrent
+
+#### Installation
+
+```
+$ brew cask install utorrent --appdir=/Applications
+```
+
+
+### Transmit
+
+* Install from the Mac App Store
+
+
+### Better Rename
+
+* Install from the Mac App Store
+
+
+### Disk Doctor
+
+* Install from the Mac App Store
+
+
+### Daisy Disk
+
+* Install from the Mac App Store
+
+
+### BetterZip
+
+* Install from the Mac App Store
