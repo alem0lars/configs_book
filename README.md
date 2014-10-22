@@ -19,4 +19,3 @@ The entry point is: [Gentoo.md](./gentoo/gentoo.md)
 All of the content (except as otherwise noted) is licensed under the Apache 2 license.
 
 You can read it [here](./LICENSE).
-
