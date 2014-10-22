@@ -7,7 +7,7 @@ Some script-kiddies can follow the tutorial without knowing what they are actual
 
 ## Assumptions
 
-* In the software setup I refer a lot to Lastpass because is where I store my software licenses. Of course you can use that (I suggest to) but you can just skip that advice and manually insert your license however you want :)
+* In the software setup I refer a lot to Lastpass because is where I store my software licenses. Of course you can use that service (I strongly suggest it) but you can just skip that advice and manually insert your license however you want :)
 
 ## Installation
 
