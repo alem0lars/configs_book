@@ -4,11 +4,15 @@
 
 ## OSX Configuration tutorial
 
+![Status](http://img.shields.io/badge/status-WIP-yellowgreen.svg)
+
 The tutorial is under the `osx` directory.
 
 The entry point is: [OSX.md](./osx/osx.md)
 
 ## Gentoo Configuration tutorial
+
+![Status](http://img.shields.io/badge/status-TODO-yellow.svg)
 
 The tutorial is under the `gentoo` directory.
 
