@@ -131,7 +131,7 @@ $ brew cask install iterm2 --appdir=/Applications
 
 * The configuration should be already available through the vcsh configuration for `iterm2` (the `configs-iterm2` repository contents). You just need to load the preferences within iTerm 2 from `~/.iterm2`
 
-* Make iTerm2 the default terminal, by clicking on: `iTerm 2 ► Make iTerm2 Default Term`
+* Make iTerm2 the default terminal, by clicking on: `iTerm 2 ▸ Make iTerm2 Default Term`
 
 
 ### ZSH
@@ -489,3 +489,24 @@ $ brew cask install utorrent --appdir=/Applications
 ### BetterZip
 
 * Install from the Mac App Store
+
+#### Configuration
+
+* Enable RAR archives creation:
+
+    * Install the rar tool:
+  
+      ```
+      $ brew install rar
+      ```
+      
+    * Register the rar tool path under `BetterZip ▸ Preferences ▸ Helpers`
+
+
+### MacTeX
+
+#### Installation
+
+```
+$ brew cask install mactex --appdir=/Applications
+```
