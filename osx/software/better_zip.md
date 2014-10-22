@@ -1,4 +1,4 @@
-# BetterZip
+# Better Zip
 
 ## Installation
 
