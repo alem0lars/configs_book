@@ -510,3 +510,8 @@ $ brew cask install utorrent --appdir=/Applications
 ```
 $ brew cask install mactex --appdir=/Applications
 ```
+
+
+### Office
+
+* Run the installer
