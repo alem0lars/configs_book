@@ -50,7 +50,7 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 
 * [CleanApp](./software/cleanapp.md)
 
-* [Launch Control](./software/launchcontrol.md)
+* [LaunchControl](./software/launchcontrol.md)
 
 ### Configuration management
 
