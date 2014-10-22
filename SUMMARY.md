@@ -1,16 +1,7 @@
-# Configuration tutorials
+# Summary
 
-# Tutorials
+The book structure is the following:
 
-## OSX Configuration tutorial
-
-The tutorial is under the `osx` directory.
-
-The entry point is: [OSX.md](./osx/osx.md)
-
-## Gentoo Configuration tutorial
-
-The tutorial is under the `gentoo` directory.
-
-The entry point is: [Gentoo.md](./gentoo/gentoo.md)
+* [OSX Configuration tutorial](./osx/osx.md)
+* [Gentoo Configuration tutorial](./osx/osx.md)
 
