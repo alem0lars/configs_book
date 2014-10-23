@@ -2,7 +2,7 @@
 
 ## Installation
   
-```
+```ShellSession
 $ brew cask install google-chrome --appdir=/Applications
 ```
 
