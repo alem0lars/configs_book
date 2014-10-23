@@ -6,4 +6,4 @@ Install from Mac App Store
 
 ## Configuration
 
-* Set autostart
+* Set autostart (hidden)
