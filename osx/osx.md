@@ -127,9 +127,24 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * [PDFToolkit+](software/pdftoolkit_plus.md)
 * [MetaPDF](software/meta_pdf.md)
 
+#### Social
+
+* [Twitter](software/twitter.md)
+* [Textual](software/textual.md)
+* [Telegram](software/telegram.md)
+* [Skype](software/skype.md)
+* [Mumble](software/mumble.md)
+
 #### Reference
 
+* [Safari](software/safari.md)
 * [Google Chrome](software/google_chrome.md)
+* [iTranslate](software/itranslate.md)
+
+#### Organizer
+
+* [OmniFocus](software/omnifocus.md)
+* [Toggl Desktop](software/toggl_desktop.md)
 
 ### Configuration management
 
