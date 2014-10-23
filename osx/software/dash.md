@@ -16,7 +16,9 @@ Assign the following shortcuts:
 * Global search shortcut: `⌘ ⌥ d`
 * Search using selected text: `⌘ ⌥ ⇧ d`
 
-## DocSets
+## Additional content
+
+### Docsets
 
 * .NET Framework
 * Akka
@@ -148,3 +150,90 @@ Assign the following shortcuts:
 * XSLT
 * XUL
 * ZeptoJS
+
+### Cheat Sheets
+
+* Ack
+* ASCII Tables
+* Bash Shortcuts
+* Capybara
+* Chrome Developer Tools
+* CSS Named Colors
+* Emerge
+* Emoji
+* Font Awesome
+* Git
+* Git Flow
+* HTML Entities
+* HTTP Header Fields
+* HTTP Status Codes
+* HTTP Status Codes for Rails
+* iOS Design
+* IPython Notebook
+* iTerm2
+* Java Lambda Syntax
+* LLDB Commands
+* LLDB to GDB Command Map
+* Mac Startup Keys
+* Mercurial
+* Objective-C
+* Objective-C Blocks
+* OCMock
+* Origami for Sublime Text
+* PostgreSQL CLI
+* Python Debugger
+* Python Format Strings
+* Python unittest Assertions
+* Rails Migrations CLI
+* Regular Expressions
+* SQLite
+* Sublime Text 3
+* Swift
+* tmux
+* Vim
+* Xcode
+
+### User Contibuted (Docsets)
+
+* Ampersand.js
+* Apache POI
+* AVR Libc
+* Astropy
+* Beautiful Soup
+* Box2D
+* CanJS
+* Cascading
+* Cinder
+* Esper
+* FormEncode
+* Guava
+* Intel Intrinsics
+* Jekyll
+* Jinja2
+* Joi
+
+* JSDoc
+* libxml2
+* LLVM
+* mlpy
+* mori
+* Mrjob
+* NLTK
+* OpenUI5
+* pandas
+* Pebble
+* Peewee
+* Plone
+* Pure
+* Pydoop
+* Pyramid
+* React
+* RFCs
+* Scrapy
+* SDL
+* Sphinx
+* Storm
+* SymPy
+* UIKit
+* uWSGI
+* Vue.js
