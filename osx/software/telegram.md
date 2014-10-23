@@ -6,5 +6,5 @@ Install from Mac App Store
 
 ## Configuration
 
-* Set autostart (hidden)
-* Set online when app running
+* Enable `General ‣ Launch at startup`
+* Set `General ‣ Online when:` to `App running`
