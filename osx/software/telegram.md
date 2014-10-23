@@ -6,4 +6,5 @@ Install from Mac App Store
 
 ## Configuration
 
-* Set autostart
+* Set autostart (hidden)
+* Set online when app running
