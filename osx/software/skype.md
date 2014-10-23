@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-$ brew cask install skype
+$ brew cask install skype --appdir=/Applications
 ```
 
 ## Configuration
