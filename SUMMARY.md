@@ -1,7 +1,5 @@
 # Summary
 
-The book structure is the following:
-
 * [OSX Configuration tutorial](osx/osx.md)
   * Some informations
   * Assumptions
