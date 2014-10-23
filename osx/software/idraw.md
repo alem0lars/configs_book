@@ -6,7 +6,7 @@ Install from Mac App Store
 
 ## Configuration
 
-* Use system color picker instead of the color popup
+The configuration should be available through the *VCSH configuration for iDraw* (the [configs-idraw](github.com/alem0lars/configs-idraw) repository contents)
 
 ## Plugins
 
