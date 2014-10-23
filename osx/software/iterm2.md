@@ -2,14 +2,12 @@
 
 ## Installation
 
-```
+```ShellSession
 $ brew cask install iterm2 --appdir=/Applications
 ```
 
 ## Configuration
 
-* The configuration should be available through the vcsh configuration for `iterm2` (the `configs-iterm2` repository contents). You just need to load the preferences within iTerm 2 from `~/.iterm2`
+The configuration should be available through the *VCSH configuration for iTerm 2* (the [configs-iterm2](github.com/alem0lars/configs-iterm2) repository contents)
 
-* Make iTerm2 the default terminal, by clicking on: `iTerm 2 ▸ Make iTerm2 Default Term`
-
-
+* Make iTerm 2 the default terminal, by clicking on: `iTerm 2 ▸ Make iTerm2 Default Term`
