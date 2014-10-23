@@ -71,6 +71,7 @@
         * [PocketCAS](osx/software/pocketcas.md)
       * Development
         * [Dash](osx/software/dash.md)
+        * [Xcode](osx/software/xcode.md)
       * Reading
         * [Kindle](osx/software/kindle.md)
         * [PDFToolkit+](osx/software/pdftoolkit_plus.md)
