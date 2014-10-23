@@ -10,8 +10,8 @@ $ brew install antigen
 
 The configuration should be available through the *VCSH configuration for ZSH* (the [configs-zsh](github.com/alem0lars/configs-zsh) repository contents)
 
-* Set ZSH as the default shell:
+### Default shell
 
-  ```ShellSession
-  $ chsh -s /bin/zsh
-  ```
+```ShellSession
+$ chsh -s /bin/zsh
+```
