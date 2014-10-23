@@ -4,7 +4,9 @@
 
 Install from Mac App Store
 
-### Dependencies installation
+## Dependencies
+
+### Installation
 
 ```ShellSession
 $ brew install pngcrush
