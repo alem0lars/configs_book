@@ -2,7 +2,7 @@
 
 ## Installation
 
-```
+```ShellSession
 $ brew install tor
 ```
 
@@ -10,6 +10,6 @@ $ brew install tor
 
 * Automatically load the TOR daemon:
 
-  ```
+  ```ShellSession
   $ ln -sfv /usr/local/opt/tor/*.plist ~/Library/LaunchAgents
   ```
