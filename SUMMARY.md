@@ -72,5 +72,5 @@
       * [iTranslate](osx/software/itranslate.md)
       * [OmniFocus](osx/software/omnifocus.md)
       * [Toggl Desktop](osx/software/toggl_desktop.md)
-
 * [Gentoo Configuration tutorial](gentoo/gentoo.md)
+
