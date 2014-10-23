@@ -14,4 +14,4 @@ Install the helper from [http://www.apprywhere.com/copyem-paste-helper.html](htt
 
 * Set keybindings:
 
-  * ` ⌥ v`: Show the copy'em paste window
+  * `⌘ ⌥ v`: Show the copy'em paste window
