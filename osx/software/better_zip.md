@@ -11,8 +11,8 @@ In order to correctly use Better Zip you need to have the following dependencies
 
 ### Installation
 
-```sh-session
-$ brew install rar
+```sh
+brew install rar
 ```
 
 ## Configuration
