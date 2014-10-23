@@ -211,7 +211,6 @@ Assign the following shortcuts:
 * Jekyll
 * Jinja2
 * Joi
-
 * JSDoc
 * libxml2
 * LLVM
