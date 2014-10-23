@@ -25,3 +25,4 @@ Install from Mac App Store
 * AppleScript
 * Arduino
 * BackboneJS
+* Boost
