@@ -2,7 +2,7 @@
 
 ## Installation
 
-```
+```ShellSession
 $ brew cask install chefdk --appdir=/Applications
 ```
 
@@ -14,7 +14,7 @@ It is provided by the following vagrant plugins (*to install them you also need 
 
 ### Installation
 
-```
+```ShellSession
 $ vagrant plugin install vagrant-omnibus
 $ vagrant plugin install vagrant-berkshelf
 ```
