@@ -13,5 +13,5 @@ Use `iCloud`
 ### Folder sharing
 
 | Name        | Folder        | Permissions  |
-| ----------- |:-------------:| ------------:|
+|:-----------:|:-------------:|:------------:|
 | Public      | `~/Public`    | Read only    |
