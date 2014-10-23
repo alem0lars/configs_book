@@ -4,8 +4,13 @@
 
 Install from the Mac App Store
 
-### Dependencies installation
-  
+## Dependencies
+
+In order to correctly use Better Zip you need to have the following dependencies installed:
+* RAR: Used to compress/extract RAR archives
+
+### Installation
+
 ```
 $ brew install rar
 ```
