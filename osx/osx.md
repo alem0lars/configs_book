@@ -97,10 +97,21 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * [Scrivener](software/scrivener.md)
 * [Ulysses](software/ulysses.md)
 
-#### Multimedia
+#### Graphics
+
+* [ImageOptim](software/image_optim.md)
+* [Napkin](software/napkin.md)
+* [PixelMator](software/pixelmator.md)
+* [iDraw](software/idraw.md)
+* [Ortelius](software/ortelius.md)
+
+#### Audio
+
+* [GarageBand](software/garageband.md)
+
+#### Video
 
 * [iMovie](software/imovie.md)
-* [GarageBand](software/garageband.md)
 
 #### Development
 
