@@ -113,9 +113,19 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 
 * [iMovie](software/imovie.md)
 
+#### Science
+
+* [PocketCAS](software/pocketcas.md)
+
 #### Development
 
 * [Dash](software/dash.md)
+
+#### Reading
+
+* [Kindle](software/kindle.md)
+* [PDFToolkit+](software/pdftoolkit_plus.md)
+* [MetaPDF](software/meta_pdf.md)
 
 #### Reference
 
