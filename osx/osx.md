@@ -122,6 +122,7 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 #### Development
 
 * [Dash](software/dash.md)
+* [Xcode](software/xcode.md)
 
 #### Reading
 
