@@ -8,4 +8,5 @@ $ brew cask install skype
 
 ## Configuration
 
-* Set autostart
+* Set autostart (hidden)
+* Verify phone number
