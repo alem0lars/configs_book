@@ -2,7 +2,7 @@
 
 ## Installation
 
-```
+```ShellSession
 $ brew cask install skype --appdir=/Applications
 ```
 
