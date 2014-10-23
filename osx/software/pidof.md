@@ -2,6 +2,6 @@
 
 ## Installation
 
-```
+```ShellSession
 $ brew install pidof
 ```
