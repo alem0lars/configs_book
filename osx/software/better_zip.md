@@ -4,12 +4,12 @@
 
 Install from the Mac App Store
 
-## Rar tool
+### Dependencies installation
   
 ```
 $ brew install rar
 ```
-  
+
 ## Configuration
 
-* Register the rar tool path (`/usr/local/bin/rar`) under `BetterZip ▸ Preferences ▸ Helpers`
+The configuration should be available through the *VCSH configuration for Better Zip* (the [configs-betterzip](github.com/alem0lars/configs-betterzip) repository contents)
