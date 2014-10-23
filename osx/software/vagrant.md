@@ -18,6 +18,5 @@ $ vagrant plugin install vagrant-cachier # Cache downloaded boxes
 
 ### Vagrant Manager
 
-* Set autostart
-* Change the terminal to `iTerm 2`
-* Allow automatic updates (to Beta versions)
+* Enable `Launch at login`
+* Set `Terminal Preference` to `iTerm/iTerm2`
