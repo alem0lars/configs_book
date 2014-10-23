@@ -2,7 +2,7 @@
 
 ## Extensions
 
-```
+```ShellSession
 $ brew cask install qlcolorcode        --appdir=/Applications
 $ brew cask install qlstephen          --appdir=/Applications
 $ brew cask install qlmarkdown         --appdir=/Applications
@@ -20,7 +20,7 @@ $ brew cask install cert-quicklook     --appdir=/Applications
 
 * Enable the text selection in QuickLook:
 
-  ```
+  ```ShellSession
   $ defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
   ```
 
