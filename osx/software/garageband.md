@@ -4,6 +4,6 @@
 
 Install from Mac App Store
 
-## Configuration
+## Additional content
 
-* Download additional content
+Click to `Garage Band ‣ Restore Sound Library` to download the additional purchased content
