@@ -32,42 +32,61 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 
 ### Setup software
 
+#### System
+
 * [HomeBrew](software/homebrew.md)
 * [Git](software/git.md)
-* [SSH](software/ssh.md)
-* [QuickLook](software/quicklook.md)
-* [iTerm 2](software/iterm2.md)
 * [Paragon NTFS](software/paragon_ntfs.md)
-* [ZSH](software/zsh.md)
-* [Google Chrome](software/google_chrome.md)
+* [QuickLook](software/quicklook.md)
+* [CheatSheet](software/cheatsheet.md)
 * [Moom](software/moom.md)
 * [Copy'em Paste](software/copyempaste.md)
-* [CleanApp](software/cleanapp.md)
-* [LaunchControl](software/launchcontrol.md)
-* [Terminal Notifier](software/terminal_notifier.md)
+* [iTerm 2](software/iterm2.md)
+* [ZSH](software/zsh.md)
 * [pidof](software/pidof.md)
 * [hr](software/hr.md)
+* [Terminal Notifier](software/terminal_notifier.md)
 * [GPG](software/gpg.md)
+* [Chef](software/chef.md)
+* [TMux](software/tmux.md)
+
+#### Management
+
+* [LaunchControl](software/launchcontrol.md)
+* [CleanApp](software/cleanapp.md)
+
+#### Virtualization
+
 * [VMware Fusion](software/vmware_fusion.md)
 * [VirtualBox](software/virtualbox.md)
 * [Vagrant](software/vagrant.md)
-* [Chef](software/chef.md)
-* [TMux](software/tmux.md)
+
+#### Remote Access
+
+* [SSH](software/ssh.md)
 * [TeamViewer](software/teamviewer.md)
 * [Apple Remote Desktop](software/apple_remote_desktop.md)
 * [JUMP Desktop](software/jump_desktop.md)
+
+#### Net Tools
+
 * [Viscosity](software/viscosity.md)
 * [Wireshark](software/wireshark.md)
 * [TCPFlow](software/tcpflow.md)
 * [IPCalc](software/ipcalc.md)
 * [TOR](software/tor.md)
-* [CheatSheet](software/cheatsheet.md)
+
+#### Files
+
 * [uTorrent](software/utorrent.md)
 * [Transmit](software/transmit.md)
 * [Better Rename](software/better_rename.md)
 * [Disk Doctor](software/disk_doctor.md)
 * [Daisy Disk](software/daisy_disk.md)
 * [Better Zip](software/better_zip.md)
+
+#### Office
+
 * [MacTeX](software/mactex.md)
 * [Microsoft Office](software/microsoft_office.md)
 * [TeXPad](software/texpad.md)
@@ -77,8 +96,19 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * [Prizmo](software/prizmo.md)
 * [Scrivener](software/scrivener.md)
 * [Ulysses](software/ulysses.md)
+
+#### Multimedia
+
 * [iMovie](software/imovie.md)
 * [GarageBand](software/garageband.md)
+
+#### Development
+
+* [Dash](software/dash.md)
+
+#### Reference
+
+* [Google Chrome](software/google_chrome.md)
 
 ### Configuration management
 
