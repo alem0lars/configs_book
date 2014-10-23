@@ -21,3 +21,7 @@ Install from Mac App Store
 * AngularJS
 * Angular.dart
 * Ansible
+* Apache HTTP Server
+* AppleScript
+* Arduino
+* BackboneJS
