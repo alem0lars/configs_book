@@ -85,6 +85,7 @@
         * [Safari](osx/software/safari.md)
         * [Google Chrome](osx/software/google_chrome.md)
         * [iTranslate](osx/software/itranslate.md)
+      * Organizer
         * [OmniFocus](osx/software/omnifocus.md)
         * [Toggl Desktop](osx/software/toggl_desktop.md)
 * [Gentoo Configuration tutorial](gentoo/gentoo.md)
