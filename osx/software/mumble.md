@@ -2,4 +2,10 @@
 
 ## Installation
 
-Install from Mac App Store
+```
+$ brew cask install mumble --appdir=/Applications
+```
+
+## Configuration
+
+* Set autostart (hidden)
