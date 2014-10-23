@@ -10,7 +10,7 @@ Install from the Mac App Store
 
 Use `iCloud`
 
-### Folder sharing
+### Folder Sharing
 
 | Name        | Folder        | Permissions  |
 |:-----------:|:-------------:|:------------:|
