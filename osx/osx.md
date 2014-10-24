@@ -50,6 +50,12 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * [GPG](software/gpg.md)
 * [Chef](software/chef.md)
 * [TMux](software/tmux.md)
+* [Pushover](software/pushover.md)
+* [NodeJS](software/nodejs.md)
+* [Scala](software/scala.md)
+* [Erlang](software/erlang.md)
+* [Elixir](software/elixir.md)
+* [xScope](software/xscope.md)
 
 #### Management
 
@@ -133,6 +139,7 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * [JDK](software/jdk.md)
 * [Python](software/python.md)
 * [Ruby](software/ruby.md)
+* [Haskell](software/haskell.md)
 
 #### Reading
 
