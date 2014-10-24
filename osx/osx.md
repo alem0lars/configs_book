@@ -143,6 +143,7 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * [Elixir](software/elixir.md)
 * [Groovy](software/groovy.md)
 * [C](software/c.md)
+* [MongoDB](software/mongodb.md)
 * [Redis](software/redis.md)
 * [PostgreSQL](software/postgresql.md)
 * [MySQL](software/mysql.md)
