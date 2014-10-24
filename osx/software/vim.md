@@ -17,4 +17,4 @@ $ curl http://j.mp/spf13-vim3 -L -o - | sh
 
 ## Configuration
 
-The configuration should be available through the *VCSH configuration for Vim* (the [configs-vim](github.com/alem0lars/configs-vim) repository contents)
+The configuration should be available through the *VCSH configuration for Vim* (the [configs-vim](https://github.com/alem0lars/configs-vim) repository contents)
