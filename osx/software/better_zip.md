@@ -17,4 +17,4 @@ $ brew install rar
 
 ## Configuration
 
-The configuration should be available through the *VCSH configuration for Better Zip* (the [configs-betterzip](github.com/alem0lars/configs-betterzip) repository contents)
+The configuration should be available through the *VCSH configuration for Better Zip* (the [configs-betterzip](https://github.com/alem0lars/configs-betterzip) repository contents)
