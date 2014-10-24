@@ -21,6 +21,7 @@
         * [GPG](osx/software/gpg.md)
         * [Chef](osx/software/chef.md)
         * [TMux](osx/software/tmux.md)
+        * [Pushover](osx/software/pushover.md)
       * Management
         * [LaunchControl](osx/software/launchcontrol.md)
         * [CleanApp](osx/software/cleanapp.md)
@@ -82,6 +83,12 @@
         * [JDK](osx/software/jdk.md)
         * [Python](osx/software/python.md)
         * [Ruby](osx/software/ruby.md)
+        * [Haskell](osx/software/haskell.md)
+        * [NodeJS](osx/software/nodejs.md)
+        * [Scala](osx/software/scala.md)
+        * [Erlang](osx/software/erlang.md)
+        * [Elixir](osx/software/elixir.md)
+        * [xScope](osx/software/xscope.md)
       * Reading
         * [Kindle](osx/software/kindle.md)
         * [PDFToolkit+](osx/software/pdftoolkit_plus.md)
