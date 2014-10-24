@@ -2,7 +2,7 @@
 
 ## System-wide packages
 
-Install the following packages in the system-wide python:
+Install the following packages in the system-wide Python:
 ```ShellSession
 $ sudo easy_install pip
 $ sudo pip install virtualenv
