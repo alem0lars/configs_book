@@ -37,7 +37,6 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 #### System
 
 * [HomeBrew](software/homebrew.md)
-* [Git](software/git.md)
 * [Paragon NTFS](software/paragon_ntfs.md)
 * [QuickLook](software/quicklook.md)
 * [CheatSheet](software/cheatsheet.md)
@@ -121,8 +120,13 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 
 #### Development
 
+* [Git](software/git.md)
+* [Mercurial](software/mercurial.md)
+* [Subversion](software/subversion.md)
 * [Dash](software/dash.md)
 * [Xcode](software/xcode.md)
+* [Vim](software/vim.md)
+* [Kaleidoscope](software/kaleidoscope.md)
 
 #### Reading
 
