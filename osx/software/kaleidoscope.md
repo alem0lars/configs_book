@@ -9,3 +9,7 @@ Install from Mac App Store
 ```ShellSession
 $ brew cask install ksdiff
 ```
+
+## Configuration
+
+* Set `Text ‣ Background Color: ‣ Dark`
