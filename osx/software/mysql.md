@@ -7,3 +7,9 @@ $ brew install mysql --enable-local-infile --enable-memcached --with-archive-sto
 ```
 
 ## Configuration
+
+* To have launchd start mysql at login:
+  
+  ```ShellSession
+  $ ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
+  ```
