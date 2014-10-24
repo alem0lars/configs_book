@@ -6,6 +6,7 @@
 
 ```ShellSession
 $ brew install root --with-qt --with-fftw
+$ brew linkapps
 ```
 
 ### Valgrind
