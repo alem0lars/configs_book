@@ -25,3 +25,12 @@ $ rbenv install $(rbenv install --list | grep "^\s*[0-9]\.[0-9]\.[0-9]\s*$" | ta
 ## Configuration
 
 The configuration should be available through the *VCSH configuration for Ruby* (the [configs-ruby](https://github.com/alem0lars/configs-ruby) repository contents)
+
+### Dependencies
+
+#### IRB
+
+Install the IRB configuration (`.irbrc`) dependencies:
+```ShellSession
+$ sudo gem install methodfinder bond sketches awesome_print wirble looksee hirb what_methods net-http-spy ori clipboard coderay
+```
