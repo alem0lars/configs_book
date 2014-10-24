@@ -13,3 +13,13 @@ $ brew install mysql --with-archive-storage-engine --with-blackhole-storage-engi
   ```ShellSession
   $ ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
   ```
+
+## Development tools
+
+### MySQL Workbench
+
+#### Installation
+
+```ShellSession
+$ brew cask install mysqlworkbench
+```
