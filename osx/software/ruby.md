@@ -5,8 +5,9 @@
 ### Installation
 
 ```ShellSession
-$ brew install ruby-build
-$ brew install rbenv
+$ brew install readline   # Use ReadLine instead of EditLine
+$ brew install ruby-build # Allow install of custom Ruby versions
+$ brew install rbenv      # Install RbEnv
 ```
 
 ### RbEnv extensions
