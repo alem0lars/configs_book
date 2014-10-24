@@ -35,3 +35,9 @@ Install the IRB configuration (`.irbrc`) dependencies:
 ```ShellSession
 $ sudo gem install methodfinder bond sketches awesome_print wirble looksee hirb what_methods net-http-spy ori clipboard coderay
 ```
+
+## Development tools
+
+```ShellSession
+$ sudo gem install haml
+```
