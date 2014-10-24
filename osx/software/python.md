@@ -37,3 +37,20 @@ The following VirtualEnvs are always suggested:
 ```ShellSession
 $ pyenv virtualenv misc # Install the Misc VirtualEnv
 ```
+
+## Development tools
+
+The development tools should be installed system-wide
+
+```ShellSession
+$ sudo pip install pylint        # Install PyLint
+$ sudo pip install pep257        # Install PEP257
+$ sudo pip install pep8 autopep8 # Install PEP8 (and related)
+$ sudo pip install pygments      # Install Pygments
+$ sudo pip install jedi          # Install Jedi
+$ sudo pip install ipython       # Install IPython
+```
+
+## Configuration
+
+The configuration should be available through the *VCSH configuration for Python* (the [configs-python](https://github.com/alem0lars/configs-python) repository contents)
