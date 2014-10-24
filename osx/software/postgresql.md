@@ -10,5 +10,13 @@ $ brew install postgresql --with-python
 
 * Run on boot:
   ```ShellSession
-  $ ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+  $ ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
   ```
+
+## Development tools
+
+### PG Commander
+
+#### Installation
+
+Install from Mac App Store
