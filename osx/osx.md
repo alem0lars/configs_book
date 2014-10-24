@@ -142,7 +142,12 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * [Erlang](software/erlang.md)
 * [Elixir](software/elixir.md)
 * [Groovy](software/groovy.md)
+* [C](software/c.md)
 * [Redis](software/redis.md)
+* [PostgreSQL](software/postgresql.md)
+* [MySQL](software/mysql.md)
+* [Highlight](software/highlight.md)
+* [DirEnv](software/direnv.md)
 
 #### Reading
 
