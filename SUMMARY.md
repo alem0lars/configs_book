@@ -8,7 +8,6 @@
     * Setup software
       * System
         * [HomeBrew](osx/software/homebrew.md)
-        * [Git](osx/software/git.md)
         * [Paragon NTFS](osx/software/paragon_ntfs.md)
         * [QuickLook](osx/software/quicklook.md)
         * [CheatSheet](osx/software/cheatsheet.md)
@@ -70,8 +69,19 @@
       * Science
         * [PocketCAS](osx/software/pocketcas.md)
       * Development
+        * [Git](osx/software/git.md)
+        * [Mercurial](osx/software/mercurial.md)
+        * [Subversion](osx/software/subversion.md)
         * [Dash](osx/software/dash.md)
         * [Xcode](osx/software/xcode.md)
+        * [Vim](osx/software/vim.md)
+        * [Kaleidoscope](osx/software/kaleidoscope.md)
+        * [Oyster](osx/software/oyster.md)
+        * [Paw HTTP Client](osx/software/paw_http_client.md)
+        * [Synalyze It! Pro](osx/software/synalyze_it.md)
+        * [JDK](osx/software/jdk.md)
+        * [Python](osx/software/python.md)
+        * [Ruby](osx/software/ruby.md)
       * Reading
         * [Kindle](osx/software/kindle.md)
         * [PDFToolkit+](osx/software/pdftoolkit_plus.md)
