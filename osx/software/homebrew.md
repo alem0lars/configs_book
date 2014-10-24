@@ -16,6 +16,7 @@ $ brew install caskroom/cask/brew-cask # Install HomeBrew Cask
 $ brew tap alem0lars/homebrew-repo     # Add the alem0lars repo
 $ brew tap homebrew/homebrew-science   # Add the science repo
 $ brew tap homebrew/binary             # Add the binary repo
+$ brew tap caskroom/versions           # Add the versions repo (allow multiple package versions)
 $ brew tap caskroom/fonts              # Add the fonts repo
 $ brew tap --repair
 ```
