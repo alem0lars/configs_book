@@ -8,5 +8,6 @@ $ brew cask install toggldesktop --appdir=/Applications
 
 ## Configuration
 
-* Disable `Dock icon`
 * Enable `Show timer in menu bar`
+* Disable `Dock icon`
+* Disable `Remind to track time`
