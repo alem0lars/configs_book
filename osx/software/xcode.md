@@ -6,7 +6,7 @@ Install from Mac App Store
 
 ## Configuration
 
-The configuration should be available through the *VCSH configuration for Xcode* (the [configs-xcode](github.com/alem0lars/configs-xcode) repository contents)
+The configuration should be available through the *VCSH configuration for Xcode* (the [configs-xcode](https://github.com/alem0lars/configs-xcode) repository contents)
 
 * Set `base16-default.dark` as the default theme
 
