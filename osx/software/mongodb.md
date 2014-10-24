@@ -19,5 +19,5 @@ $ brew install mongodb --with-openssl
 ### MongoHUB
 
 ```ShellSession
-$ brew cask install mongohub
+$ brew cask install mongohub --appdir=/Applications
 ```
