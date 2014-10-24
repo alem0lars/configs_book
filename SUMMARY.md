@@ -98,6 +98,7 @@
         * [MySQL](osx/software/mysql.md)
         * [Highlight](osx/software/highlight.md)
         * [DirEnv](osx/software/direnv.md)
+        * [Radare](osx/software/radare.md)
       * Reading
         * [Kindle](osx/software/kindle.md)
         * [PDFToolkit+](osx/software/pdftoolkit_plus.md)
