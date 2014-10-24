@@ -8,7 +8,7 @@ $ brew install mysql --with-archive-storage-engine --with-blackhole-storage-engi
 
 ## Configuration
 
-* To have launchd start mysql at login:
+* To have launchd start MySQL at login:
   
   ```ShellSession
   $ ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
