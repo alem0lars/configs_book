@@ -51,11 +51,6 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * [Chef](software/chef.md)
 * [TMux](software/tmux.md)
 * [Pushover](software/pushover.md)
-* [NodeJS](software/nodejs.md)
-* [Scala](software/scala.md)
-* [Erlang](software/erlang.md)
-* [Elixir](software/elixir.md)
-* [xScope](software/xscope.md)
 
 #### Management
 
@@ -136,10 +131,18 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * [Oyster](software/oyster.md)
 * [Paw HTTP Client](software/paw_http_client.md)
 * [Synalyze It! Pro](software/synalyze_it.md)
+* [xScope](software/xscope.md)
+* [RHC](software/rhc.md)
 * [JDK](software/jdk.md)
 * [Python](software/python.md)
 * [Ruby](software/ruby.md)
 * [Haskell](software/haskell.md)
+* [NodeJS](software/nodejs.md)
+* [Scala](software/scala.md)
+* [Erlang](software/erlang.md)
+* [Elixir](software/elixir.md)
+* [Groovy](software/groovy.md)
+* [Redis](software/redis.md)
 
 #### Reading
 
