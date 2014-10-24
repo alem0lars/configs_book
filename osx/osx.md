@@ -127,6 +127,12 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * [Xcode](software/xcode.md)
 * [Vim](software/vim.md)
 * [Kaleidoscope](software/kaleidoscope.md)
+* [Oyster](software/oyster.md)
+* [Paw HTTP Client](software/paw_http_client.md)
+* [Synalyze It! Pro](software/synalyze_it.md)
+* [JDK](software/jdk.md)
+* [Python](software/python.md)
+* [Ruby](software/ruby.md)
 
 #### Reading
 
