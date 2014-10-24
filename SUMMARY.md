@@ -80,6 +80,8 @@
         * [Oyster](osx/software/oyster.md)
         * [Paw HTTP Client](osx/software/paw_http_client.md)
         * [Synalyze It! Pro](osx/software/synalyze_it.md)
+        * [xScope](osx/software/xscope.md)
+        * [RHC](osx/software/rhc.md)
         * [JDK](osx/software/jdk.md)
         * [Python](osx/software/python.md)
         * [Ruby](osx/software/ruby.md)
@@ -88,7 +90,8 @@
         * [Scala](osx/software/scala.md)
         * [Erlang](osx/software/erlang.md)
         * [Elixir](osx/software/elixir.md)
-        * [xScope](osx/software/xscope.md)
+        * [Groovy](osx/software/groovy.md)
+        * [Redis](osx/software/redis.md)
       * Reading
         * [Kindle](osx/software/kindle.md)
         * [PDFToolkit+](osx/software/pdftoolkit_plus.md)
