@@ -91,7 +91,12 @@
         * [Erlang](osx/software/erlang.md)
         * [Elixir](osx/software/elixir.md)
         * [Groovy](osx/software/groovy.md)
+        * [C](osx/software/c.md)
         * [Redis](osx/software/redis.md)
+        * [PostgreSQL](osx/software/postgresql.md)
+        * [MySQL](osx/software/mysql.md)
+        * [Highlight](osx/software/highlight.md)
+        * [DirEnv](osx/software/direnv.md)
       * Reading
         * [Kindle](osx/software/kindle.md)
         * [PDFToolkit+](osx/software/pdftoolkit_plus.md)
