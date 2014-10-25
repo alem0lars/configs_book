@@ -24,4 +24,5 @@ $ cabal install --global --enable-tests --enable-documentation --haddock-all --g
 $ cabal install --global --enable-tests --enable-documentation --haddock-all --ghc stylish-haskell
 $ cabal install --global --enable-tests --enable-documentation --haddock-all --ghc hdevtools
 $ cabal install --global --enable-tests --enable-documentation --haddock-all --ghc hlint
+$ cabal install --global --enable-tests --enable-documentation --haddock-all --ghc haskell-docs
 ```
