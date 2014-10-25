@@ -43,14 +43,16 @@ $ pyenv virtualenv misc # Install the Misc VirtualEnv
 The development tools should be installed system-wide
 
 ```ShellSession
-$ sudo pip install pylint        # Install PyLint
-$ sudo pip install pep257        # Install PEP257
-$ sudo pip install pep8 autopep8 # Install PEP8 (and related)
-$ sudo pip install pygments      # Install Pygments
-$ sudo pip install jedi          # Install Jedi
-$ sudo pip install ipython       # Install IPython
+$ sudo pip2 install pylint pep257 pep8 autopep8 pygments jedi ipython # Install on system-wide Python 2
+$ sudo pip3 install pylint pep257 pep8 autopep8 pygments jedi ipython # Install on system-wide Python 3
 ```
 
 ## Configuration
 
 The configuration should be available through the *VCSH configuration for Python* (the [configs-python](https://github.com/alem0lars/configs-python) repository contents)
+
+### PATH
+
+Prepend the following lines to `/etc/paths`:
+* `/usr/local/opt/pyenv/shims`
+* `/usr/local/opt/pyenv/bin`
