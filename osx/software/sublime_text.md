@@ -8,7 +8,7 @@ $ brew cask install sublime-text3 --appdir=/Applications
 
 ## Package manager
 
-Install pasting the snippet from [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation) into Sublime Text
+Install the Package Manager by pasting the installation code snippet from [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation) into Sublime Text
 
 ### Packages
 
