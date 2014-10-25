@@ -27,6 +27,12 @@ $ rbenv install $(rbenv install --list | grep "^\s*[0-9]\.[0-9]\.[0-9]\s*$" | ta
 
 The configuration should be available through the *VCSH configuration for Ruby* (the [configs-ruby](https://github.com/alem0lars/configs-ruby) repository contents)
 
+### PATH
+
+Prepend the following lines to `/etc/paths`:
+* `/usr/local/opt/rbenv/shims`
+* `/usr/local/opt/rbenv/bin`
+
 ### Dependencies
 
 #### IRB
