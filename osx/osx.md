@@ -151,6 +151,7 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * [DirEnv](software/direnv.md)
 * [Radare](software/radare.md)
 * [SQLMap](software/sqlmap.md)
+* [jQ](software/jq.md)
 
 #### Reading
 
