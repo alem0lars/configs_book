@@ -100,6 +100,7 @@
         * [DirEnv](osx/software/direnv.md)
         * [Radare](osx/software/radare.md)
         * [SQLMap](osx/software/sqlmap.md)
+        * [jQ](osx/software/jq.md)
       * Reading
         * [Kindle](osx/software/kindle.md)
         * [PDFToolkit+](osx/software/pdftoolkit_plus.md)
