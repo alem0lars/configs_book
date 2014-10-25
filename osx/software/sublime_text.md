@@ -12,6 +12,7 @@ Install pasting the snippet from [https://sublime.wbond.net/installation](https:
 
 ### Packages
 
+* Base16 Color Schemes
 * SublimeGit
 * SideBarEnhancements
 * Color Highlighter
