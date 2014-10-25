@@ -92,6 +92,7 @@
         * [Elixir](osx/software/elixir.md)
         * [Groovy](osx/software/groovy.md)
         * [C](osx/software/c.md)
+        * [Rust](osx/software/rust.md)
         * [MongoDB](osx/software/mongodb.md)
         * [Redis](osx/software/redis.md)
         * [PostgreSQL](osx/software/postgresql.md)
