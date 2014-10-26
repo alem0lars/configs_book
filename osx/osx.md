@@ -19,6 +19,90 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 
 ### Tweak system preferences
 
+#### Boot setup
+
+```ShellSession
+$ sudo nvram SystemAudioVolume=" " # Disable the sound effects on boot
+```
+
+#### Computer name
+
+In the following lines substitute `julia` with your computer name (`julia` is my ❤)
+
+```ShellSession
+$ _computer_name="julia"
+$ sudo scutil --set ComputerName ${_computer_name}
+$ sudo scutil --set HostName ${_computer_name}
+$ sudo scutil --set LocalHostName ${_computer_name}
+$ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string ${_computer_name}
+```
+
+#### Behaviour
+
+* Expand save panel by default
+  
+  ```ShellSession
+  $ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+  $ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+  ```
+  
+* Expand print panel by default
+
+  ```ShellSession
+  $ defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+  $ defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
+  ```
+
+* Automatically quit printer app once the print jobs complete
+  
+  ```ShellSession
+  $ defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
+  ```
+
+* Disable Resume system-wide
+
+  ```ShellSession
+  $ defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
+  ```
+  
+* Disable the crash reporter
+
+  ```ShellSession
+  $ defaults write com.apple.CrashReporter DialogType -string "none"
+  ```
+  
+* Set Help Viewer windows to non-floating mode
+  
+  ```ShellSession
+  $ defaults write com.apple.helpviewer DevMode -bool true
+  ```
+
+* Restart automatically if the computer freezes
+
+  ```ShellSession
+  $ sudo systemsetup -setrestartfreeze on
+  ```
+
+#### Appearance
+
+* Set sidebar icon size to medium
+  
+  ```ShellSession
+  $ defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
+  ```
+
+* When to show scrollbars
+
+  ```ShellSession
+  $ defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+  ```
+
+* Increase window resize speed
+
+  ```ShellSession
+  $ defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+  ```
+
 * Disable Mission Control animations
   
   ```ShellSession
@@ -37,9 +121,24 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 * Disable the Launchpad animations
 
   ```ShellSession
-  $ defaults write com.apple.dock springboard-show-duration -float 0
-  $ defaults write com.apple.dock springboard-hide-duration -float 0
+  $ defaults write com.apple.dock springboard-show-duration -float 0 # on showing
+  $ defaults write com.apple.dock springboard-hide-duration -float 0 # on hiding
+  $ defaults write com.apple.dock springboard-page-duration -float 0 # on changing pages
   $ killall Dock # Apply changes
+  ```
+  
+* Disable Finder animations
+
+  ```ShellSession
+  $ defaults write com.apple.finder DisableAllAnimations -bool true
+  $ killall Finder # Apply changes
+  ```
+
+* Disable Mail animations
+
+  ```ShellSession
+  $ defaults write com.apple.Mail DisableSendAnimations -bool true  # sending messages
+  $ defaults write com.apple.Mail DisableReplyAnimations -bool true # opening windows for replies
   ```
 
 `TODO`: Finish
