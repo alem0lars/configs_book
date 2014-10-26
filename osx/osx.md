@@ -23,7 +23,23 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
   
   ```ShellSession
   $ defaults write com.apple.dock expose-animation-duration -float 0
-  $ killall Dock
+  $ killall Dock # Apply changes
+  ```
+
+* Disable Dock animations
+  
+  ```ShellSession
+  $ defaults write com.apple.dock autohide-time-modifier -float 0
+  $ defaults write com.apple.dock autohide-delay -float 0
+  $ killall Dock # Apply changes
+  ```
+
+* Disable the Launchpad animations
+
+  ```ShellSession
+  $ defaults write com.apple.dock springboard-show-duration -float 0
+  $ defaults write com.apple.dock springboard-hide-duration -float 0
+  $ killall Dock # Apply changes
   ```
 
 `TODO`: Finish
