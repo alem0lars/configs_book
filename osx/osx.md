@@ -19,7 +19,14 @@ Create a *encrypted* and *case-sensitive* partition and install OS X on it.
 
 ### Tweak system preferences
 
-`TODO`
+* Disable Mission Control animations
+  
+  ```ShellSession
+  $ defaults write com.apple.dock expose-animation-duration -float 0
+  $ killall Dock
+  ```
+
+`TODO`: Finish
 
 ### Create basic directories
 
