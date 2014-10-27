@@ -40,12 +40,12 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 #### Behaviour
 
 * Expand save panel by default
-  
+
   ```ShellSession
   $ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
   $ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
   ```
-  
+
 * Expand print panel by default
 
   ```ShellSession
@@ -54,7 +54,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
   ```
 
 * Automatically quit printer app once the print jobs complete
-  
+
   ```ShellSession
   $ defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
   ```
@@ -64,15 +64,15 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
   ```ShellSession
   $ defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
   ```
-  
+
 * Disable the crash reporter
 
   ```ShellSession
   $ defaults write com.apple.CrashReporter DialogType -string "none"
   ```
-  
+
 * Set Help Viewer windows to non-floating mode
-  
+
   ```ShellSession
   $ defaults write com.apple.helpviewer DevMode -bool true
   ```
@@ -86,7 +86,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 #### Appearance
 
 * Set sidebar icon size to medium
-  
+
   ```ShellSession
   $ defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
   ```
@@ -104,14 +104,14 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
   ```
 
 * Disable Mission Control animations
-  
+
   ```ShellSession
   $ defaults write com.apple.dock expose-animation-duration -float 0
   $ killall Dock # Apply changes
   ```
 
 * Disable Dock animations
-  
+
   ```ShellSession
   $ defaults write com.apple.dock autohide-time-modifier -float 0
   $ defaults write com.apple.dock autohide-delay -float 0
@@ -126,7 +126,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
   $ defaults write com.apple.dock springboard-page-duration -float 0 # on changing pages
   $ killall Dock # Apply changes
   ```
-  
+
 * Disable Finder animations
 
   ```ShellSession
@@ -146,7 +146,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 ### Create basic directories
 
 * Create the directories:
-  
+
   ```
   $ mkdir ~/Tmp      # Create the temporary directory
   $ mkdir ~/Projects # Create the projects directory
@@ -163,6 +163,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [QuickLook](software/quicklook.md)
 * [CheatSheet](software/cheatsheet.md)
 * [Moom](software/moom.md)
+* [Amethyst](software/amethyst.md)
 * [Copy'em Paste](software/copyempaste.md)
 * [iTerm 2](software/iterm2.md)
 * [ZSH](software/zsh.md)

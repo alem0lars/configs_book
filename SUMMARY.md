@@ -12,6 +12,7 @@
         * [QuickLook](osx/software/quicklook.md)
         * [CheatSheet](osx/software/cheatsheet.md)
         * [Moom](osx/software/moom.md)
+        * [Amethyst](osx/software/amethyst.md)
         * [Copy'em Paste](osx/software/copyempaste.md)
         * [iTerm 2](osx/software/iterm2.md)
         * [ZSH](osx/software/zsh.md)
