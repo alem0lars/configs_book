@@ -57,6 +57,7 @@
         * [Prizmo](osx/software/prizmo.md)
         * [Scrivener](osx/software/scrivener.md)
         * [Ulysses](osx/software/ulysses.md)
+        * [GitBook](osx/software/gitbook.md)
       * Graphics
         * [ImageOptim](osx/software/image_optim.md)
         * [Napkin](osx/software/napkin.md)
