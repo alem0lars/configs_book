@@ -220,6 +220,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [Prizmo](software/prizmo.md)
 * [Scrivener](software/scrivener.md)
 * [Ulysses](software/ulysses.md)
+* [GitBook](software/gitbook.md)
 
 #### Graphics
 
