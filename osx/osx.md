@@ -221,7 +221,6 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [Prizmo](software/prizmo.md)
 * [Scrivener](software/scrivener.md)
 * [Ulysses](software/ulysses.md)
-* [GitBook](software/gitbook.md)
 
 #### Graphics
 
@@ -277,6 +276,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [Radare](software/radare.md)
 * [SQLMap](software/sqlmap.md)
 * [jQ](software/jq.md)
+* [Sublime Text](software/sublime_text.md)
 
 #### Reading
 

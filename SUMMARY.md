@@ -58,7 +58,6 @@
         * [Prizmo](osx/software/prizmo.md)
         * [Scrivener](osx/software/scrivener.md)
         * [Ulysses](osx/software/ulysses.md)
-        * [GitBook](osx/software/gitbook.md)
       * Graphics
         * [ImageOptim](osx/software/image_optim.md)
         * [Napkin](osx/software/napkin.md)
@@ -104,6 +103,7 @@
         * [Radare](osx/software/radare.md)
         * [SQLMap](osx/software/sqlmap.md)
         * [jQ](osx/software/jq.md)
+        * [Sublime Text](osx/software/sublime_text.md)
       * Reading
         * [Kindle](osx/software/kindle.md)
         * [PDFToolkit+](osx/software/pdftoolkit_plus.md)

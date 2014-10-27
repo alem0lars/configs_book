@@ -33,6 +33,7 @@ Install the Package Manager by pasting the installation code snippet from [https
 * EditorConfig
 * DocBlockr
 * Emmet
+* Gitignore
 * LESS
 * Sass
 * SassBeautify
