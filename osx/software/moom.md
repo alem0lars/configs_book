@@ -1,7 +1,5 @@
 # Moom
 
-*At the moment Moom is not used anymore because Amethyst is used instead*, however if you don't like a tiling window manager (like Amethyst) the best offer that you have managing windows position is Moom
-
 ## Installation
 
 Install from the Mac App Store
