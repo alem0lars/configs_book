@@ -47,6 +47,7 @@ Install the Package Manager by pasting the installation code snippet from [https
 * SublimeHaskell
 * ReactJS
 * Gulp
+* Marked App Menu
 
 ## Configuration
 
