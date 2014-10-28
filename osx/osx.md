@@ -224,6 +224,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 
 #### Graphics
 
+* [ImageMagick](software/imagemagick.md)
 * [ImageOptim](software/image_optim.md)
 * [Napkin](software/napkin.md)
 * [PixelMator](software/pixelmator.md)
