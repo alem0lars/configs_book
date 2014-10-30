@@ -59,6 +59,7 @@
         * [Scrivener](osx/software/scrivener.md)
         * [Ulysses](osx/software/ulysses.md)
       * Graphics
+        * [ImageMagick](osx/software/imagemagick.md)
         * [ImageOptim](osx/software/image_optim.md)
         * [Napkin](osx/software/napkin.md)
         * [PixelMator](osx/software/pixelmator.md)
