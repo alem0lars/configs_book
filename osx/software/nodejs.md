@@ -21,5 +21,5 @@ $ brew install phantomjs
 $ npm install -g bower
 $ npm install -g jshint
 $ npm install -g jsxhint
-$ npm install -g coffee-script coffeelint
+$ npm install -g coffee-script coffeelint codo
 ```
