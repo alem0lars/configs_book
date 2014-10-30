@@ -5,9 +5,9 @@
 ### Installation
 
 ```ShellSession
-$ brew install readline   # Use ReadLine instead of EditLine
-$ brew install ruby-build # Allow install of custom Ruby versions
-$ brew install rbenv      # Install RbEnv
+$ brew install libyaml readline openssl  # Dependencies
+$ brew install ruby-build                # Allow install of custom Ruby versions
+$ brew install rbenv                     # Install RbEnv
 ```
 
 ### RbEnv extensions
@@ -20,7 +20,7 @@ $ rbenv-bundler
 
 Install the latest stable ruby version (using RbEnv and Ruby-Build)
 ```ShellSession
-$ rbenv install $(rbenv install --list | grep "^\s*[0-9]\.[0-9]\.[0-9]\s*$" | tail -n 1)
+$ RUBY_CONFIGURE_OPTS="--with-openssl-dir=`brew --prefix openssl` --with-readline-dir=`brew --prefix readline` --with-libyaml-dir=`brew --prefix libyaml`" rbenv install $(rbenv install --list | grep "^\s*[0-9]\.[0-9]\.[0-9]\s*$" | tail -n 1)
 ```
 
 ## Development tools

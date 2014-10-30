@@ -277,6 +277,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [SQLMap](software/sqlmap.md)
 * [jQ](software/jq.md)
 * [Sublime Text](software/sublime_text.md)
+* [Pow](software/pow.md)
 
 #### Reading
 

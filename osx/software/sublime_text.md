@@ -29,11 +29,13 @@ Install the Package Manager by pasting the installation code snippet from [https
 * SublimeLinter-json
 * SublimeLinter-jsxhint
 * SublimeLinter-haml
+* SublimeLinter-coffeelint
 * Soda Theme
 * EditorConfig
 * DocBlockr
 * Emmet
 * Gitignore
+* Better CoffeeScript
 * LESS
 * Sass
 * SassBeautify

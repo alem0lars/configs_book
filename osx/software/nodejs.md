@@ -17,9 +17,9 @@ $ brew install nvm
 ## Development tools
 
 ```ShellSession
-$ brew install phantomjs # Use --HEAD argument if it fails in Yosemite
+$ brew install phantomjs
 $ npm install -g bower
 $ npm install -g jshint
 $ npm install -g jsxhint
-$ npm install -g coffee-script
+$ npm install -g coffee-script coffeelint
 ```

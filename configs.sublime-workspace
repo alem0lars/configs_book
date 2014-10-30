@@ -1,0 +1,259 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"initi",
+				"initial_scale"
+			],
+			[
+				"View",
+				"ViewportManager"
+			]
+		]
+	},
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 181.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"haskell",
+				"SublimeHaskell: Check"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 291.0,
+		"history":
+		[
+			"os.environ['PATH']",
+			"import os",
+			"os.environ['HOMEBREW_CASK_OPTS']",
+			"os.environ['PATH']",
+			"import os",
+			"os.environ['PATH']",
+			"import os",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/build/browserconfig.xml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/browserconfig.xml.builder",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/helpers/links_helpers.rb",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/data/site.yml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/helpers/favicon_helpers.rb",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/helpers/apple_helpers.rb",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/data/favicons.yml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/layouts/application.html.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/helpers/viewport_helpers.rb",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/js/for_components/viewport_manager/all.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/js/for_layouts/application/body.js.erb",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/.jshintrc",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/js/for_layouts/application/head.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/bower.json",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/js/for_layouts/application/body.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/css/for_pages/contacts/all.css.scss",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/css/for_pages/about/all.css.scss",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/css/for_pages/index/all.css.scss",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/js/for_pages/contacts/all.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/js/for_pages/index/all.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/localizable/contacts.html.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/helpers/page_helpers.rb",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/README.md",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/js/for_components/contacts/all.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/css/for_components/contacts/all.css.scss",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/js/for_components/accordion/_box.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/js/for_components/accordion/all.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/localizable/index.html.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/components/_contacts.html.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/localizable/approach.html.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/localizable/about.html.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/localizable/404.html.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/config.rb",
+		"/usr/local/Cellar/rbenv/0.4.0/versions/2.1.3/lib/ruby/gems/2.1.0/gems/middleman-core-3.3.6/lib/middleman-core/configuration.rb",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/stylesheets/for_components/accordion/all.css.scss",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_pages/index/all.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_components/accordion/all.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_components/accordion/_accordion.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/components/_contacts.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_layouts/application/head.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_layouts/application/body.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/layouts/application/_nav_bar.html.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/layouts/application/_header.html.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/layouts/application/_footer.html.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/layouts/application.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_components/viewport_manager/viewport_manager.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/layouts/application/_header.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/layouts/application/_nav_bar.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/partials/_contacts_inner.haml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/Gemfile",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_pages/index/all.js.erb",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_components/viewport_manager/_viewport_manager.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/stylesheets/for_components/accordion/accordion.css.scss",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_components/accordion/accordion.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_components/accordion/_panel.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/layouts/application/head.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/layouts/application/body.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/layouts/application/_viewport.js.tc",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/.gitignore",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/npm-debug.log",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/commons/_viewport.js.tc",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/stylesheets/layouts/application/all.css.scss",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/stylesheets/layouts/application/_fontfaces.scss.erb",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/data/owner.yml",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/pages/index/all.js.erb",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/pages/index/_init.js.tc",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/pages/index/_accordion.js.tc",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/pages/index/all.js",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_pages/index/_panel.js.tc",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_pages/index/_init.js.tc",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/javascripts/for_pages/index/_accordion.js.tc",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/assets/stylesheets/for_layouts/application/_fontfaces.scss.erb",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/cel-web-frontend.sublime-project",
+		"/Users/alem0lars/Projects/Work/cel-web-frontend/lmolr@terzon.sublime-project",
+		"/Users/alem0lars/Tmp/example.hs",
+		"/Users/alem0lars/Projects/Personal/configs/osx/software/rust.md",
+		"/Users/alem0lars/Projects/Personal/configs/osx/software/better_zip.md",
+		"/Users/alem0lars/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/alem0lars/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/alem0lars/Projects/Work/cel-web-frontend/source",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"size",
+			"for_layout",
+			"for_layouts",
+			"partial"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.haskell_sublime_load":
+	{
+		"height": 96.0
+	},
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
