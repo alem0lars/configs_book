@@ -174,6 +174,10 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [Chef](software/chef.md)
 * [TMux](software/tmux.md)
 * [Pushover](software/pushover.md)
+* [proctools](software/proctools.md)
+* [pstree](software/pstree.md)
+* [ncdu](software/ncdu.md)
+* [KeyCastr](software/keycastr.md)
 
 #### Management
 
@@ -200,6 +204,8 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [TCPFlow](software/tcpflow.md)
 * [IPCalc](software/ipcalc.md)
 * [TOR](software/tor.md)
+* [p0f](software/p0f.md)
+* [vnstat](software/vnstat.md)
 
 #### Files
 

@@ -23,6 +23,10 @@
         * [Chef](osx/software/chef.md)
         * [TMux](osx/software/tmux.md)
         * [Pushover](osx/software/pushover.md)
+        * [proctools](osx/software/proctools.md)
+        * [pstree](osx/software/pstree.md)
+        * [ncdu](osx/software/ncdu.md)
+        * [KeyCastr](osx/software/keycastr.md)
       * Management
         * [LaunchControl](osx/software/launchcontrol.md)
         * [CleanApp](osx/software/cleanapp.md)
@@ -41,6 +45,8 @@
         * [TCPFlow](osx/software/tcpflow.md)
         * [IPCalc](osx/software/ipcalc.md)
         * [TOR](osx/software/tor.md)
+        * [p0f](osx/software/p0f.md)
+        * [vnstat](osx/software/vnstat.md)
       * Files
         * [uTorrent](osx/software/utorrent.md)
         * [Transmit](osx/software/transmit.md)

@@ -5,6 +5,5 @@
 ## Installation
 
 ```ShellSession
-$ brew cask install amethyst
+$ brew cask install amethyst --appdir=/Applications
 ```
-

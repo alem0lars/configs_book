@@ -12,6 +12,7 @@ Install the Package Manager by pasting the installation code snippet from [https
 
 ### Packages
 
+* Origami
 * Base16 Color Schemes
 * SublimeGit
 * SideBarEnhancements
