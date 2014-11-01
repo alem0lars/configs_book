@@ -206,6 +206,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [TOR](software/tor.md)
 * [p0f](software/p0f.md)
 * [vnstat](software/vnstat.md)
+* [httpie](software/httpie.md)
 
 #### Files
 

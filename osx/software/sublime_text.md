@@ -51,7 +51,13 @@ Install the Package Manager by pasting the installation code snippet from [https
 * ReactJS
 * Gulp
 * Marked App Menu
+* Floobits
+* Glue
+* StyleToken
+* Web Inspector
+* Fix Mac Path
 
 ## Configuration
 
 * Activate using the license downloaded from Lastpass
+* For using Floobits you should have (manually) configured `~/.floorc.json` with your credentials

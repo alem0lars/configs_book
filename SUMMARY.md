@@ -47,6 +47,7 @@
         * [TOR](osx/software/tor.md)
         * [p0f](osx/software/p0f.md)
         * [vnstat](osx/software/vnstat.md)
+        * [httpie](osx/software/httpie.md)
       * Files
         * [uTorrent](osx/software/utorrent.md)
         * [Transmit](osx/software/transmit.md)

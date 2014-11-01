@@ -24,6 +24,14 @@
 				"Package Control: Install Package"
 			],
 			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"floobi",
+				"Floobits - Join Workspace"
+			],
+			[
 				"remove",
 				"Package Control: Remove Package"
 			],
@@ -60,7 +68,17 @@
 	},
 	"file_history":
 	[
+		"/Users/alem0lars/.floorc.json",
 		"/Users/alem0lars/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/alem0lars/Projects/Personal/configs/SUMMARY.md",
+		"/Users/alem0lars/Projects/Personal/configs/osx/software/vim.md",
+		"/Users/alem0lars/Projects/Personal/configs/osx/software/sublime_text.md",
+		"/Users/alem0lars/Projects/Personal/configs/osx/software/subversion.md",
+		"/Users/alem0lars/Projects/Personal/configs/osx/osx.md",
+		"/Users/alem0lars/Projects/Personal/configs/osx/software/httpie.md",
+		"/Users/alem0lars/Projects/Personal/configs/osx/software/xcode.md",
+		"/Users/alem0lars/Projects/Personal/configs/osx/software/keycastr.md",
+		"/Users/alem0lars/Projects/Personal/configs/osx/software/amethyst.md",
 		"/Users/alem0lars/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/alem0lars/Library/Application Support/Sublime Text 3/Packages/User/Origami.sublime-settings",
 		"/Users/alem0lars/Library/Application Support/Sublime Text 3/Packages/Origami/Origami.sublime-settings",
@@ -70,7 +88,6 @@
 		"/Users/alem0lars/Projects/Personal/configs/osx/software/vnstat.md",
 		"/Users/alem0lars/Projects/Personal/configs/osx/software/ncdu.md",
 		"/Users/alem0lars/Projects/Personal/configs/osx/software/nodejs.md",
-		"/Users/alem0lars/Projects/Personal/configs/osx/software/sublime_text.md",
 		"/Users/alem0lars/Projects/Work/cel-web-frontend/build/browserconfig.xml",
 		"/Users/alem0lars/Projects/Work/cel-web-frontend/source/browserconfig.xml.builder",
 		"/Users/alem0lars/Projects/Work/cel-web-frontend/helpers/links_helpers.rb",
@@ -234,6 +251,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"subl",
+				"osx/software/sublime_text.md"
+			],
+			[
+				"sublime",
+				"osx/software/sublime_text.md"
+			],
+			[
+				"subli",
+				"osx/software/sublime_text.md"
+			]
 		],
 		"width": 0.0
 	},
@@ -255,6 +284,7 @@
 	},
 	"settings":
 	{
+		"_vintageous_last_buffer_search": "Net To",
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
