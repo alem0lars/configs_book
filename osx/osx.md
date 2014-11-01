@@ -184,6 +184,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [pstree](software/pstree.md)
 * [ncdu](software/ncdu.md)
 * [KeyCastr](software/keycastr.md)
+* [Aewan](software/aewan.md)
 
 #### Management
 

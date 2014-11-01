@@ -27,6 +27,7 @@
         * [pstree](osx/software/pstree.md)
         * [ncdu](osx/software/ncdu.md)
         * [KeyCastr](osx/software/keycastr.md)
+        * [Aewan](osx/software/aewan.md)
       * Management
         * [LaunchControl](osx/software/launchcontrol.md)
         * [CleanApp](osx/software/cleanapp.md)
