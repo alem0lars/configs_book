@@ -83,6 +83,12 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
   $ sudo systemsetup -setrestartfreeze on
   ```
 
+* Enable keyboard repeating
+
+  ```ShellSession
+  $ defaults write -g ApplePressAndHoldEnabled -bool false
+  ```
+
 #### Appearance
 
 * Set sidebar icon size to medium
