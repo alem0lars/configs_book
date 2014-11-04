@@ -69,6 +69,7 @@
       * Graphics
         * [ImageMagick](osx/software/imagemagick.md)
         * [ImageOptim](osx/software/image_optim.md)
+        * [Icon Slate](osx/software/icon_slate.md)
         * [Napkin](osx/software/napkin.md)
         * [PixelMator](osx/software/pixelmator.md)
         * [iDraw](osx/software/idraw.md)

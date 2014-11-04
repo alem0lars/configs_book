@@ -240,6 +240,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 
 * [ImageMagick](software/imagemagick.md)
 * [ImageOptim](software/image_optim.md)
+* [Icon Slate](software/icon_slate.md)
 * [Napkin](software/napkin.md)
 * [PixelMator](software/pixelmator.md)
 * [iDraw](software/idraw.md)

@@ -68,13 +68,16 @@
 	},
 	"file_history":
 	[
+		"/Users/alem0lars/Projects/Personal/configs/osx/osx.md",
+		"/Users/alem0lars/Projects/Personal/configs/osx/software/icon_slate.md",
+		"/Users/alem0lars/Projects/Personal/configs/SUMMARY.md",
+		"/Users/alem0lars/Projects/Personal/configs/osx/software/aewan.md",
+		"/Users/alem0lars/Projects/Personal/configs/osx/software/terminal.glue",
 		"/Users/alem0lars/.floorc.json",
 		"/Users/alem0lars/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/alem0lars/Projects/Personal/configs/SUMMARY.md",
 		"/Users/alem0lars/Projects/Personal/configs/osx/software/vim.md",
 		"/Users/alem0lars/Projects/Personal/configs/osx/software/sublime_text.md",
 		"/Users/alem0lars/Projects/Personal/configs/osx/software/subversion.md",
-		"/Users/alem0lars/Projects/Personal/configs/osx/osx.md",
 		"/Users/alem0lars/Projects/Personal/configs/osx/software/httpie.md",
 		"/Users/alem0lars/Projects/Personal/configs/osx/software/xcode.md",
 		"/Users/alem0lars/Projects/Personal/configs/osx/software/keycastr.md",
@@ -288,7 +291,7 @@
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/alem0lars/Library/Application Support/Sublime Text 3/Packages"
+			"_cmdline_cd": "/opt/homebrew-cask/Caskroom/sublime-text3/Build 3065/Sublime Text.app/Contents/MacOS"
 		}
 	},
 	"show_minimap": true,
