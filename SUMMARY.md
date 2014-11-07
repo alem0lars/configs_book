@@ -114,6 +114,8 @@
         * [SQLMap](osx/software/sqlmap.md)
         * [jQ](osx/software/jq.md)
         * [Sublime Text](osx/software/sublime_text.md)
+        * [Pow](osx/software/pow.md)
+        * [IntelliJ IDEA](osx/software/intellij_idea.md)
       * Reading
         * [Kindle](osx/software/kindle.md)
         * [PDFToolkit+](osx/software/pdftoolkit_plus.md)
