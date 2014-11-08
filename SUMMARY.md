@@ -78,6 +78,7 @@
         * [GarageBand](osx/software/garageband.md)
       * Video
         * [iMovie](osx/software/imovie.md)
+        * [VLC](osx/software/vlc.md)
       * Science
         * [PocketCAS](osx/software/pocketcas.md)
       * Development

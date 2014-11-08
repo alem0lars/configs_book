@@ -253,6 +253,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 #### Video
 
 * [iMovie](software/imovie.md)
+* [VLC](software/vlc.md)
 
 #### Science
 
