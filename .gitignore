@@ -1,2 +1,7 @@
-# Dist folder
+# Dist folder.
 _book
+
+# Editors/IDEs stuff.
+/.idea/
+/*.iml
+/*.sublime-workspace

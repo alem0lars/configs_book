@@ -296,6 +296,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [Sublime Text](software/sublime_text.md)
 * [Pow](software/pow.md)
 * [IntelliJ IDEA](software/intellij_idea.md)
+* [Unity3d](software/unity3d.md)
 
 #### Reading
 
