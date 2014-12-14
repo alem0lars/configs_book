@@ -185,6 +185,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [ncdu](software/ncdu.md)
 * [KeyCastr](software/keycastr.md)
 * [Aewan](software/aewan.md)
+* [Keyboard Maestro](software/keyboard_maestro.md)
 
 #### Management
 
