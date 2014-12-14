@@ -28,6 +28,7 @@
         * [ncdu](osx/software/ncdu.md)
         * [KeyCastr](osx/software/keycastr.md)
         * [Aewan](osx/software/aewan.md)
+        * [Keyboard Maestro](osx/software/keyboard_maestro.md)
       * Management
         * [LaunchControl](osx/software/launchcontrol.md)
         * [CleanApp](osx/software/cleanapp.md)
