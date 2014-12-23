@@ -4,7 +4,7 @@
 
 ## OSX Configuration tutorial
 
-![Status](http://img.shields.io/badge/status-WIP-yellowgreen.svg)
+![Status](http://img.shields.io/badge/status-OK-yellowgreen.svg)
 
 The tutorial is under the `osx` directory.
 
