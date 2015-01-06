@@ -135,6 +135,4 @@
       * Organizer
         * [OmniFocus](osx/software/omnifocus.md)
         * [Toggl Desktop](osx/software/toggl_desktop.md)
-      * Gaming
-        * [Steam](osx/software/steam.md)
 * [Gentoo Configuration tutorial](gentoo/gentoo.md)
