@@ -29,6 +29,7 @@
         * [KeyCastr](osx/software/keycastr.md)
         * [Aewan](osx/software/aewan.md)
         * [Keyboard Maestro](osx/software/keyboard_maestro.md)
+        * [Adobe Air](osx/software/adobe_air.md)
       * Management
         * [LaunchControl](osx/software/launchcontrol.md)
         * [CleanApp](osx/software/cleanapp.md)
