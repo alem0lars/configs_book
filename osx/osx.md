@@ -324,6 +324,10 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [OmniFocus](software/omnifocus.md)
 * [Toggl Desktop](software/toggl_desktop.md)
 
+#### Gaming
+
+* [Steam](software/steam.md)
+
 ### Configuration management
 
 ```
