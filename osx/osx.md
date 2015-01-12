@@ -327,6 +327,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 #### Gaming
 
 * [Steam](software/steam.md)
+* [OpenEmu](software/openemu.md)
 
 ### Configuration management
 
