@@ -138,4 +138,5 @@
         * [Toggl Desktop](osx/software/toggl_desktop.md)
       * Gaming
         * [Steam](osx/software/steam.md)
+        * [OpenEmu](osx/software/openemu.md)
 * [Gentoo Configuration tutorial](gentoo/gentoo.md)
