@@ -88,6 +88,9 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
   ```ShellSession
   $ defaults write -g ApplePressAndHoldEnabled -bool false
   ```
+  
+* Remap Caps Lock to Control:
+  Go to `` → `System Preferences` → `Keyboard` → `Modifier Keys...` and select Control for Caps Lock.
 
 #### Appearance
 
