@@ -12,5 +12,5 @@ $ brew linkapps
 ### Valgrind
 
 ```ShellSession
-$ brew install valgrind
+$ brew install valgrind # If it fails use --HEAD
 ```
