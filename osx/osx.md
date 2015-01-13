@@ -335,7 +335,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 
 ### Configuration management
 
-```
+```ShellSession
 $ brew install vcsh mr                                  # Install VCSH and MR
 $ vcsh clone git@github.com:alem0lars/configs-mr.git mr # Clone the MR repo
 $ mr up                                                 # Install the configurations
@@ -343,6 +343,6 @@ $ mr up                                                 # Install the configurat
 
 ### Fonts
 
-```
+```ShellSession
 $ brew cask install font-lato # Install the font Lato
 ```
