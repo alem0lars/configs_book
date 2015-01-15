@@ -133,6 +133,7 @@
         * [Safari](osx/software/safari.md)
         * [Google Chrome](osx/software/google_chrome.md)
         * [iTranslate](osx/software/itranslate.md)
+        * [Spillo](osx/software/spillo.md)
       * Organizer
         * [OmniFocus](osx/software/omnifocus.md)
         * [Toggl Desktop](osx/software/toggl_desktop.md)
