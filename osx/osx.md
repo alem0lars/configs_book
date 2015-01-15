@@ -321,6 +321,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 
 * [Safari](software/safari.md)
 * [Google Chrome](software/google_chrome.md)
+* [Spillo](software/spillo.md)
 * [iTranslate](software/itranslate.md)
 
 #### Organizer
