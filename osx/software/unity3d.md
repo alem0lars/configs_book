@@ -1,8 +1,9 @@
 # Unity3d
 
-## Installation
+## Unity Web Player
+
+### Installation
 
 ```ShellSession
-$ brew cask install unity
 $ brew cask install unity-web-player
 ```
