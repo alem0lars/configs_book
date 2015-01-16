@@ -290,6 +290,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [Groovy](software/groovy.md)
 * [C](software/c.md)
 * [Rust](software/rust.md)
+* [Mono](software/mono.md)
 * [MongoDB](software/mongodb.md)
 * [Redis](software/redis.md)
 * [PostgreSQL](software/postgresql.md)
