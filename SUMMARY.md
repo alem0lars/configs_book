@@ -107,6 +107,7 @@
         * [Groovy](osx/software/groovy.md)
         * [C](osx/software/c.md)
         * [Mono](osx/software/mono.md)
+        * [Xamarin](osx/software/xamarin.md)
         * [Rust](osx/software/rust.md)
         * [MongoDB](osx/software/mongodb.md)
         * [Redis](osx/software/redis.md)
