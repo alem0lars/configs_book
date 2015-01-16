@@ -291,6 +291,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [C](software/c.md)
 * [Rust](software/rust.md)
 * [Mono](software/mono.md)
+* [Xamarin](software/xamarin.md)
 * [MongoDB](software/mongodb.md)
 * [Redis](software/redis.md)
 * [PostgreSQL](software/postgresql.md)
