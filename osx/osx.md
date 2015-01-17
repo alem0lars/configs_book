@@ -196,6 +196,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 
 * [LaunchControl](software/launchcontrol.md)
 * [CleanApp](software/cleanapp.md)
+* [iStat](software/istat.md)
 
 #### Virtualization
 
