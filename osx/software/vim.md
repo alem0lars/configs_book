@@ -3,8 +3,8 @@
 ## Installation
 
 ```ShellSession
-$ brew install macvim --override-system-vim --with-python3 --with-lua --with-luajit
-$ brew linkapps
+brew tap neovim/homebrew-neovim
+brew install --HEAD neovim
 ```
 
 ## SPF13
