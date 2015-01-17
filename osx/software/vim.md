@@ -23,7 +23,7 @@ It can be managed using [Fizzy](https://github.com/alem0lars/fizzy). If you want
 ```ShellSession
 $ fizzy cfg sync
 $ fizzy cfg instantiate --vars-name="${vars_name}" --inst-name="${inst_name}"
-$ fizzy install         --vars-name="${vars_name}" --inst-name="${inst_name}"
+$ fizzy sys install     --vars-name="${vars_name}" --inst-name="${inst_name}"
 ```
 
 Otherwise, if you want to manually manage your configuration or you just don't want to use Fizzy, then take a look at the configurations files and adjust them considering the ERB expressions (i.e. ice-cream).
