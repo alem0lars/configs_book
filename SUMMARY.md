@@ -76,6 +76,7 @@
         * [Napkin](osx/software/napkin.md)
         * [PixelMator](osx/software/pixelmator.md)
         * [iDraw](osx/software/idraw.md)
+        * [Blender](osx/software/blender.md)
         * [Ortelius](osx/software/ortelius.md)
       * Audio
         * [GarageBand](osx/software/garageband.md)
