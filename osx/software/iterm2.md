@@ -3,7 +3,13 @@
 ## Installation
 
 ```ShellSession
-$ brew cask install iterm2 --appdir=/Applications
+$ brew cask install iterm2
+```
+
+## Enable shell integration
+
+```ShellSession
+$ curl -L iterm2.com/misc/install_shell_integration.sh | bash
 ```
 
 ## Configuration
