@@ -250,6 +250,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [Icon Slate](software/icon_slate.md)
 * [Napkin](software/napkin.md)
 * [PixelMator](software/pixelmator.md)
+* [Blender](software/blender.md)
 * [iDraw](software/idraw.md)
 * [Ortelius](software/ortelius.md)
 
