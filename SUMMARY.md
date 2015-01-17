@@ -33,6 +33,7 @@
       * Management
         * [LaunchControl](osx/software/launchcontrol.md)
         * [CleanApp](osx/software/cleanapp.md)
+        * [iStat](osx/software/istat.md)
       * Virtualization
         * [VMware Fusion](osx/software/vmware_fusion.md)
         * [VirtualBox](osx/software/virtualbox.md)
