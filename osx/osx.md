@@ -191,6 +191,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [Aewan](software/aewan.md)
 * [Keyboard Maestro](software/keyboard_maestro.md)
 * [Adobe Air](software/adobe_air.md)
+* [Bartender](software/bartender.md)
 
 #### Management
 
