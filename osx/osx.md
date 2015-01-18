@@ -244,6 +244,10 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [Scrivener](software/scrivener.md)
 * [Ulysses](software/ulysses.md)
 
+#### Notes
+
+* [Evernote](software/evernote.md)
+
 #### Graphics
 
 * [ImageMagick](software/imagemagick.md)
