@@ -70,6 +70,8 @@
         * [Prizmo](osx/software/prizmo.md)
         * [Scrivener](osx/software/scrivener.md)
         * [Ulysses](osx/software/ulysses.md)
+      * Notes
+        * [Evernote](osx/software/evernote.md)
       * Graphics
         * [ImageMagick](osx/software/imagemagick.md)
         * [ImageOptim](osx/software/image_optim.md)
