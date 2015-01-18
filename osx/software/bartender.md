@@ -12,8 +12,9 @@ Activate using the key stored in Lastpass.
 
 ## Configuration
 
-* Keep the Bartender bar always open.
-* Don't show the Bartender menu bar item.
+* Enable `Preferences` → `General` → `Launch Bartender at Login`
+* Enable `Preferences` → `General` → `Autohides`
+* Assign the shortcut to `Preferences` → `Advanced` → `Bartender Bar Hot Key`: `⌘⌥B`
 * Move all of the items in the Bartender bar, except:
   * iStat Menus items.
   * TextInput item.
