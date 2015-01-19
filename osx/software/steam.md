@@ -3,6 +3,7 @@
 ## Installation
 
 Since Steam works only in case-insensitive filesystems, to install steam in a case-sensitive filesystem you should:
+
 1. Create a case-insensitive volume and install Steam inside.
 2. Where Steam access files, make links to point inside the volume.
 
