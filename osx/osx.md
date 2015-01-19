@@ -128,7 +128,13 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
   $ killall Dock # Apply changes
   ```
 
-* Disable the Launchpad animations
+* Disable window animations
+
+  ```ShellSession
+  $ defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
+  ```
+
+* Disable Launchpad animations
 
   ```ShellSession
   $ defaults write com.apple.dock springboard-show-duration -float 0 # on showing
