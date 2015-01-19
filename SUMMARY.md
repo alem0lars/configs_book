@@ -123,9 +123,9 @@
         * [Radare](osx/software/radare.md)
         * [SQLMap](osx/software/sqlmap.md)
         * [jQ](osx/software/jq.md)
-        * [Sublime Text](osx/software/sublime_text.md)
         * [Pow](osx/software/pow.md)
         * [IntelliJ IDEA](osx/software/intellij_idea.md)
+        * [Unity3d](osx/software/unity3d.md)
       * Reading
         * [Kindle](osx/software/kindle.md)
         * [PDFToolkit+](osx/software/pdftoolkit_plus.md)
