@@ -9,7 +9,7 @@ Since we *still* want a case-sensitive filesystem, since it's more modern, corre
 we need to:
 
 1. Create a case-insensitive volume and install Unity inside.
-2. Link the `Steam.app` into `/Applications`.
+2. Link the `Unity.app` into `/Applications`.
 
 We will call the volume `unity`.
 
@@ -18,7 +18,7 @@ We will call the volume `unity`.
 1. In Disk Utility, create a New Image.
 3. Choose the location to save the image file.
 4. Then, set the image characteristics as below:
-  * **Name**: `steam`
+  * **Name**: `unity`
   * **Size**: any (the image will expand the size when required and the size is the maximum size the image can take; I suggest `16GB` or more)
   * **Format**: `Mac OS Extended (Jornaled)`
   * **Encryption**: `none`
@@ -31,7 +31,7 @@ Now everything is stored and confined inside the `unity` volume.
 
 #### Step 2
 
-Create a link for `Steam.app` into `/Applications`: 
+Create a link for `Unity.app` into `/Applications`: 
 
 ```ShellSession
 $ ln -s "/Volumes/unity/Applications/Unity/Unity.app" "/Applications"
