@@ -32,7 +32,7 @@ $ mkdir -p "/Volumes/steam/Steam Content"
 
 Make the links:
 ```ShellSession
-$ ln -s "/Volumes/steam/Application Support/Steam" "~/Library/Application Support/Steam"
-$ ln -s "/Volumes/steam/Steam Content" "~/Documents/Steam Content"
+$ ln -s "/Volumes/steam/Application Support/Steam" "${HOME}/Library/Application Support/Steam"
+$ ln -s "/Volumes/steam/Steam Content" "${HOME}/Documents/Steam Content"
 $ ln -s "/Volumes/steam/Steam.app" "/Applications" # Create a link to the app inside /Applications
 ```
