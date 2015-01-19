@@ -1,14 +1,6 @@
 # Unity3d
 
-## Unity Web Player
-
-### Installation
-
-```ShellSession
-$ brew cask install unity-web-player
-```
-
-## Unity Development Tool
+## Unity development environment
 
 ### Installation
 
@@ -54,4 +46,12 @@ I didn't find anything better than storing them inside `/Volumes/unity/Projects`
 Of course, you should create that directory:
 ```ShellSession
 $ mkdir /Volumes/unity/Projects
+```
+
+## Unity Web Player
+
+### Installation
+
+```ShellSession
+$ brew cask install unity-web-player
 ```
