@@ -18,7 +18,7 @@ We will call the volume `steam`.
   * **Format**: `Mac OS Extended (Jornaled)`
   * **Encryption**: `none`
   * **Partitions**: `No partition map`
-  * **Image Format**: `sparse disk image`
+  * **Image Format**: `sparse bundle disk image`
 5. Mount the image file if it’s not yet mounted.
 6. Download and copy the Steam app for Mac into the mounted image.
 
