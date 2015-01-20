@@ -67,6 +67,7 @@
         * [Marked](osx/software/marked.md)
         * [iBooks Author](osx/software/ibooks_author.md)
         * [OmniGraffle](osx/software/omnigraffle.md)
+        * [OmniGraffle](osx/software/mindnode.md)
         * [Prizmo](osx/software/prizmo.md)
         * [Scrivener](osx/software/scrivener.md)
         * [Ulysses](osx/software/ulysses.md)
