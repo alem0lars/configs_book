@@ -170,6 +170,12 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 
 * Add the directories `~/Tmp`, `~/Projects`, `~/Public` as favorites.
 
+### Startup Setup
+
+Some things, like user-level environment variables should be set-up by a script called when the user logs in.
+
+You should have saved the Automator application named `Startup Setup.app` in iCloud (this is just a convention). Add that app in `` → `System Preferences` → `Users & Groups` → `your user` → `Login Items`.
+
 ### Setup software
 
 #### System
