@@ -246,6 +246,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * [Marked](software/marked.md)
 * [iBooks Author](software/ibooks_author.md)
 * [OmniGraffle](software/omnigraffle.md)
+* [MindNode](software/mindnode.md)
 * [Prizmo](software/prizmo.md)
 * [Scrivener](software/scrivener.md)
 * [Ulysses](software/ulysses.md)
