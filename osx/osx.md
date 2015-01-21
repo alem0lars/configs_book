@@ -204,7 +204,7 @@ You should have saved the Automator application named `Startup Setup.app` in iCl
 * [Keyboard Maestro](software/keyboard_maestro.md)
 * [Adobe Air](software/adobe_air.md)
 * [Bartender](software/bartender.md)
-* [Lastpass](software/lastpass.md)
+* [LastPass](software/lastpass.md)
 
 #### Management
 
