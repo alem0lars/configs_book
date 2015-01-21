@@ -1,4 +1,4 @@
-# Lastpass
+# LastPass
 
 ## Installation
 
