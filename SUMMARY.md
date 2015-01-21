@@ -31,6 +31,7 @@
         * [Keyboard Maestro](osx/software/keyboard_maestro.md)
         * [Adobe Air](osx/software/adobe_air.md)
         * [Bartender](osx/software/bartender.md)
+        * [LastPass](osx/software/lastpass.md)
       * Management
         * [LaunchControl](osx/software/launchcontrol.md)
         * [CleanApp](osx/software/cleanapp.md)
