@@ -33,6 +33,7 @@ $ brew cask install atom
 - **`atom-beautify`**:
   - Installation: `apm install atom-beautify`
   - Dependencies:
+
     ```ShellSession
     $ sudo gem install htmlbeautifier     # For HTML formatting.
     $ pip install sqlparse                # For SQL formatting.
@@ -74,12 +75,14 @@ $ brew cask install atom
 - **`linter-coffeelint`**:
   - Installation: `apm install linter-coffeelint`
   - Dependencies:
+
     ```ShellSession
     $ npm install -g coffeelint # For the program `coffeelint`.
     ```
 - **`linter-csslint`**:
   - Installation: `apm install linter-csslint`
   - Dependencies:
+
     ```ShellSession
     $ npm install -g csslint # For the program `csslint`.
     ```
@@ -88,18 +91,21 @@ $ brew cask install atom
 - **`linter-haml`**:
   - Installation: `apm install linter-haml`
   - Dependencies:
+
     ```ShellSession
     $ sudo gem install haml-lint # For the program `haml-lint`.
     ```
 - **`linter-jshint`**:
   - Installation: `apm install linter-jshint`
   - Dependencies:
+
     ```ShellSession
     $ npm install -g jshint # For the program `jshint`.
     ```
 - **`linter-rubocop`**:
   - Installation: `apm install linter-rubocop`
   - Dependencies:
+
     ```ShellSession
     $ sudo gem install rubocop # For the program `rubocop`.
     ```
@@ -108,6 +114,7 @@ $ brew cask install atom
 - **`linter-scss-lint`**:
   - Installation: `apm install linter-scss-lint`
   - Dependencies:
+
     ```ShellSession
     $ sudo gem install scss-lint # For the program `scss-lint`.
     ```
