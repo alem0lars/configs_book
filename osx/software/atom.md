@@ -28,13 +28,11 @@ $ brew cask install atom
 - `linter-scss-lint`
 - `project-manager`
 - `ruby-bundler`
-- `linter-haml`:
-  - Installation:
-    ```ShellSession
-    $ apm install linter-haml
-    ```
+
+- **`minimap`**:
+  - Installation: `apm install minimap`
+
+- **`linter-haml`**:
+  - Installation: `apm install linter-haml`
   - Dependencies:
-    - Haml-Lint
-      ```ShellSession
-      $ sudo gem install haml-lint
-      ```
+    - `haml-lint`: `sudo gem install haml-lint`
