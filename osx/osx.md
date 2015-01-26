@@ -325,6 +325,7 @@ You should have saved the Automator application named `Startup Setup.app` in iCl
 * [Pow](software/pow.md)
 * [IntelliJ IDEA](software/intellij_idea.md)
 * [Unity3d](software/unity3d.md)
+* [Trello](software/trello.md)
 
 #### Reading
 
