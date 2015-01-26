@@ -10,9 +10,9 @@ $ brew cask install atom
 
 ### Misc UI
 
-- **`atom-color-highlight`**
+- **`atom-color-highlight`**:
   - Installation: `apm install atom-color-highlight`
-- **`file-icons`**
+- **`file-icons`**:
   - Installation: `apm install file-icons`
 
 ### Minimap
@@ -30,45 +30,94 @@ $ brew cask install atom
 
 ### Formatting
 
-- **`atom-beautify`**
+- **`atom-beautify`**:
+  - Installation: `apm install atom-beautify`
+  - Dependencies:
+    ```ShellSession
+    $ sudo gem install htmlbeautifier     # For HTML formatting.
+    $ pip install sqlparse                # For SQL formatting.
+    $ brew install pandoc                 # For Markdown formatting.
+    $ sudo gem install ruby-beautify      # For Ruby formatting.
+    $ sudo pip install --upgrade autopep8 # For Python formatting.
+    $ brew install uncrustify             # For Java/C/C++/C#/Objective-C/D/Pawn/Vala formatting.
+    # (for PHP you need PHP_Beautify, but I didn't find a good way to install pear).
+    ```
 
 ### AutoComplete
 
-- **`autocomplete-paths`**
-- **`autocomplete-plus`**
-- **`autocomplete-snippets`**
+- **`autocomplete-paths`**:
+  - Installation: `apm install autocomplete-paths`
+- **`autocomplete-plus`**:
+  - Installation: `apm install autocomplete-plus`
+- **`autocomplete-snippets`**:
+  - Installation: `apm install autocomplete-snippets`
 
 
 ### Languages
 
-- **`language-gitignore`**
-- **`language-haml`**
-- **`editorconfig`**
+- **`language-gitignore`**:
+  - Installation: `apm install language-gitignore`
+- **`language-haml`**:
+  - Installation: `apm install language-haml`
+- **`editorconfig`**:
+  - Installation: `apm install editorconfig`
 
 ### Snippets
 
-- **`javascript-snippets`**
+- **`javascript-snippets`**:
+  - Installation: `apm install editorconfig`
 
 ### Linting
 
-- **`linter`**
-- **`linter-coffeelint`**
-- **`linter-csslint`**
-- **`linter-erb`**
-- **`linter-haml`**
-- **`linter-jshint`**
-- **`linter-rubocop`**
-- **`linter-ruby`**
-- **`linter-scss-lint`**
+- **`linter`**:
+  - Installation: `apm install linter`
+- **`linter-coffeelint`**:
+  - Installation: `apm install linter-coffeelint`
+  - Dependencies:
+    ```ShellSession
+    $ npm install -g coffeelint # For the program `coffeelint`.
+    ```
+- **`linter-csslint`**:
+  - Installation: `apm install linter-csslint`
+  - Dependencies:
+    ```ShellSession
+    $ npm install -g csslint # For the program `csslint`.
+    ```
+- **`linter-erb`**:
+  - Installation: `apm install linter-erb`
 - **`linter-haml`**:
   - Installation: `apm install linter-haml`
   - Dependencies:
-    - `haml-lint`: `sudo gem install haml-lint`
+    ```ShellSession
+    $ sudo gem install haml-lint # For the program `haml-lint`.
+    ```
+- **`linter-jshint`**:
+  - Installation: `apm install linter-jshint`
+  - Dependencies:
+    ```ShellSession
+    $ npm install -g jshint # For the program `jshint`.
+    ```
+- **`linter-rubocop`**:
+  - Installation: `apm install linter-rubocop`
+  - Dependencies:
+    ```ShellSession
+    $ sudo gem install rubocop # For the program `rubocop`.
+    ```
+- **`linter-ruby`**:
+  - Installation: `apm install linter-ruby`
+- **`linter-scss-lint`**:
+  - Installation: `apm install linter-scss-lint`
+  - Dependencies:
+    ```ShellSession
+    $ sudo gem install scss-lint # For the program `scss-lint`.
+    ```
 
 ### Projects
 
-- **`project-manager`**
+- **`project-manager`**:
+  - Installation: `apm install project-manager`
 
 ### External commands integration
 
-- **`ruby-bundler`**
+- **`ruby-bundler`**:
+  - Installation: `apm install ruby-bundler`
