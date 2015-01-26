@@ -10,9 +10,20 @@ $ brew cask install atom
 
 ### UI
 
+- **`atom-color-highlight`**
+  - Installation: `apm install atom-color-highlight`
 - **`file-icons`**
+  - Installation: `apm install file-icons`
 - **`minimap`**:
   - Installation: `apm install minimap`
+- **`minimap-find-and-replace`**:
+  - Installation: `apm install minimap-find-and-replace`
+- **`minimap-selection`**:
+  - Installation: `apm install minimap-selection`
+- **`minimap-git-diff`**:
+  - Installation: `apm install minimap-git-diff`
+- **`minimap-color-highlight`**:
+  - Installation: `apm install minimap-color-highlight`
 
 ### Formatting
 
