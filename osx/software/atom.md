@@ -118,6 +118,8 @@ $ brew cask install atom
     ```ShellSession
     $ sudo gem install scss-lint # For the program `scss-lint`.
     ```
+- **`linter-lua`**:
+  - Installation: `apm install linter-lua`
 
 ### Projects
 
