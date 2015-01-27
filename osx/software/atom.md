@@ -61,6 +61,8 @@ $ brew cask install atom
   - Installation: `apm install language-gitignore`
 - **`language-haml`**:
   - Installation: `apm install language-haml`
+- **`language-lisp`**:
+  - Installation: `apm install language-lisp`
 - **`editorconfig`**:
   - Installation: `apm install editorconfig`
 
