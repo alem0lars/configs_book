@@ -21,3 +21,14 @@ $ brew install postgresql --with-python
 #### Installation
 
 Install from Mac App Store
+
+## Troubleshooting
+
+### Upgrade
+
+If you get some errors while starting the PostgreSQL daemon after an upgrade, it means that the database should be reinitialized (*notice that the DB data will be wiped out*). To do so, run:
+
+```ShellSession
+$ rm -rf /usr/local/var/postgres
+$ initdb /usr/local/var/postgres -E utf8
+```
