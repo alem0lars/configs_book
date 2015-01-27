@@ -66,7 +66,7 @@ $ brew cask install atom
 ### Snippets
 
 - **`javascript-snippets`**:
-  - Installation: `apm install editorconfig`
+  - Installation: `apm install javascript-snippets`
 
 ### Linting
 
