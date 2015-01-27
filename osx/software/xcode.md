@@ -30,5 +30,6 @@ The configuration should be available through the *VCSH configuration for Xcode*
 ### Installation
 
 ```ShellSession
-$ sudo gem install synx # Synx, used to align groups with real folders
+$ sudo gem install synx            # Synx, used to align groups with real folders.
+$ sudo gem install cocoapods --pre # CocoaPods, used to manage dependencies.
 ```
