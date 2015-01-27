@@ -14,6 +14,8 @@ $ brew cask install atom
   - Installation: `apm install atom-color-highlight`
 - **`file-icons`**:
   - Installation: `apm install file-icons`
+- **`highlight-selected`**:
+  - Installation: `apm install highlight-selected`
 
 ### Minimap
 
@@ -52,7 +54,6 @@ $ brew cask install atom
   - Installation: `apm install autocomplete-plus`
 - **`autocomplete-snippets`**:
   - Installation: `apm install autocomplete-snippets`
-
 
 ### Languages
 
