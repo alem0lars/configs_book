@@ -132,3 +132,11 @@ choco install avirafreeantivirus
 #### Installation
 
 Run the installer.
+
+### NuGet tools
+
+Run the following commands in an administrator console:
+
+```
+choco install nuget.commandline
+```
