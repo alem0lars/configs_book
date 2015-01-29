@@ -138,6 +138,11 @@ choco install avirafreeantivirus
 
 Run the installer.
 
+#### Extensions
+
+* Resharper (choose all products in the installer)
+* Visual Studio 2013 Tools for Unity
+
 ### NuGet tools
 
 Run the following commands in an administrator console:
