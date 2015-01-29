@@ -18,6 +18,14 @@ The tutorial is under the `gentoo` directory.
 
 The entry point is: [Gentoo.md](./gentoo/gentoo.md)
 
+## Windows Configuration tutorial
+
+![Status](http://img.shields.io/badge/status-TODO-yellow.svg)
+
+The tutorial is under the `windows` directory.
+
+The entry point is: [Windows.md](./windows/windows.md)
+
 ## License
 
 All of the content (except as otherwise noted) is licensed under the [Apache 2 license](LICENSE).
