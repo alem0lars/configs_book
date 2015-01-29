@@ -104,6 +104,10 @@ choco install 7zip.commandline
 
 ### Avira Free Antivirus
 
+#### Prerequisites
+
+Turn off Windows Defender.
+
 #### Installation
 
 Run the following commands in an administrator console:
