@@ -3,7 +3,7 @@
 ## Installation
 
 ```ShellSession
-$ brew install macvim --override-system-vim --with-python3 --with-lua --with-luajit
+$ brew install macvim --override-system-vim --with-lua
 $ brew linkapps macvim
 ```
 
