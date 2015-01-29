@@ -84,6 +84,7 @@ Run the following commands in an administrator console:
 
 ```
 choco install conemu
+choco install jayhankins.conemuconfig
 ```
 
 #### Configuration
