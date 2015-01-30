@@ -34,7 +34,7 @@ Now everything is stored and confined inside the `Unity` volume.
 Create a link for `Unity.app` into `/Applications`: 
 
 ```ShellSession
-$ ln -s "/Volumes/unity/Applications/Unity/Unity.app" "/Applications"
+$ ln -s "/Volumes/Unity/Applications/Unity/Unity.app" "/Applications"
 ```
 
 #### (Optional) Setup the Projects directory
