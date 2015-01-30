@@ -20,7 +20,7 @@ The entry point is: [Gentoo.md](./gentoo/gentoo.md)
 
 ## Windows Configuration tutorial
 
-![Status](http://img.shields.io/badge/status-TODO-yellow.svg)
+![Status](http://img.shields.io/badge/status-OK-green.svg)
 
 The tutorial is under the `windows` directory.
 
