@@ -39,14 +39,17 @@ $ ln -s "/Volumes/unity/Applications/Unity/Unity.app" "/Applications"
 
 #### (Optional) Setup the Projects directory
 
-Not only the Unity application but also the projects should be stored in a case-insensitive filesystem,
-otherwise Unity will just crash.
+Not only the Unity application but also the projects should be stored in a case-insensitive filesystem, otherwise Unity will just crash.
 
-I didn't find anything better than storing them inside `/Volumes/unity/Projects`.
-Of course, you should create that directory:
-```ShellSession
-$ mkdir /Volumes/unity/Projects
-```
+There are some options available:
+
+* The simplest is to create a directory inside the unity volume:
+
+  ```ShellSession
+  $ mkdir /Volumes/unity/Projects
+  ```
+
+* If you don't like the option above (*like me*), another option is to create a dedicated volume for unity project (e.g. a volume called `Unity Workspace` stored in `~/Develop/Workspaces`).
 
 ## Unity Web Player
 
