@@ -14,7 +14,7 @@ See the list of available `Browsers` software [here](./software/browsers.md)
 
 ### Category: Development
 
-See the list of available `Browsers` software [here](./software/development.md)
+See the list of available `Development` software [here](./software/development.md)
 
 ## Installed
 
