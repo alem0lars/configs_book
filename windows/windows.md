@@ -132,6 +132,15 @@ choco install avirafreeantivirus
 
 * Add EasyList (AdBlock Plus)
 
+### Unity3d
+
+#### Installation
+
+```
+choco install unity
+choco install unitywebplayer
+```
+
 ### Visual Studio
 
 #### Installation
