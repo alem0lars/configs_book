@@ -27,3 +27,12 @@ Below you will find some lists of installed software setups.
 The one I'm currently using is *`alem0lars VM`*, so the installed software list is called *`alem0lars VM software`*.
 
 ### alem0lars VM software
+
+* IE
+* NuGet
+* Visual Studio
+* 7zip
+* Avira Antivirus
+* Chocolatey
+* ConEmu
+* StartMenu8
