@@ -142,6 +142,7 @@ Run the installer.
 
 * Resharper (choose all products in the installer)
 * Visual Studio 2013 Tools for Unity
+* VsVim
 
 ### NuGet tools
 
