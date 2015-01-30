@@ -69,21 +69,6 @@ Run the following commands in an administrator console:
 choco install avirafreeantivirus
 ```
 
-### Internet Explorer
-
-#### Search providers
-
-* Remove all pre-existing accelerators.
-* Add Google.
-
-#### Accelerators
-
-* Remove all pre-existing accelerators.
-
-#### Tracking Protection
-
-* Add EasyList (AdBlock Plus)
-
 ### Unity3d
 
 #### Installation
