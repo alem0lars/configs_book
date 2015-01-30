@@ -136,6 +136,8 @@ choco install avirafreeantivirus
 
 #### Installation
 
+Run the following commands in an administrator console:
+
 ```
 choco install unity
 choco install unitywebplayer
@@ -149,9 +151,10 @@ Run the installer.
 
 #### Extensions
 
-* Resharper (choose all products in the installer)
-* Visual Studio 2013 Tools for Unity
-* VsVim
+* *ReSharper* (choose all products in the installer), with the following ReSharper extensions:
+  * *Jetbrains.NuPeek*
+* *Visual Studio 2013 Tools for Unity*
+* *VsVim*
 
 ### NuGet tools
 
