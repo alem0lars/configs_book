@@ -10,7 +10,9 @@ choco install startmenu8
 
 ## Configuration
 
-In settings:
+Unpin `Uninstall programs` shortcut from the start menu.
+
+In `Settings`:
 
 * Enable `General` → `Don't show frequently used programs`.
 * Set `General` → `Highlight newly installed programs` to `No`.
