@@ -10,6 +10,7 @@ we need to:
 
 1. Create a case-insensitive volume and install Unity inside.
 2. Link the `Unity.app` into `/Applications`.
+3. Setup links to the current user's library.
 
 We will call the volume `Unity`.
 
@@ -36,6 +37,34 @@ Create a link for `Unity.app` into `/Applications`:
 ```ShellSession
 $ ln -s "/Volumes/Unity/Applications/Unity/Unity.app" "/Applications"
 ```
+
+#### Step 3
+
+When you open MonoDevelop-Unity with your current user, it will create some Library files and folders.
+
+It's a good practice that you also keep those files inside the volume, so you will need to:
+
+1. Create the `Application Support` directory inside the volume.
+
+   ```ShellSession
+   $ mkdir -p "/Volumes/Unity/Library/Application Support"
+   ```
+
+2. Create the directories:
+
+   ```ShellSession
+   $ mkdir -p "/Volumes/Unity/Library/MonoDevelop-Unity-4.0"
+   $ mkdir -p "/Volumes/Unity/Library/Application Support/MonoDevelop-Unity-4.0"
+   ```
+
+3. Create links to the created directories:
+
+   ```ShellSession
+   $ ln -s "/Volumes/Unity/Library/MonoDevelop-Unity-4.0" "${HOME}/Library/MonoDevelop-Unity-4.0"
+   $ ln -s "/Volumes/Unity/Library/Application Support/MonoDevelop-Unity-4.0" "${HOME}/Library/Application Support/MonoDevelop-Unity-4.0"
+   ```
+   
+Now you can start MonoDevelop without any troubles :)
 
 #### (Optional) Setup the Projects directory
 
