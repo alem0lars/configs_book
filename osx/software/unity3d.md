@@ -75,7 +75,7 @@ There are some options available:
 * The simplest is to create a directory inside the unity volume:
 
   ```ShellSession
-  $ mkdir /Volumes/Unity/Projects
+  $ mkdir "/Volumes/Unity/Projects"
   ```
 
 * If you don't like the option above (*like me*), another option is to create a dedicated volume for unity project (e.g. a volume called `Unity Workspace` stored in `~/Develop/Workspaces`).
