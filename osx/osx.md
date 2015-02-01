@@ -157,6 +157,14 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
   $ defaults write com.apple.Mail DisableReplyAnimations -bool true # opening windows for replies
   ```
 
+* Reduce transparency
+
+  Enable `System Preferences` → `Accessibility` → `Display` → `Reduce transparency`.
+
+* Increase smoothness across multiple displays
+
+  This is a *very* important setting for those having performance issues or glitches when switching a lot between multiple displays.
+
 `TODO`: Finish
 
 ### Create basic directories
