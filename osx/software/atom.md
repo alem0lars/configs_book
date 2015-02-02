@@ -43,7 +43,7 @@ $ brew cask install atom
     $ sudo gem install ruby-beautify      # For Ruby formatting.
     $ sudo pip install --upgrade autopep8 # For Python formatting.
     $ brew install uncrustify             # For Java/C/C++/C#/Objective-C/D/Pawn/Vala formatting.
-    # (for PHP you need PHP_Beautify, but I didn't find a good way to install pear).
+    $ # (for PHP you need PHP_Beautify, but I didn't find a good way to install pear).
     ```
 
 ### AutoComplete
