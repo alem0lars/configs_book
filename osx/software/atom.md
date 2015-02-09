@@ -17,6 +17,11 @@ $ brew cask install atom
 - **`highlight-selected`**:
   - Installation: `apm install highlight-selected`
 
+### Find
+
+- **`todo-show`**:
+  - Installation: `apm install todo-show`
+
 ### Minimap
 
 - **`minimap`**:
@@ -62,6 +67,8 @@ $ brew cask install atom
   - Installation: `apm install autocomplete-plus`
 - **`autocomplete-snippets`**:
   - Installation: `apm install autocomplete-snippets`
+- **`atom-ternjs`**:
+  - Installation: `apm install atom-ternjs`
 
 ### Languages
 
@@ -149,6 +156,16 @@ $ brew cask install atom
     ```ShellSession
     $ pip install pylint # For the program `pylint`.
     ```
+- **`linter-rst`**:
+  - Installation: `apm install linter-rst`
+- **`linter-javac`**:
+  - Installation: `apm install linter-javac`
+  - Dependencies:
+    - JDK
+- **`linter-rustc`**:
+  - Installation: `apm install linter-rustc`
+  - Dependencies:
+    - Rust
 
 ### Projects
 
@@ -159,6 +176,7 @@ $ brew cask install atom
 
 - **`script`**:
   - Installation: `apm install script`
-
+- **`term2`**:
+  - Installation: `apm install term2`
 - **`ruby-bundler`**:
   - Installation: `apm install ruby-bundler`
