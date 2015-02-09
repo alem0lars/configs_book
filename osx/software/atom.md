@@ -46,8 +46,13 @@ $ brew cask install atom
     $ # (for PHP you need PHP_Beautify, but I didn't find a good way to install pear).
     ```
 
-- **`atom-css-comb`**:
-  - Installation: `apm install atom-css-comb`
+- **`csscomb`**:
+  - Installation: `apm install csscomb`
+
+### Integration
+
+- **`marked`**:
+  - Installation: `apm install marked`
 
 ### AutoComplete
 
