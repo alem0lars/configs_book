@@ -79,6 +79,17 @@ $ brew cask install atom
 - **`javascript-snippets`**:
   - Installation: `apm install javascript-snippets`
 
+### Refactoring
+
+- **`refactor`**:
+  - Installation: `apm install refactor`.
+
+- **`js-refactor`**:
+  - Installation: `apm install js-refactor`.
+
+- **`coffee-refactor`**:
+  - Installation: `apm install coffee-refactor`.
+
 ### Linting
 
 - **`linter`**:
@@ -138,6 +149,9 @@ $ brew cask install atom
   - Installation: `apm install project-manager`
 
 ### External commands integration
+
+- **`script`**:
+  - Installation: `apm install script`
 
 - **`ruby-bundler`**:
   - Installation: `apm install ruby-bundler`
