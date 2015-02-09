@@ -142,6 +142,13 @@ $ brew cask install atom
     ```
 - **`linter-lua`**:
   - Installation: `apm install linter-lua`
+- **`linter-pylint`**:
+  - Installation: `apm install linter-pylint`
+  - Dependencies:
+
+    ```ShellSession
+    $ pip install pylint # For the program `pylint`.
+    ```
 
 ### Projects
 
