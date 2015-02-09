@@ -180,3 +180,8 @@ $ brew cask install atom
   - Installation: `apm install term2`
 - **`ruby-bundler`**:
   - Installation: `apm install ruby-bundler`
+
+### Theme
+
+- **`monokai`**:
+  - Installation: `apm install monokai`
