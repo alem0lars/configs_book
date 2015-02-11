@@ -168,5 +168,5 @@ $ brew cask install atom
 
 ### Theme
 
-- **`monokai`**:
-  - Installation: `apm install monokai`
+- **`base16-syntax`**:
+  - Installation: `apm install base16-syntax`
