@@ -5,15 +5,19 @@
 ### Installation
 
 ```ShellSession
-$ brew install libyaml readline openssl  # Dependencies
-$ brew install ruby-build                # Allow install of custom Ruby versions
-$ brew install rbenv                     # Install RbEnv
+$ brew install libyaml readline openssl  # Dependencies.
+$ brew install ruby-build                # Allow install of custom Ruby versions.
+$ brew install rbenv                     # Install RbEnv.
 ```
 
 ### RbEnv extensions
 
 ```ShellSession
-$ rbenv-bundler
+$ brew install rbenv-gem-rehash   # This plugin runs `rbenv rehash` every time you install or uninstall a gem.
+$ brew install rbenv-default-gems # Automatically install gems every time you install a new version of Ruby.
+$ brew install rbenv-whatis       # Add `whatis` command, which resolves abbrevations and aliases to full Ruby version identifiers.
+$ brew install rbenv-aliases      # Add `alias` command, to create aliases for RbEnv Ruby versions.
+$ brew install rbenv-vars         # An RbEnv plugin that safely sets global and per-project environment variables.
 ```
 
 ## Install
