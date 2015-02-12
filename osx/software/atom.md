@@ -17,6 +17,17 @@ $ brew cask install atom
 - **`highlight-selected`**:
   - Installation: `apm install highlight-selected`
 
+### UI Layout Management
+
+- **`swap-panes`**:
+  - Installation: `apm install swap-panes`
+- **`move-panes`**:
+  - Installation: `apm install move-panes`
+- **`resize-panes`**:
+  - Installation: `apm install resize-panes`
+- **`maximize-panes`**:
+  - Installation: `apm install maximize-panes`
+
 ### Find
 
 - **`todo-show`**:
