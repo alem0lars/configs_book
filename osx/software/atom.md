@@ -91,6 +91,8 @@ $ brew cask install atom
   - Installation: `apm install language-lisp`
 - **`editorconfig`**:
   - Installation: `apm install editorconfig`
+- **`react`**:
+  - Installation: `apm install react`
 
 ### Snippets
 
