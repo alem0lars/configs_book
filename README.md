@@ -41,4 +41,4 @@ All of the content (except as otherwise noted) is licensed under the [Apache 2 l
 ## Links
 
 * Author website: [molarialessandro.info](https://molarialessandro.info)
-* Read the book [here](http://alem0lars.gitbooks.io/configuration-tutorials/)
+* Read the book [here](http://alem0lars.gitbooks.io/configuration-tutorials)
