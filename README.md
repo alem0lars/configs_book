@@ -6,7 +6,7 @@ Git-backed wiki with tutorials on how configure your PC,
 
 ## OSX Configuration tutorial
 
-Tutorial for configuring a *comfortable system Developers / Freelancers / Software engineers*.
+Tutorial for configuring a *comfortable system Developers / Freelancers / Software Engineers*.
 
 ![Status](http://img.shields.io/badge/status-OK-green.svg)
 
