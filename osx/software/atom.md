@@ -93,6 +93,13 @@ $ brew cask install atom
   - Installation: `apm install editorconfig`
 - **`react`**:
   - Installation: `apm install react`
+- **`language-latex`**:
+  - Installation: `apm install language-latex`
+
+### Build
+
+- **`latex`**:
+  - Installation: `apm install latex`
 
 ### Snippets
 
