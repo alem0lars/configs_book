@@ -1,8 +1,12 @@
 # Configuration tutorials
 
+Git-backed wiki with tutorials on how configure your PC,
+
 # Tutorials
 
 ## OSX Configuration tutorial
+
+Tutorial for configuring a *comfortable system Developers / Freelancers / Software engineers*.
 
 ![Status](http://img.shields.io/badge/status-OK-green.svg)
 
@@ -12,6 +16,8 @@ The entry point is: [OSX.md](./osx/osx.md)
 
 ## Gentoo Configuration tutorial
 
+Tutorial for configuring a *Hacking & CLI-based Gentoo system*.
+
 ![Status](http://img.shields.io/badge/status-TODO-yellow.svg)
 
 The tutorial is under the `gentoo` directory.
@@ -19,6 +25,8 @@ The tutorial is under the `gentoo` directory.
 The entry point is: [Gentoo.md](./gentoo/gentoo.md)
 
 ## Windows Configuration tutorial
+
+Just because *sometimes we need to run software available only in the Obsolete Operating System*.
 
 ![Status](http://img.shields.io/badge/status-OK-green.svg)
 
