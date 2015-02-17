@@ -4,6 +4,7 @@
 
 ```ShellSession
 $ brew cask install mactex --appdir=/Applications
+$ luaotfload-tool --update # Genereate the font names database.
 ```
 
 ## Packages
@@ -25,14 +26,14 @@ Update all packages:
 * Set `TeX Preview ‣ TeX template encoding` to `Unicode (UTF-8)`
 * Enable `Sharing ‣ Look for shared bibliographies`
 
-## LaTeXiT
+### LaTeXiT
 
 * Set `TeX Editing ‣ Appearance ‣ Default Font` to `Menlo Regular 11.0`
 * Select `Typesetting ‣ Behaviour ‣ xelatex`
 * Enable `History ‣ Smart history`
 * Enable `Web ‣ Check for updates on launch`
 
-## TeXShop
+### TeXShop
 
 * Set `Source ‣ Document Font` to `Menlo Regular 11.0`
 * Set `Source ‣ Editor ‣ Tab` to `2`
@@ -42,3 +43,13 @@ Update all packages:
 * Set `Console ‣ Console Font` to `Menlo Regular 11.0`
 * Set `Typesetting ‣ Default Command` to `XeLaTeX`
 * Enable `Typesetting ‣ During File Save ‣ Save related files`
+
+## Troubleshooting
+
+### Font missing error
+
+If you have installed a font but the LaTeX compiler says that font is still missing, maybe you need to update the font names database, running:
+
+```ShellSession
+$ luaotfload-tool --update
+```
