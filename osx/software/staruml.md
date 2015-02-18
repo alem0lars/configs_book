@@ -4,7 +4,7 @@
 
 ```ShellSession
 $ brew cask install staruml
-$ npm install -g mdgen # CLI for generating template-based code from `.mdj` files (StarUML files)
+$ npm install -g mdgen # CLI tool for generating template-based code from `.mdj` files (StarUML files)
 ```
 
 ## Extensions
