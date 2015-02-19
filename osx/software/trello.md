@@ -2,4 +2,4 @@
 
 ## Installation
 
-Install `Lists for Trello` app from Mac App Store.
+Install `App for Trello` app from Mac App Store.
