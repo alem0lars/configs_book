@@ -10,6 +10,7 @@ Install from Mac App Store
 
 * Download from [Apple Developer Center](https://developer.apple.com/downloads/index.action).
 * Create a directory for those tools:
+  
   ```ShellSession
   $ mkdir "/Applications/Xcode Tools/Hardware IO"
   ```
@@ -20,6 +21,7 @@ Install from Mac App Store
 
 * Download from [Apple Developer Center](https://developer.apple.com/downloads/index.action).
 * Create a directory for those tools:
+  
   ```ShellSession
   $ mkdir "/Applications/Xcode Tools/Audio"
   ```
@@ -29,6 +31,7 @@ Install from Mac App Store
 
 * Download from [Apple Developer Center](https://developer.apple.com/downloads/index.action).
 * Create a directory for those tools:
+  
   ```ShellSession
   $ mkdir "/Applications/Xcode Tools/Auxiliary"
   ```
@@ -38,6 +41,7 @@ Install from Mac App Store
 
 * Download from [Apple Developer Center](https://developer.apple.com/downloads/index.action).
 * Create a directory for those tools:
+  
   ```ShellSession
   $ mkdir "/Applications/Xcode Tools/Graphics"
   ```
