@@ -4,6 +4,45 @@
 
 Install from Mac App Store
 
+## Tools
+
+### Hardware IO Tools for Xcode
+
+* Download from [Apple Developer Center](https://developer.apple.com/downloads/index.action).
+* Create a directory for those tools:
+  ```ShellSession
+  $ mkdir "/Applications/Xcode Tools/Hardware IO"
+  ```
+* Copy all of the `.app` files of the downloaded `dmg` into `/Applications/Xcode Tools/Hardware IO`.
+* Install `Network Link Conditioner` by double-clicking on `Network Link Conditioner.prefPane`.
+
+### Audio Tools for Xcode
+
+* Download from [Apple Developer Center](https://developer.apple.com/downloads/index.action).
+* Create a directory for those tools:
+  ```ShellSession
+  $ mkdir "/Applications/Xcode Tools/Audio"
+  ```
+* Copy all of the `.app` files of the downloaded `dmg` into `/Applications/Xcode Tools/Audio`.
+
+### Auxiliary Tools for Xcode
+
+* Download from [Apple Developer Center](https://developer.apple.com/downloads/index.action).
+* Create a directory for those tools:
+  ```ShellSession
+  $ mkdir "/Applications/Xcode Tools/Auxiliary"
+  ```
+* Copy all of the `.app` files and the directories of the downloaded `dmg` into `/Applications/Xcode Tools/Auxiliary`.
+
+### Graphics Tools for Xcode
+
+* Download from [Apple Developer Center](https://developer.apple.com/downloads/index.action).
+* Create a directory for those tools:
+  ```ShellSession
+  $ mkdir "/Applications/Xcode Tools/Graphics"
+  ```
+* Copy all of the `.app` files of the downloaded `dmg` into `/Applications/Xcode Tools/Graphics`.
+
 ## Package manager
 
 ### Installation
