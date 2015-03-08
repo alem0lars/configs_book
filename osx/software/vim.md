@@ -25,9 +25,7 @@ The configuration is available [here](https://github.com/alem0lars/configs/tree/
 
 It can be managed using [Fizzy](https://github.com/alem0lars/fizzy). If you want to do so:
 
-1. Enable the following features:
-   * For NeoVim: both `vim` and `neovim`.
-   * For MacVim: just `vim`.
+1. Enable the feature `vim`.
 2. Assuming that `${vars_name}` is the name of your variables file and `${inst_name}` is the name of the configuration instance that you want to create/update, run:
 ```ShellSession
 $ fizzy cfg sync
