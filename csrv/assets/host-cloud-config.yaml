@@ -4,13 +4,17 @@
 hostname: # Your hostname (e.g. `mary`).
 
 coreos:
+  etcd:
+    name: # Your hostname (same as above).
+    addr: $private_ipv4:4001
+    peer-addr: $private_ipv4:7001
+    discovery: # Generate a new token for each unique cluster from `https://discovery.etcd.io/new?size=X` (`X` is your initial cluster size).
   units:
     - name: etcd.service
       command: start
     - name: fleet.service
       command: start
-    - name: 00-ethernet.network
-      runtime: true
+    - name: static.network
       content: |
         [Match]
         Name=en*
@@ -19,9 +23,11 @@ coreos:
         Address= # Your host ip address and netmask (e.g. `10.0.10.1/16`).
         Gateway= # Your gateway address (e.g. `10.0.254.254`).
         DNS= # Your dns server address (typically it's the same address of your gateway, e.g. `10.0.254.254`).
-  etcd:
-    name: # Your hostname (e.g. `mary`).
-    discovery: # Generate a new token for each unique cluster from `https://discovery.etcd.io/new?size=X` (`X` is your initial cluster size).
 
-ssh_authorized_keys:
-  - # Your ssh key.
+users:
+  - name: core
+    groups:
+      - sudo
+      - docker
+    ssh_authorized_keys:
+      - # Your ssh key (e.g. `ssh-rsa hL3W1P2t.....`).
