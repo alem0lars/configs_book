@@ -38,3 +38,14 @@ $ sudo systemctl reboot
 ```
 
 to reboot your system.
+
+## Login
+
+To login you should use SSH with the user that owns the private-key matching the deployed public-key as the `core` user:
+
+```ShellSession
+$ _host_ip="10.0.10.1" # Set to your CoreOS host IP address (the same as configured in `cloud-config.yaml`).
+$ ssh core@${_host_ip}
+```
+
+Boom! You'd be in!
