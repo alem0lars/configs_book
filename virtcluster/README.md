@@ -19,7 +19,7 @@ Both [dropbear](https://matt.ucc.asn.au/dropbear/dropbear.html) and [busybox](ht
 
 Busybox is already available in CentOS, but you need to install dropbear: `yum install dropbear`.
 
-TODO
+TODO: https://github.com/mdcurtis/dracut-earlyssh http://unix.stackexchange.com/questions/5017/ssh-to-decrypt-encrypted-lvm-during-headless-server-boot
 
 ### Repositories
 
