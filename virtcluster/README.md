@@ -16,11 +16,10 @@
 With this step, you can enter the encryption passphrase with an early SSH login, allowing to perform full headless login.
 
 Both [dropbear](https://matt.ucc.asn.au/dropbear/dropbear.html) and [busybox](http://www.busybox.net/about.html) are required.
-Install them with:
 
-```ShellSession
-$ yum install dropbear busybox
-```
+Busybox is already available in CentOS, but you need to install dropbear: `yum install dropbear`.
+
+TODO
 
 ### Repositories
 
