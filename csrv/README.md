@@ -18,6 +18,10 @@ $ _config="/home/core/cloud-config.yaml" # The path to the configuration file (s
 $ sudo coreos-install -d "${_device}" -C "${_channel}" -c "${_config}"
 ```
 
+## Troubleshooting
+
+### GPT:Alternate GPT header not at the end of the disk
+
 After installation if you get the message: `GPT:Alternate GPT header not at the end of the disk.` you should fix that issue by running `parted`:
 
 ```ShellSession
