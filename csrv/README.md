@@ -30,7 +30,7 @@ Then execute the command: `print`. You will be prompted with `Fix/Ignore/Cancel`
 Now your system is ready for the first boot. Execute:
 
 ```ShellSession
-$ systemctl reboot
+$ sudo systemctl reboot
 ```
 
 to reboot your system.
