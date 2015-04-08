@@ -25,4 +25,12 @@ $ _device="/dev/sda" # Set to your device path.
 $ sudo parted "${_device}"
 ```
 
-Then execute the command: `print`. You will be prompted with `Fix/Cancel` questions and respond `Fix` to all of those questions.
+Then execute the command: `print`. You will be prompted with `Fix/Ignore/Cancel` questions and respond `Fix` to all of those questions. After that, execute the command `quit` to exit from parted.
+
+Now your system is ready for the first boot. Execute:
+
+```ShellSession
+$ systemctl reboot
+```
+
+to reboot your system.
