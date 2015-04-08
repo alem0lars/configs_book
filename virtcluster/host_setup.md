@@ -5,9 +5,9 @@
 You need to install an operating system in the physical host.
 My distro of choice for server installations is CentOS.
 
-*I'm not going to explain you how to install a distro, if you aren't able to, omg you shouldn't have permissions to manage a server!*
+*This guide isn't for complete noobs, I'm not going to explain you how to install a distro, if you aren't able to, omg you shouldn't have permissions to manage a server!*
 
-I will just highlight the things I consider important.
+I will just highlight things I consider important.
 
 ### Partitioning
 
