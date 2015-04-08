@@ -5,7 +5,7 @@
 You need to install an operating system in the physical host.
 My distro of choice for server installations is CentOS.
 
-*This guide isn't for complete noobs, I'm not going to explain you how to install a distro, if you aren't able to, omg you shouldn't have permissions to manage a server!*
+*This guide isn't for complete noobs, I'm not going to explain you how to install a distro, if you aren't able to, omg you shouldn't have permissions to manage a server or a cluster!*
 
 I will just highlight things I consider important.
 
@@ -14,12 +14,12 @@ I will just highlight things I consider important.
 You should use LVM for partitioning.
 
 Create the following volume groups:
-* `host`: Contains the logical volumes related to the host itself.
-* `gluster`: Contains logical volumes that contribute to GlusterFS.
+* `vg_host`: Contains the logical volumes related to the host itself.
+* `vg_gluster`: Contains logical volumes that contribute to GlusterFS.
 
 Create the following logical volumes:
 * `swap`:
-  * Size: `4GB`
+  * Size: `8GB`
   * Volume group: `host`
 * `root`:
   * Size: `60GB` (approx)
@@ -27,6 +27,17 @@ Create the following logical volumes:
 * `gluster0`:
   * Size: remaining disk space (`<hdd_size> - <root_size> - <swap_size>`)
   * Volume group: `gluster`
+
+Also, you should create a boot partition *outside LVM*:
+* `boot`:
+  * Size: `500MB`
+  * Filesystem: `ext4`
+  * Mountpoint: `/boot`
+
+### Users
+
+* Create a user called `admin`, as an administrator. You'll use it instead of using directly `root`.
+* Set the password for the user `root` (ofc different than the password used for `admin`).
 
 ## Setup
 
