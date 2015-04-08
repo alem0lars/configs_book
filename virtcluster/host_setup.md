@@ -78,3 +78,5 @@ After adding all repositories run: `yum update`
 
 * Install oVirt: `yum install ovirt-hosted-engine-setup`
 * Install GlusterFS: `yum install glusterfs-server nfs-utils vdsm-gluster system-storage-manager`
+
+TODO
