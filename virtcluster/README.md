@@ -1,3 +1,33 @@
+# Host setup
+
+## Installation
+
+You need to install an operating system in the physical host.
+My distro of choice for server installations is CentOS.
+
+*I'm not going to explain you how to install a distro, if you aren't able to, omg you shouldn't have permissions to manage a server!*
+
+I will just highlight the things I consider important.
+
+### Partitioning
+
+You should use LVM for partitioning.
+
+Create the following volume groups:
+* `host`: Contains the logical volumes related to the host itself.
+* `gluster`: Contains logical volumes that contribute to GlusterFS.
+
+Create the following logical volumes:
+* `swap`:
+  * Size: `4GB`
+  * Volume group: `host`
+* `root`:
+  * Size: `60GB` (approx)
+  * Volume group: `host`
+* `gluster0`:
+  * Size: remaining disk space (`<hdd_size> - <root_size> - <swap_size>`)
+  * Volume group: `gluster`
+
 ## Setup
 
 ### Network
