@@ -6,8 +6,8 @@ A container-based cluster installation, using CoreOS.
 
 You need to create a configuration file containing the informations used to install CoreOS.
 
-This is an example based on mine: [cloud-config.yaml](./assets/cloud-config.yaml).
-Note that you should customize it according to your host / cluster.
+This is an example based on mine: [cloud-config.yaml](./assets/host-cloud-config.yaml).
+Note that you should customize it according to your host / cluster parameters.
 
 ## Installation
 
