@@ -1,0 +1,27 @@
+#cloud-config
+
+
+hostname: # Your hostname (e.g. `mary`).
+
+coreos:
+  units:
+    - name: etcd.service
+      command: start
+    - name: fleet.service
+      command: start
+    - name: 00-ethernet.network
+      runtime: true
+      content: |
+        [Match]
+        Name=en*
+
+        [Network]
+        Address= # Your host ip address and netmask (e.g. `10.0.10.1/16`).
+        Gateway= # Your gateway address (e.g. `10.0.254.254`).
+        DNS= # Your dns server address (typically it's the same address of your gateway, e.g. `10.0.254.254`).
+  etcd:
+    name: # Your hostname (e.g. `mary`).
+    discovery: # Generate a new token for each unique cluster from `https://discovery.etcd.io/new?size=X` (`X` is your initial cluster size).
+
+ssh_authorized_keys:
+  - # Your ssh key.
