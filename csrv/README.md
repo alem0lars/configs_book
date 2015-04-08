@@ -15,5 +15,5 @@ Note that you should customize it according to your host / cluster.
 $ _device="/dev/sda" # Set to your device path.
 $ _channel="stable" # Set to "stable" or "beta". I usually prefer stable since it's what used normally in production.
 $ _config="/home/core/cloud-config.yaml" # The path to the configuration file (see above).
-$ sudo coreos-install -d "${_device}" -C "#{_channel}" -c "#{_config}"
+$ sudo coreos-install -d "${_device}" -C "${_channel}" -c "${_config}"
 ```
