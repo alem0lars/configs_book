@@ -22,7 +22,7 @@ After installation if you get the message: `GPT:Alternate GPT header not at the 
 
 ```ShellSession
 $ _device="/dev/sda" # Set to your device path.
-$ sudo parted "#{_device}"
+$ sudo parted "${_device}"
 ```
 
 Then execute the command: `print`. You will be prompted with `Fix/Cancel` questions and respond `Fix` to all of those questions.
