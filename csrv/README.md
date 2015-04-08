@@ -17,3 +17,12 @@ $ _channel="stable" # Set to "stable" or "beta". I usually prefer stable since i
 $ _config="/home/core/cloud-config.yaml" # The path to the configuration file (see above).
 $ sudo coreos-install -d "${_device}" -C "${_channel}" -c "${_config}"
 ```
+
+After installation if you get the message: `GPT:Alternate GPT header not at the end of the disk.` you should fix that issue by running `parted`:
+
+```ShellSession
+$ _device="/dev/sda" # Set to your device path.
+$ sudo parted "#{_device}"
+```
+
+Then execute the command: `print`. You will be prompted with `Fix/Cancel` questions and respond `Fix` to all of those questions.
