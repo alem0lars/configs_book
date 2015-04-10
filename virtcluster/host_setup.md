@@ -203,3 +203,17 @@ $ gluster volume start data
 
 * Install oVirt: `yum install ovirt-engine`.
 * Setup the engine: `engine-setup` (and answer all of the defaults).
+
+TODO
+
+## Troubleshooting
+
+### `invalid keyword: getuid_callout`
+
+If you get an error like:
+
+```
+multipath.conf , invalid keyword: getuid_callout
+```
+
+Edit `/etc/multipath.conf` and comment all of the lines containing `getuid_callout`.
