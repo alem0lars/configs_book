@@ -49,6 +49,8 @@ Also, you should create a boot partition *outside LVM*:
 * `/etc/sysconfig/network`: (`HOSTNAME="fqdn"`).
 * `/etc/hosts`: prepend in both lines the fqdn and name.
 
+then restart the computer.
+
 #### Setup bridge connection
 
 ```ShellSession
@@ -165,6 +167,36 @@ Enable the GlusterFS daemon:
 $ systemctl stop glusterd
 $ systemctl start glusterd
 $ systemctl enable glusterd 
+```
+
+Next, we create our gluster volumes, substituting your machine's hostname:
+
+```ShellSession
+$ gluster volume create engine $HOSTNAME:/gluster/engine/brick
+$ gluster volume create data $HOSTNAME:/gluster/data/brick
+```
+
+Now, apply a set of virt-related volume options to our engine and data volumes:
+
+```ShellSession
+$ gluster volume set engine group virt
+$ gluster volume set data group virt
+```
+
+We also need to set the correct permissions on all our volumes:
+
+```ShellSession
+$ _uid=36 # The uid of the vdsm group
+$ _gid=36 # The gid of the vdsm group
+$ gluster volume set engine storage.owner-uid ${_uid} && gluster volume set engine storage.owner-gid ${_gid}
+$ gluster volume set data storage.owner-uid ${_uid} && gluster volume set data storage.owner-gid ${_gid}
+```
+
+Finally, we need to start our volumes:
+
+```ShellSession
+$ gluster volume start engine
+$ gluster volume start data
 ```
 
 ### Install oVirt
