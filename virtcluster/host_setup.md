@@ -14,8 +14,7 @@ I will just highlight things I consider important.
 You should use LVM for partitioning.
 
 Create the following volume groups:
-* `vg_host`: Contains the logical volumes related to the host itself.
-* `vg_gluster`: Contains logical volumes that contribute to GlusterFS.
+* `centos`
 
 Create the following logical volumes:
 * `swap`:
@@ -33,6 +32,7 @@ Also, you should create a boot partition *outside LVM*:
   * Size: `500MB`
   * Filesystem: `ext4`
   * Mountpoint: `/boot`
+* An EFI partition..
 
 ### Users
 
@@ -43,10 +43,34 @@ Also, you should create a boot partition *outside LVM*:
 
 ### Network
 
-* Configure static network address (with `nmcli`)
-* Set hostname (*both qualified with domain and unqualified*) in:
-  * `/etc/sysconfig/network`: (`HOSTNAME="fqdn"`).
-  * `/etc/hosts`: add in both lines the name and fqdn.
+### Setup hostname
+
+* `/etc/hostname`.
+* `/etc/sysconfig/network`: (`HOSTNAME="fqdn"`).
+* `/etc/hosts`: prepend in both lines the fqdn and name.
+
+#### Setup bridge connection
+
+```ShellSession
+$ nmcli c add type bridge autoconnect yes con-name br0 ifname br0 # Add bridge `br0`.
+```
+
+Edit the connection, set the properties: `ipv4.addresses`, `ipv4.method`, `ipv4.dns` and persistently save (`save persistent`).
+
+Remove previously existing connections with the interface of interest (for me was a connection called `eno1` to the interface `eno1`).
+
+Add an interface again as a member of `br0`:
+
+```ShellSession
+$ _ifname="eno1"
+$ nmcli c add type bridge-slave autoconnect yes con-name ${_ifname} ifname ${_ifname} master br0 
+```
+
+Restart NetworkManager:
+
+```ShellSession
+$ systemctl restart NetworkManager
+```
 
 ### Locale
 
@@ -74,9 +98,76 @@ After adding all repositories run: `yum update`
 * VIm: `yum install vim`
 * TMux: `yum install tmux`
 
-### Install GlusterFS, oVirt
+### Install KVM
 
-* Install oVirt: `yum install ovirt-hosted-engine-setup`
-* Install GlusterFS: `yum install glusterfs-server nfs-utils vdsm-gluster system-storage-manager`
+```
+$ yum install qemu-kvm libvirt virt-install bridge-utils
+```
 
-TODO
+Enable the libvirtd daemon:
+
+```ShellSession
+$ systemctl start libvirtd
+$ systemctl enable libvirtd 
+```
+
+Now typing `ip addr` you should see the interfaces `virbr0`, `virtbr0-nic`, `br0`, `eno1` up and running.
+
+### Install GlusterFS
+
+```ShellSession
+$ yum install glusterfs-server nfs-utils vdsm-gluster system-storage-manager
+```
+
+Reboot the system.
+
+Configure the filesystem:
+
+```ShellSession
+$ _pool="gluster" # The name of the gluster pool to be used.
+$ _dev="/dev/sda1" # The device to add to gluster.
+$ _fstype="ext4"
+$ _name="gluster"
+
+$ ssm add -p ${_pool} ${_dev}
+$ ssm create -p ${_pool} --fstype ${_fstype} -n ${_name}
+```
+
+Next, modify your `/etc/fstab` to add the new partition:
+
+```ShellSession
+$ mkdir /gluster
+```
+
+Edit `/etc/fstab` and add the following line:
+
+```
+UUID=<gluster_dev_uuid> /gluster ext4 defaults 0 0
+```
+
+substituiting the UUID returned by `blkid /dev/gluster/gluster` to `<gluster_dev_uuid>`.
+
+Mount your new partition:
+
+```ShellSession
+$ mount -a
+```
+
+Next, we'll create some mount points for our Gluster volumes-to-be. We'll have separate Gluster volumes for our oVirt engine and for our data domain:
+
+```ShellSession
+$ mkdir -p /gluster/{engine,data}/brick
+```
+
+Enable the GlusterFS daemon:
+
+```ShellSession
+$ systemctl stop glusterd
+$ systemctl start glusterd
+$ systemctl enable glusterd 
+```
+
+### Install oVirt
+
+* Install oVirt: `yum install ovirt-engine`.
+* Setup the engine: `engine-setup`.
