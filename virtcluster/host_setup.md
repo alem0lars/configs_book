@@ -45,8 +45,8 @@ Also, you should create a boot partition *outside LVM*:
 
 * Configure static network address (with `nmcli`)
 * Set hostname (*both qualified with domain and unqualified*) in:
-  * `/etc/sysconfig/network`
-  * `/etc/hosts`
+  * `/etc/sysconfig/network`: (`HOSTNAME="fqdn"`).
+  * `/etc/hosts`: add in both lines the name and fqdn.
 
 ### Locale
 
