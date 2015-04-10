@@ -186,7 +186,7 @@ $ gluster volume set data group virt
 We also need to set the correct permissions on all our volumes:
 
 ```ShellSession
-$ _uid=36 # The uid of the vdsm group
+$ _uid=36 # The uid of the vdsm user
 $ _gid=36 # The gid of the vdsm group
 $ gluster volume set engine storage.owner-uid ${_uid} && gluster volume set engine storage.owner-gid ${_gid}
 $ gluster volume set data storage.owner-uid ${_uid} && gluster volume set data storage.owner-gid ${_gid}
@@ -202,4 +202,4 @@ $ gluster volume start data
 ### Install oVirt
 
 * Install oVirt: `yum install ovirt-engine`.
-* Setup the engine: `engine-setup`.
+* Setup the engine: `engine-setup` (and answer all of the defaults).
