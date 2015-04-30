@@ -1,4 +1,4 @@
-# VirtCluster
+# oVirt + KVM + GlusterFS Setup Tutorial
 
 This guide goes in deep in how to configure a cluster based on `KVM`, `oVirt`, `GlusterFS`.
 
