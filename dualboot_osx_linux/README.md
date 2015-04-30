@@ -43,10 +43,10 @@ To do so, first create a bootable USB-drive containing the `OSX` installer:
 
 **Check out the specific guide for setup your `OSX` installation.**
 
-I use and suggest [this](./osx.md).
+I use and suggest [this](../osx/README.md).
 
 ## Step 6: Configure your `GNU/Linux` installation
 
 **Check out the specific guide for setup your `GNU/Linux` installation.**
 
-I use and suggest [this](./nixos.md).
+I use and suggest [this](../nixos/README.md).
