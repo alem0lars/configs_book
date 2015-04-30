@@ -1,4 +1,4 @@
-# DualBoot with `OSX` and `GNU/Linux`
+# `GNU/Linux`-`OSX` dualboot Setup Tutorial
 
 ## Steps summary
 
