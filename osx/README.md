@@ -1,4 +1,4 @@
-# OSX Configuration tutorial
+# OSX Setup Tutorial
 
 ## Some informations
 
