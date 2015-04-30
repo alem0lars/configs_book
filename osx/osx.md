@@ -86,7 +86,7 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
 * Enable keyboard repeating
 
   ```ShellSession
-  $ defaults write -g ApplePressAndHoldEnabled -bool false
+  $ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
   ```
   
 * Remap Caps Lock to Control:
