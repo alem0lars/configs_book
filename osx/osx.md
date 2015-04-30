@@ -157,6 +157,12 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.ser
   $ defaults write com.apple.Mail DisableReplyAnimations -bool true # opening windows for replies
   ```
 
+* Unlock debug menu in Disk Utility
+
+  ```ShellSession
+  $ defaults write com.apple.DiskUtility DUDebugMenuEnabled 1
+  ```
+
 * Reduce transparency
 
   Enable `System Preferences` → `Accessibility` → `Display` → `Reduce transparency`.
