@@ -68,7 +68,7 @@ The [tutorial](./coreos/README.md) is under the `coreos` directory.
 
 The links for the main contents are inside [SUMMARY.md](./SUMMARY.md).
 
-You can find them useful to have a abstract vision of the whole content.
+You can find them useful to have a high-level vision of the whole content.
 
 ## License
 
