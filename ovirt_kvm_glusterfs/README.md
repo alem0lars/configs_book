@@ -4,4 +4,4 @@ This guide goes in deep in how to configure a cluster based on `KVM`, `oVirt`, `
 
 ## Main steps
 
-1. [Host setup](./host_setup.md)
+1. [Host setup](./host_setup/README.md)
