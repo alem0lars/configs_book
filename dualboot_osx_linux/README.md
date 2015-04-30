@@ -14,6 +14,7 @@
 First of all, you need to install a clean version of `OSX` in a smaller partition.
 
 To do so, first create a bootable USB-drive containing the `OSX` installer:
+
 1. If you didn't already do, download the latest version of the `OSX` installer from the `Mac App Store`.
 2. Format the USB-pen with FAT filesystem and give it a name (e.g. `Install OSX`).
 3. Burn it in a USB-pen by running:
