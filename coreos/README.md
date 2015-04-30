@@ -1,4 +1,4 @@
-# CSRV
+# CoreOS Setup Tutorial
 
 A container-based cluster installation, using CoreOS.
 
