@@ -6,15 +6,15 @@ The following is the list of the available
 
 ### Category: System
 
-See the list of available `System` software [here](./software/system.md)
+See the list of available `System` software [here](./system/README.md)
 
 ### Category: Browsers
 
-See the list of available `Browsers` software [here](./software/browsers.md)
+See the list of available `Browsers` software [here](./browsers/README.md)
 
 ### Category: Development
 
-See the list of available `Development` software [here](./software/development.md)
+See the list of available `Development` software [here](./development/README.md)
 
 ## Installed
 
