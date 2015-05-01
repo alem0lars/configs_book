@@ -25,7 +25,7 @@ Then:
 After installing `OSX`, you need to install the other OS, which is `GNU/Linux`.
 Note that you also need a `UEFI` boot-loader (since `rEFInd` is a boot-manager, not a boot-loader). `OSX` already includes it's own boot-loader, but in `GNU/Linux` you need to explicitly install it in the `EFI` partition.
 
-I use and suggest [this](../nixos/README.md).
+I use and suggest [this](../nixos/installation/README.md).
 
 ## Step 3: Install the boot-manager (`rEFInd`)
 
@@ -91,4 +91,4 @@ I use and suggest [this](../osx/README.md).
 
 **Check out the specific guide for setup your `GNU/Linux` installation.**
 
-I use and suggest [this](../nixos/README.md), post-installation part (because installation part has already been done before).
+I use and suggest [this](../nixos/configuration/README.md).
