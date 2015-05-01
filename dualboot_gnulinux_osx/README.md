@@ -63,7 +63,7 @@ To install a custom theme, perform the following steps:
 For example, I picked `rEFInd minimal` and I did the following:
 
 ```ShellSession
-$ _theme_src_dir="${HOME}/Downloads/refind-minimal" # Directory that holds the theme.
+$ _theme_src_dir="${HOME}/Downloads/rEFInd-minimal" # Directory that holds the theme.
 $ cp -a ${_theme_src_dir} /Volumes/EFI/EFI/refind/$(basename $_theme_src_dir)
 ```
 
