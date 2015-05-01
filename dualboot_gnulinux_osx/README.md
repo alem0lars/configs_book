@@ -43,6 +43,33 @@ Perform the following steps:
   $ ./install.sh # From inside the extracted folder.
   ```
 
+### Customizations
+
+First of all, you need to mount the `EFI` partition, which contains among other things the `rEFInd` configuration. One way is to enable the `Debug` menu in `Disk Utility` and mount the partition called `EFI`.
+
+#### Change theme
+
+To install a custom theme, perform the following steps:
+
+1. Choose a theme.
+   [Here](http://rodsbooks.com/refind/themes.html) is a list of some.
+   IMHO good ones are:
+   * [`rEFInd minimal`](https://github.com/EvanPurkhiser/rEFInd-minimal).
+   * [`Regular rEFInd`](http://munlik.deviantart.com/art/Regular-rEFInd-theme-512091944).
+1. Download and extract it.
+2. Copy the extracted folder inside `/Volumes/EFI/EFI/refind`
+3. Add the line `include <THEME_NAME>/theme.conf` at the end of `/Volumes/EFI/EFI/refind/refind.conf`, where `<THEME_NAME>` is the name of your theme (the folder's name).
+
+For example, I picked `Regular rEFInd` and I did the following:
+
+```ShellSession
+$ _theme_src_dir="${HOME}/Downloads/regular-theme" # Directory that holds the theme.
+$ cp -a ${_theme_src_dir} /Volumes/EFI/EFI/refind/$(basename $_theme_src_dir)
+$ echo "include $(basename $_theme_src_dir)/theme.conf" >> /Volumes/EFI/EFI/refind/refind.conf
+```
+
+Now reboot and check if the theme is showing correctly.
+
 ## Step 5: Configure your `OSX` installation
 
 **Check out the specific guide for setup your `OSX` installation.**
