@@ -1,6 +1,6 @@
 # OSX Configuration
 
-## System configuration
+## System-wide
 
 First of all you should set your system-wide configurations.
 
@@ -15,15 +15,15 @@ $ rm ./configure_system
 
 Note that's my system configuration, but *you can adapt it to meet your needs*.
 
-### Configuration management
+### Applications.
 
-TODO: FIX
+Now you need to install and configure the applications.
 
-```ShellSession
-$ brew install vcsh mr                                  # Install VCSH and MR
-$ vcsh clone git@github.com:alem0lars/configs-mr.git mr # Clone the MR repo
-$ mr up                                                 # Install the configurations
-```
+You can choose various applications sets, based on your needs.
+
+[Here]() you can find a list of all available application installation and configuration tutorials.
+
+I suggest you to not install all of them, but choose an application set and install the applications included in.
 
 ### Fonts
 
