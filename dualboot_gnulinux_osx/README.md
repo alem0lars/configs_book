@@ -4,10 +4,9 @@
 
 1. Install `OSX`.
 2. Install `GNU/Linux`.
-3. Install an `UEFI` boot-loader in `GNU/Linux`.
-4. Install the boot-manager (`rEFInd`).
-5. Configure your `OSX` installation.
-6. Configure your `GNU/Linux` installation.
+3. Install the boot-manager (`rEFInd`).
+4. Configure your `OSX` installation.
+5. Configure your `GNU/Linux` installation.
 
 ## Step 1: Install `OSX`
 
@@ -15,19 +14,20 @@ First of all, you need to install a clean version of `OSX` in a smaller partitio
 
 To do so, first [create a bootable USB-drive containing the `OSX` installer](../osx/tips/bootable_usb_installer.md).
 
+Then:
+
 1. Start the installer.
-5. Run the application `Disk Utility` and create a new partition for OSX (I suggest with Journaling and Encryption), but be sure to leave empty space for `GNU/Linux`.
-6. Install `OSX` in the created partition.
+2. Run the application `Disk Utility` and create a new partition for OSX (I suggest with Journaling and Encryption), but be sure to leave empty space for `GNU/Linux`.
+3. Install `OSX` in the created partition.
 
 ## Step 2: Install `GNU/Linux`
 
-**TODO**
+After installing `OSX`, you need to install the other OS, which is `GNU/Linux`.
+Note that you also need a `UEFI` boot-loader (since `rEFInd` is a boot-manager, not a boot-loader). `OSX` already includes it's own boot-loader, but in `GNU/Linux` you need to explicitly install it in the `EFI` partition.
 
-## Step 3: Install an `UEFI` boot-loader in `GNU/Linux`
+I use and suggest [this](../nixos/README.md).
 
-**TODO**
-
-## Step 4: Install the boot-manager (`rEFInd`)
+## Step 3: Install the boot-manager (`rEFInd`)
 
 You can install the boot-manager from `OSX` or `GNU/Linux`. However, the [documentation explicitly says](http://rodsbooks.com/refind/installing.html#installsh) you **should** install `rEFInd` from within `OSX`.
 
@@ -91,4 +91,4 @@ I use and suggest [this](../osx/README.md).
 
 **Check out the specific guide for setup your `GNU/Linux` installation.**
 
-I use and suggest [this](../nixos/README.md).
+I use and suggest [this](../nixos/README.md), post-installation part (because installation part has already been done before).
