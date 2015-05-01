@@ -58,7 +58,7 @@ To install a custom theme, perform the following steps:
    * [`Regular rEFInd`](http://munlik.deviantart.com/art/Regular-rEFInd-theme-512091944).
 1. Download and extract it.
 2. Copy the extracted folder inside `/Volumes/EFI/EFI/refind`
-3. Add the line `include <THEME_NAME>/theme.conf` in `/Volumes/EFI/EFI/refind/refind.conf` just before the first `menuentry` definition. OFC `<THEME_NAME>` is the name of your theme (the folder's name).
+3. Add the line `include <THEME_NAME>/theme.conf` in `/Volumes/EFI/EFI/refind/refind.conf` just before the first `menuentry` definition (`<THEME_NAME>` is the name of your theme (the folder's name)).
 
 For example, I picked `rEFInd minimal` and I did the following:
 
