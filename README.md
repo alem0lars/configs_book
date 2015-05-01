@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/alem0lars/configs_book.png?label=ready&title=Ready)](https://waffle.io/alem0lars/configs_book)
 # Configuration tutorials
 
 Git-backed wiki with tutorials on how configure your PC, Server, etc..
