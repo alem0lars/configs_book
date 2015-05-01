@@ -15,7 +15,7 @@ $ rm ./configure_system
 
 Note that's my system configuration, but *you can adapt it to meet your needs*.
 
-### Applications.
+## Applications.
 
 Now you need to install and configure the applications.
 
@@ -25,7 +25,7 @@ You can choose various applications sets, based on your needs.
 
 I suggest you to not install all of them, but choose an application set and install the applications included in.
 
-### Fonts
+## Fonts
 
 TODO: FIX
 
