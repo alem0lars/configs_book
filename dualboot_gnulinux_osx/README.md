@@ -70,6 +70,17 @@ $ echo "include $(basename $_theme_src_dir)/theme.conf" >> /Volumes/EFI/EFI/refi
 
 Now reboot and check if the theme is showing correctly.
 
+#### Adjust the options
+
+[Here](http://www.rodsbooks.com/refind/configfile.html#adjusting) is a complete list of the available options.
+
+I advise you to store the file somewhere ([like me]()), so this step involves just in replacing the default configuration file to yours:
+
+```ShellSession
+$ curl https://raw.githubusercontent.com/alem0lars/configs/plain/refind/refind_julia.conf > refind.conf
+$ mv refind.conf /Volumes/EFI/EFI/refind/refind.conf
+```
+
 ## Step 5: Configure your `OSX` installation
 
 **Check out the specific guide for setup your `OSX` installation.**
