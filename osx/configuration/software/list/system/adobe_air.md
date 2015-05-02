@@ -7,5 +7,5 @@
 ## Installation
 
 ```ShellSession
-$ brew cask install adobe-air
+$ brew cask install adobe-air --appdir="/Applications"
 ```
