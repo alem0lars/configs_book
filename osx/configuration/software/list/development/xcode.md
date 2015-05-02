@@ -34,6 +34,7 @@ The following packages should be installed (using `Alcatraz`):
 * `XVim`
 * `ClangFormat-Xcode`
 * `DBSmartPanels`
+* `BlockJump`
 
 ### Misc
 
