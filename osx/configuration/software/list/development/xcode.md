@@ -24,16 +24,22 @@ $ curl -fsSL https://raw.github.com/supermarin/Alcatraz/master/Scripts/install.s
 
 #### Packages
 
-The following packages should be installed (using Alcatraz):
-* CocoaControls
-* CocoaPodUI
-* FuzzyAutocomplete
+The following packages should be installed (using `Alcatraz`):
+* `Peckham`
+* `CocoaPods`
+* `FuzzyAutocomplete`
+* `KSImageNamed`
+* `XcAddedMarkup`
+* `MCLog`
+* `XVim`
+* `ClangFormat-Xcode`
+* `DBSmartPanels`
 
 ### Misc
 
 ```ShellSession
-$ sudo gem install synx            # Synx, used to align groups with real folders.
-$ sudo gem install cocoapods --pre # CocoaPods, used to manage dependencies.
+$ sudo gem install synx      # Synx, used to align groups with real folders.
+$ sudo gem install cocoapods # CocoaPods, used to manage dependencies.
 ```
 
 ### Hardware IO Tools for Xcode
