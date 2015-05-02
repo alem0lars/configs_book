@@ -47,7 +47,27 @@ Perform the following steps:
 
 First of all, you need to mount the `EFI` partition, which contains among other things the `rEFInd` configuration. One way is to enable the `Debug` menu in `Disk Utility` and mount the partition called `EFI`.
 
+
 #### Adjust options
+
+Before configuring `rEFInd`, perform initial cleanup:
+
+```ShellSession
+$ _refind_dir="/Volumes/EFI/EFI/refind"
+$ rm -R ${_refind_dir}/._*
+$ rm -R ${_refind_dir}/font
+$ rm -R ${_refind_dir}/icons
+$ rm -R ${_refind_dir}/theme
+$ rm ${_refind_dir}/bg.png
+$ rm ${_refind_dir}/selection-small.png
+$ rm ${_refind_dir}/selection-big.png
+$ rm ${_refind_dir}/theme.conf
+$ rm ${_refind_dir}/Thumbs.db
+```
+
+Now you should have just few files/folder there, like `keys`, `drivers_x64`, `refind_x64.efi`, `refind.conf`.
+
+Now you can configure rEFInd:
 
 [Here](http://www.rodsbooks.com/refind/configfile.html#adjusting) is a complete list of the available options.
 
@@ -74,8 +94,8 @@ Now I can instantiate the `rEFInd` configuration:
 ```ShellSession
 $ _inst_name="dualboot_gnulinux_osx"
 $ _vars_name="julia_dualboot"
-$ fizzy cfg instantiate --vars-name="${_vars_name}" --inst-name="${_inst_name}"
-$ fizzy inst cd --name="${_inst_name}"
+$ ./fizzy cfg instantiate --vars-name="${_vars_name}" --inst-name="${_inst_name}"
+$ ./fizzy inst cd "${_inst_name}"
 $ cp -a refind/* /Volumes/EFI/EFI/refind
 ```
 
