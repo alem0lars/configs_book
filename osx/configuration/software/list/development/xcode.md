@@ -32,9 +32,12 @@ The following packages should be installed (using `Alcatraz`):
 * `XcAddedMarkup`
 * `MCLog`
 * `XVim`
-* `ClangFormat-Xcode`
+* `ClangFormat`
 * `DBSmartPanels`
 * `BlockJump`
+* `OMColorSense`
+* `XCActionBar`
+* `seguecodePlugin`
 
 ### Misc
 
