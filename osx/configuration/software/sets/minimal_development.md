@@ -19,6 +19,8 @@ Install the software in the declared order:
 * [**`Moom`**](../list/wm/moom.md)
 * [**`Disk Doctor`**](../list/fs/disk_doctor.md)
 * [**`DaisyDisk`**](../list/fs/daisydisk.md)
+* [**`Archive Extractor`**](../list/fs/archive_extractor.md)
 * [**`CheatSheet`**](../list/system/cheatsheet.md)
+* [**`Apple Remote Desktop`**](../list/network/apple_remote_desktop.md)
 
 Finally apply all configurations for the installed software: perform sync, instantiate and install the instance following the [Notes section](https://github.com/alem0lars/configs_book/blob/master/osx/configuration/software/list/system/configuration_manager.md#notes)
