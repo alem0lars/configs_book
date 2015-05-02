@@ -2,8 +2,6 @@
 
 ## Requirements
 
-## Requirements
-
 * [XCode](./xcode.md)
 
 ## Configuration
