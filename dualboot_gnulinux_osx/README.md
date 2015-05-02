@@ -94,15 +94,15 @@ Now I can instantiate the `rEFInd` configuration:
 ```ShellSession
 $ _inst_name="dualboot_gnulinux_osx"
 $ _vars_name="julia_dualboot"
-$ ./fizzy cfg instantiate --vars-name="${_vars_name}" --inst-name="${_inst_name}"
-$ ./fizzy inst cd "${_inst_name}"
+$ ./fizzy cfg instantiate --vars-name="${_vars_name}" --inst-name="${_inst_name}" # Assuming you're in ${HOME}.
+$ ./fizzy inst cd "${_inst_name}" # Assuming you're in ${HOME}.
 $ cp -a refind/* /Volumes/EFI/EFI/refind
 ```
 
 After having instantiated the `rEFInd` configuraton you can safely remove `Fizzy` and its dependencies:
 
 ```ShellSession
-$ fizzy cfg cleanup
+$ ./fizzy cfg cleanup # Assuming you're in ${HOME}.
 $ rm ${HOME}/fizzy
 $ gem uninstall thor
 $ rm -R ${HOME}/.gem # (Optional) This cleans up all gems user installation, safe if you hadn't installed gems before.
