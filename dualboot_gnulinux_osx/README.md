@@ -84,6 +84,7 @@ After having instantiated the `rEFInd` configuraton you can safely remove `Fizzy
 ```ShellSession
 $ gem uninstall thor
 $ rm -R ${HOME}/.gem # (Optional) This cleans up all gems user installation, safe if you hadn't installed gems before.
+$ fizzy cfg cleanup
 $ rm ${HOME}/fizzy
 ```
 
