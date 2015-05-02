@@ -1,6 +1,6 @@
 # `OSX` Installation
 
-If needed, [create a bootable USB installer](../tips/bootable_usb_installer.md).
+If needed (e.g. to perform a clean installation), [create a bootable USB installer](../tips/bootable_usb_installer.md).
 
 Start the installer.
 
