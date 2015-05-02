@@ -16,14 +16,6 @@ Tutorial for configuring a *Hacking & CLI-based Gentoo system*.
 
 The [tutorial](./gentoo/README.md) is under the `gentoo` directory.
 
-#### NixOS Setup Tutorial
-
-Tutorial for configuring a *Hacking & CLI-based NixOS system*.
-
-![Status](http://img.shields.io/badge/status-TODO-yellow.svg)
-
-The [tutorial](./nixos/README.md) is under the `nixos` directory.
-
 #### OSX Setup Tutorial
 
 Tutorial for configuring a *comfortable system Developers / Freelancers / Software Engineers*.
