@@ -1,4 +1,4 @@
-# Setup
+# `Windows` Configuration
 
 ## Taskbar and Navigation properties
 
