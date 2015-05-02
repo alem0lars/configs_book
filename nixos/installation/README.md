@@ -1,3 +1,0 @@
-# NixOS Installation
-
-TODO
