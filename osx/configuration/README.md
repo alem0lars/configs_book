@@ -29,11 +29,7 @@ Keep in mind some softwares aren't named by the application or library name but 
 
 ## Fonts
 
-TODO: FIX
-
-```ShellSession
-$ brew cask install font-lato # Install the font Lato
-```
+See [here](./fonts.md)
 
 ## Troubleshooting
 
