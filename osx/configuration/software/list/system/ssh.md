@@ -10,6 +10,13 @@ Install the SSH keys:
 
 I and suggest you to keep SSH keys in `LastPass`.
 
+Now secure the keys:
+
+```ShellSession
+$ chmod 600 ~/.ssh/id_rsa
+$ chmod 600 ~/.ssh/id_rsa.pub
+```
+
 ## Additional tools
 
 ### `Mosh`
