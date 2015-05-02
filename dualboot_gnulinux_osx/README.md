@@ -137,4 +137,4 @@ I use and suggest [this](../osx/README.md).
 
 **Check out the specific guide for setup your `GNU/Linux` installation.**
 
-I use and suggest [this](../nixos/configuration/README.md).
+I use and suggest [this](../gentoo/configuration/README.md).
