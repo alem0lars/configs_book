@@ -7,7 +7,7 @@
 ## Installation
 
 ```ShellSession
-$ brew cask install istat-menus
+$ brew cask install istat-menus --appdir="/Applications"
 ```
 
 ## Configuration
