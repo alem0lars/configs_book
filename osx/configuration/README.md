@@ -21,7 +21,7 @@ Now you need to install and configure the applications.
 
 You can choose various applications sets, based on your needs.
 
-[Here]() you can find a list of all available application installation and configuration tutorials.
+[Here](./software/sets/README.md) you can find a list of all available application installation and configuration tutorials.
 
 I suggest you to not install all of them, but choose an application set and install the applications included in.
 
