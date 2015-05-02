@@ -1,4 +1,4 @@
-# OSX Configuration
+# `OSX` Configuration
 
 ## System-wide
 
