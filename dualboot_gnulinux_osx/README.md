@@ -47,9 +47,53 @@ Perform the following steps:
 
 First of all, you need to mount the `EFI` partition, which contains among other things the `rEFInd` configuration. One way is to enable the `Debug` menu in `Disk Utility` and mount the partition called `EFI`.
 
-#### Change theme
+#### Adjust options
 
-To install a custom theme, perform the following steps:
+[Here](http://www.rodsbooks.com/refind/configfile.html#adjusting) is a complete list of the available options.
+
+*I advise you to store the configuration somewhere ([like me](https://github.com/alem0lars/configs/tree/master/refind)).*
+
+##### Using `Fizzy`
+
+I use `Fizzy` to manage the configurations and even if `rEFInd` is different from normal software, if `Fizzy` is powerful enough I should be able to still semi-manage it.
+
+I say semi-manage because the nature of `rEFInd` is really different that normal software. It's in a separate partition (`EFI`), possibly available only at boot time, when other partitions aren't (and can't be still) mounted. This means you can instantiate but not install `rEFInd` configuration. To install the instance you just copy the artifacts into the destination folder.
+
+Let's proceed..
+
+At this stage probably you don't have `Fizzy` installed, I suggest you to temporarly install it and then remove it:
+
+```ShellSession
+$ gem install thor --user-install
+$ curl https://raw.githubusercontent.com/alem0lars/fizzy/master/fizzy > ${HOME}/fizzy
+$ chmod +x ${HOME}/fizzy
+```
+
+Now I can instantiate the `rEFInd` configuration:
+
+```ShellSession
+$ _inst_name="dualboot_gnulinux_osx"
+$ _vars_name="julia_dualboot"
+$ fizzy cfg instantiate --vars-name="${_vars_name}" --inst-name="${_inst_name}"
+$ fizzy inst cd --name="${_inst_name}"
+$ cp -a refind/* /Volumes/EFI/EFI/refind
+```
+
+After having instantiated the `rEFInd` configuraton you can safely remove `Fizzy` and its dependencies:
+
+```ShellSession
+$ gem uninstall thor
+$ rm -R ${HOME}/.gem # (Optional) This cleans up all gems user installation, safe if you hadn't installed gems before.
+$ rm ${HOME}/fizzy
+```
+
+This is because I want to keep setup stages clean and separate and at this time you shouldn't already configure your system (which includes installing `Fizzy`).
+
+#### (Optional) Choose theme
+
+*I personally don't need a theme, since it's already [included](https://github.com/alem0lars/configs/tree/master/refind/theme) in my `rEFInd` configuration. Even if I had one, it would be already being setup by the step before (using `Fizzy`).*
+
+Anyways, if you want one, to install a custom theme, perform the following steps:
 
 1. Choose a theme.
    [Here](http://rodsbooks.com/refind/themes.html) is a list of some.
@@ -60,25 +104,7 @@ To install a custom theme, perform the following steps:
 2. Copy the extracted folder inside `/Volumes/EFI/EFI/refind`
 3. Add the line `include <THEME_NAME>/theme.conf` in `/Volumes/EFI/EFI/refind/refind.conf` just before the first `menuentry` definition (`<THEME_NAME>` is the name of your theme (the folder's name)).
 
-For example, I picked `rEFInd minimal` and I did the following:
-
-```ShellSession
-$ _theme_src_dir="${HOME}/Downloads/rEFInd-minimal" # Directory that holds the theme.
-$ cp -a ${_theme_src_dir} /Volumes/EFI/EFI/refind/$(basename $_theme_src_dir)
-```
-
-Now reboot and check if the theme is showing correctly.
-
-#### Adjust the options
-
-[Here](http://www.rodsbooks.com/refind/configfile.html#adjusting) is a complete list of the available options.
-
-I advise you to store the file somewhere ([like me]()), so this step involves just in replacing the default configuration file to yours:
-
-```ShellSession
-$ curl https://raw.githubusercontent.com/alem0lars/configs/plain/refind/refind_julia.conf > refind.conf
-$ mv refind.conf /Volumes/EFI/EFI/refind/refind.conf
-```
+Now reboot and check the adjustments.
 
 ## Step 5: Configure your `OSX` installation
 
