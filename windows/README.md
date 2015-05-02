@@ -1,11 +1,16 @@
-# Windows
+# `Windows` Setup Tutorial
 
 ## Install
 
-## Setup
+There are two macro-steps:
 
-See [Setup Instructions](./setup/README.md)
+1. **Installation**: Install `Windows` on your drive.
+2. **Configuration**: Configure the installed OS and the associated software.
 
-## Software
+## Installation
 
-See [Software](./software/README.md)
+See [here](./installation/README.md).
+
+## Configuration
+
+See [here](./configuration/README.md).
