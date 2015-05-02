@@ -77,7 +77,7 @@ Now you can configure rEFInd:
 
 I use `Fizzy` to manage the configurations and even if `rEFInd` is different from normal software, if `Fizzy` is powerful enough it should be able to still semi-manage `rEFInd`.
 
-I'm saying semi-manage because the nature of `rEFInd` is really different than normal software. It's in a separate partition (`EFI`), possibly available only at boot time, when other partitions aren't (and can't be still) mounted. This means you can instantiate but not install `rEFInd` configuration. To install the instance you just copy the artifacts into the destination folder.
+I'm saying semi-manage because the nature of `rEFInd` is really different than normal software. It's in a separate partition (`EFI`), possibly available only at boot time, when other partitions aren't already (and can't be) mounted. This means you can instantiate but not install `rEFInd` configuration. To install the instance you just copy the artifacts into the destination folder.
 
 Let's proceed..
 
