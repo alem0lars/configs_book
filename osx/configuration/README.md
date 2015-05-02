@@ -15,13 +15,15 @@ $ rm ./configure_system
 
 Note that's my system configuration, but *you can adapt it to meet your needs*.
 
-## Applications.
+## Software.
 
 Now you need to install and configure the various software.
 
 I suggest you to not install [all of them](./software/list), but choose a [software set](./software/sets) based on your needs and install the applications included in.
 
 If you prefer to not follow a particular set, you can just install and configure the software you want. [Here](./software/list) you can find a list of all availables.
+
+Keep in mind some softwares aren't named by the application or library name but by its purpose, so when the concrete solution becomes obsolete we just substitute it with another one, without changing the references. It's also more viable to you to find what you need (sometimes you don't know the applications or libraries names before).
 
 ## Fonts
 
