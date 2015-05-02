@@ -44,43 +44,10 @@ If you haven't saved the installer somewhere else, download it from [Apple Devel
 
 #### Installation
 
-* Create a directory for those tools:
-  
-  ```ShellSession
-  $ mkdir "/Applications/Xcode Tools/Hardware IO"
-  ```
-* Copy all of the `.app` files of the downloaded `dmg` into `/Applications/Xcode Tools/Hardware IO`.
-* Install `Network Link Conditioner` by double-clicking on `Network Link Conditioner.prefPane`.
-
-### Audio Tools for Xcode
-
-#### (Optional) Download
-
-If you haven't saved the installer somewhere else, download it from [Apple Developer Center](https://developer.apple.com/downloads/index.action).
-
-#### Installation
-
-* Create a directory for those tools:
-  
-  ```ShellSession
-  $ mkdir "/Applications/Xcode Tools/Audio"
-  ```
-* Copy all of the `.app` files of the downloaded `dmg` into `/Applications/Xcode Tools/Audio`.
-
-### Auxiliary Tools for Xcode
-
-#### (Optional) Download
-
-If you haven't saved the installer somewhere else, download it from [Apple Developer Center](https://developer.apple.com/downloads/index.action).
-
-#### Installation
-
-* Create a directory for those tools:
-  
-  ```ShellSession
-  $ mkdir "/Applications/Xcode Tools/Auxiliary"
-  ```
-* Copy all of the `.app` files and the directories of the downloaded `dmg` into `/Applications/Xcode Tools/Auxiliary`.
+```ShellSession
+$ cp -a /Volumes/Hardware\ IO\ Tools/*.app /Applications
+$ open /Volumes/Hardware\ IO\ Tools/Network\ Link\ Conditioner.prefPane # It will trigger `Network Link Conditioner` installation.
+```
 
 ### Graphics Tools for Xcode
 
@@ -90,12 +57,9 @@ If you haven't saved the installer somewhere else, download it from [Apple Devel
 
 #### Installation
 
-* Create a directory for those tools:
-  
-  ```ShellSession
-  $ mkdir "/Applications/Xcode Tools/Graphics"
-  ```
-* Copy all of the `.app` files of the downloaded `dmg` into `/Applications/Xcode Tools/Graphics`.
+```ShellSession
+$ cp -a /Volumes/Graphics\ Tools/*.app /Applications
+```
 
 ## Configuration
 
