@@ -17,13 +17,11 @@ Note that's my system configuration, but *you can adapt it to meet your needs*.
 
 ## Applications.
 
-Now you need to install and configure the applications.
+Now you need to install and configure the various software.
 
-You can choose various applications sets, based on your needs.
+I suggest you to not install [all of them](./software/list), but choose a [software set](./software/sets) based on your needs and install the applications included in.
 
-[Here](./software/sets/README.md) you can find a list of all available application installation and configuration tutorials.
-
-I suggest you to not install all of them, but choose an application set and install the applications included in.
+If you prefer to not follow a particular set, you can just install and configure the software you want. [Here](./software/list) you can find a list of all availables.
 
 ## Fonts
 
