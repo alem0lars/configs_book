@@ -16,6 +16,6 @@ $ brew cask install betterzip --appdir="/Applications"
 I use [`Fizzy`](https://github.com/alem0lars/fizzy) to configure `BetterZip`.
 The relevant configs are [here](https://github.com/alem0lars/configs/tree/master/betterzip).
 
-## Activation
+## License activation
 
 Activate using the license. I suggest you to keep it in `Lastpass`.
