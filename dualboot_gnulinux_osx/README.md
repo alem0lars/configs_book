@@ -102,10 +102,10 @@ $ cp -a refind/* /Volumes/EFI/EFI/refind
 After having instantiated the `rEFInd` configuraton you can safely remove `Fizzy` and its dependencies:
 
 ```ShellSession
-$ gem uninstall thor
-$ rm -R ${HOME}/.gem # (Optional) This cleans up all gems user installation, safe if you hadn't installed gems before.
 $ fizzy cfg cleanup
 $ rm ${HOME}/fizzy
+$ gem uninstall thor
+$ rm -R ${HOME}/.gem # (Optional) This cleans up all gems user installation, safe if you hadn't installed gems before.
 ```
 
 This is because I want to keep setup stages clean and separate and at this time you shouldn't already configure your system (which includes installing `Fizzy`).
