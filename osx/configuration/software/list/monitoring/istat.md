@@ -17,6 +17,6 @@ The relevant configs are [here](https://github.com/alem0lars/configs/tree/master
 
 After instantiating the `iStat` settings file you need to import it from inside the `iStat Menus` application.
 
-## License
+## Activation
 
 Activate using the key. I suggest you to keep it in `Lastpass`.
