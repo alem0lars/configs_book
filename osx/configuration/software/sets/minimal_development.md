@@ -18,5 +18,6 @@ Install the software in the declared order:
 * [**`Adobe Air`**](../list/system/adobe_air.md)
 * [**`Moom`**](../list/wm/moom.md)
 * [**`Disk Doctor`**](../list/fs/disk_doctor.md)
+* [**`DaisyDisk`**](../list/fs/daisydisk.md)
 
 Finally apply all configurations for the installed software: perform sync, instantiate and install the instance following the [Notes section](https://github.com/alem0lars/configs_book/blob/master/osx/configuration/software/list/system/configuration_manager.md#notes)
