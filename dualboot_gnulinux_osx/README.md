@@ -10,22 +10,23 @@
 
 ## Step 1: Install `OSX`
 
-First of all, you need to install a clean version of `OSX` in a smaller partition.
+Keep in mind two important things:
 
-To do so, first [create a bootable USB-drive containing the `OSX` installer](../osx/tips/bootable_usb_installer.md).
+1. It's strongly suggested to install a clean version of `OSX`, i.e. use an external installer, like a `OSX` installer in a bootable USB-drive.
+2. When partitioning, be sure to leave empty space for `GNU/Linux`.
 
-Then:
+**Check out the specific guide for installing `OSX`.**
 
-1. Start the installer.
-2. Run the application `Disk Utility` and create a new partition for OSX (I suggest with Journaling and Encryption), but be sure to leave empty space for `GNU/Linux`.
-3. Install `OSX` in the created partition.
+I use and suggest [this](../osx/installation/README.md).
 
 ## Step 2: Install `GNU/Linux`
 
 After installing `OSX`, you need to install the other OS, which is `GNU/Linux`.
 Note that you also need a `UEFI` boot-loader (since `rEFInd` is a boot-manager, not a boot-loader). `OSX` already includes it's own boot-loader, but in `GNU/Linux` you need to explicitly install it in the `EFI` partition.
 
-I use and suggest [this](../nixos/installation/README.md).
+**Check out the specific guide for installing `GNU/Linux`.**
+
+I use and suggest [this](../gentoo/installation/README.md).
 
 ## Step 3: Install the boot-manager (`rEFInd`)
 
@@ -129,12 +130,12 @@ Now reboot and check the adjustments.
 
 ## Step 5: Configure your `OSX` installation
 
-**Check out the specific guide for setup your `OSX` installation.**
+**Check out the specific guide for configuring your `OSX` installation.**
 
-I use and suggest [this](../osx/README.md).
+I use and suggest [this](../osx/configuration/README.md).
 
 ## Step 6: Configure your `GNU/Linux` installation
 
-**Check out the specific guide for setup your `GNU/Linux` installation.**
+**Check out the specific guide for configuring your `GNU/Linux` installation.**
 
 I use and suggest [this](../gentoo/configuration/README.md).
