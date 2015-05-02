@@ -14,7 +14,9 @@ Install the software in the declared order:
 * [**SSH**](../list/system/ssh.md)
 * [**`XCode`**](../list/development/xcode.md)
 * [**`Git`**](../list/development/git.md)
+* [**`iStat`**](../list/monitoring/istat.md)
 * [**`Adobe Air`**](../list/system/adobe_air.md)
 * [**`Moom`**](../list/wm/moom.md)
+* [**`Disk Doctor`**](../list/fs/disk_doctor.md)
 
 Finally apply all configurations for the installed software: perform sync, instantiate and install the instance following the [Notes section](https://github.com/alem0lars/configs_book/blob/master/osx/configuration/software/list/system/configuration_manager.md#notes)
