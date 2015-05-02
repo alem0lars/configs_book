@@ -1,0 +1,3 @@
+# `Gentoo` Installation
+
+TODO
