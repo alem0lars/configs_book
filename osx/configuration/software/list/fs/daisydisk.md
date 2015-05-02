@@ -1,4 +1,4 @@
-# `Disk Daisy`
+# `DaisyDisk`
 
 ## Installation
 
