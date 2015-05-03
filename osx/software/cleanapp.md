@@ -10,4 +10,4 @@ When asked, install the logging service and its preference pane.
 
 ## License activation
 
-Activate using the license. I suggest you to keep it in `Lastpass`.
+Activate using the key. I suggest you to keep it in `Lastpass`.
