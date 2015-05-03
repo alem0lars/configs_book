@@ -1,4 +1,4 @@
-# JDK
+# `JDK`
 
 ## Installation
 
@@ -6,19 +6,27 @@
 $ brew cask install java --appdir=/Applications
 ```
 
-## JavaFX
+## Additional tools
+
+### JavaFX
+
+#### Installation
 
 ```ShellSession
 $ brew cask install javafx-scene-builder --appdir=/Applications # Install Scene Builder
 ```
 
-## Maven
+### Maven
+
+#### Installation
 
 ```ShellSession
 $ brew install maven
 ```
 
-## Ant
+### Ant
+
+#### Installation
 
 ```ShellSession
 $ brew install ant
