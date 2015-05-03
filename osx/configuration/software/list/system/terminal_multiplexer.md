@@ -1,4 +1,6 @@
-# `TMux`
+# Terminal multiplexer
+
+The terminal multiplexer of choice is [`TMux`](http://tmux.sourceforge.net).
 
 ## Installation
 
