@@ -13,7 +13,7 @@ $ brew cask install java --appdir=/Applications
 #### Installation
 
 ```ShellSession
-$ brew cask install javafx-scene-builder --appdir=/Applications # Install Scene Builder
+$ brew cask install javafx-scene-builder --appdir=/Applications
 ```
 
 ### Maven
