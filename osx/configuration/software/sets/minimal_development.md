@@ -33,5 +33,6 @@ Install the software in the declared order:
 * [**`VLC`**](../list/multimedia/vlc.md)
 * [**`ImageOptim`**](../list/multimedia/imageoptim.md)
 * [**`ImageMagick`**](../list/multimedia/imagemagick.md)
+* [**`Evernote`**](../list/notes/evernote.md)
  
 Finally apply all configurations for the installed software: perform sync, instantiate and install the instance following the [Notes section](https://github.com/alem0lars/configs_book/blob/master/osx/configuration/software/list/system/configuration_manager.md#notes)
