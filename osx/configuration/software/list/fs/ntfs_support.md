@@ -5,7 +5,7 @@ The best way to work with `NTFS` volumes is `Paragon NTFS`.
 ## Installation
 
 ```ShellSession
-$ brew cask install paragon-ntfs --appdir=/Applications
+$ brew cask install paragon-ntfs --appdir="/Applications"
 ```
 
 ## License activation
