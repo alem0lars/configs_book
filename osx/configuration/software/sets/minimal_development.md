@@ -50,5 +50,6 @@ Install the software in the declared order:
 * [**`Google Chrome`**](../list/reference/google_chrome.md)
 * [**`Marked`**](../list/reference/marked.md)
 * [**`Vim`**](../list/editor/vim.md)
+* [**`Toggl`**](../list/organize/toggl.md)
 
 Finally apply all configurations for the installed software: perform sync, instantiate and install the instance following the [Notes section](https://github.com/alem0lars/configs_book/blob/master/osx/configuration/software/list/system/configuration_manager.md#notes)
