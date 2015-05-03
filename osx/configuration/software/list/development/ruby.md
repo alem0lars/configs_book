@@ -6,7 +6,10 @@ We use `Rbenv` to manage ruby installations.
 
 * [Package Manager](../system/package_manager.md)
 
-## Installation
+## Rbenv
+
+Before installing `Ruby` you need to install the `Ruby` installer, which is `Rbenv`.
+In fact, it will manage `Ruby` versions easily and allows you to install new ones relying on `ruby-build`.
 
 ```ShellSession
 $ brew install libyaml readline openssl  # Dependencies.
@@ -14,7 +17,7 @@ $ brew install ruby-build                # Allow install of custom Ruby versions
 $ brew install rbenv                     # Install Rbenv.
 ```
 
-## Rbenv extensions
+### Extensions
 
 `Rbenv` will become permanently enabled through envvars and initialization in shell session, i.e after you've configured your system.
 
@@ -25,7 +28,7 @@ $ export RBENV_ROOT=/usr/local/var/rbenv
 $ eval "$(rbenv init -)"
 ```
 
-### Installation
+#### Installation
 
 ```ShellSession
 $ brew install rbenv-gem-rehash   # This plugin runs `rbenv rehash` every time you install or uninstall a gem.
@@ -34,3 +37,18 @@ $ brew install rbenv-whatis       # Add `whatis` command, which resolves abbreva
 $ brew install rbenv-aliases      # Add `alias` command, to create aliases for RbEnv Ruby versions.
 $ brew install rbenv-vars         # An RbEnv plugin that safely sets global and per-project environment variables.
 ```
+
+## Installation
+
+After you've installed `Rbenv` you can install your first `Ruby` version.
+
+The following snippet will install the latest stable ruby version (using `Rbenv` and `ruby-build`):
+
+```ShellSession
+$ RUBY_CONFIGURE_OPTS="--with-openssl-dir=`brew --prefix openssl` --with-readline-dir=`brew --prefix readline` --with-libyaml-dir=`brew --prefix libyaml`" rbenv install $(rbenv install --list | grep "^\s*[0-9]\.[0-9]\.[0-9]\s*$" | tail -n 1)
+```
+
+## Configuration
+
+I use [`Fizzy`](https://github.com/alem0lars/fizzy) to configure `Ruby`.
+The relevant configs are [here](https://github.com/alem0lars/configs/tree/master/ruby).
