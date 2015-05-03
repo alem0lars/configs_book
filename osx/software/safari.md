@@ -1,5 +1,0 @@
-# Safari
-
-## Extensions
-
-* Lastpass
