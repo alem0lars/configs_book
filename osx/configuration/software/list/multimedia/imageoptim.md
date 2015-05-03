@@ -1,12 +1,12 @@
-# Image Optim
+# `ImageOptim`
+
+## Requirements
+
+* [Package Manager](../system/package_manager.md)
 
 ## Installation
 
-Install from Mac App Store
-
-## Dependencies
-
-### Installation
+Install tools used by `ImageOptim`:
 
 ```ShellSession
 $ brew install pngcrush
@@ -18,6 +18,8 @@ $ brew install gifsicle
 $ brew install pngout
 ```
 
-## Configuration
+Install `ImageOptim`:
 
-* Disable `Backup original file to:`
+```ShellSession
+
+```
