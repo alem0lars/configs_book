@@ -6,6 +6,8 @@ Install from [http://www.syniumsoftware.com/cleanapp/](http://www.syniumsoftware
 
 ## Configuration
 
-* When asked, install the logging service and its preference pane
+When asked, install the logging service and its preference pane.
 
-* Activate the software using the license stored in Lastpass
+## License activation
+
+Activate using the license. I suggest you to keep it in `Lastpass`.
