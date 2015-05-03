@@ -21,5 +21,5 @@ $ brew install pngout
 Install `ImageOptim`:
 
 ```ShellSession
-
+$ brew cask install imageoptim --appdir="/Applications"
 ```
