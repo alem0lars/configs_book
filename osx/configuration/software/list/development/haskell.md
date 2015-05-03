@@ -1,4 +1,4 @@
-# Haskell
+# `Haskell`
 
 ### Requirements
 
@@ -33,7 +33,7 @@ $ cabal install --global --enable-tests --enable-documentation --haddock-all --g
 
 ## Troubleshooting
 
-### Wrong symlinks for ghc
+### Wrong symlinks for `ghc`
 
 If you get this warning:
 
