@@ -33,9 +33,4 @@ See [here](./fonts.md)
 
 ## Troubleshooting
 
-* Check [here](http://support.apple.com/kb/PH18761) if your Mac is too slow with Yosemite. Also consider removing the `windowserver.plist` files:
-  
-  ```ShellSession
-  $ sudo rm /Library/Preferences/com.apple.windowserver.plist
-  $ rm /Library/Preferences/com.apple.windowserver.plist
-  ```
+* Check [here](http://support.apple.com/kb/PH18761) if your `Mac` is too slow with `Yosemite`.
