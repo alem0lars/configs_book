@@ -22,5 +22,6 @@ Install the software in the declared order:
 * [**`Archive Extractor`**](../list/fs/archive_extractor.md)
 * [**`CheatSheet`**](../list/system/cheatsheet.md)
 * [**`Apple Remote Desktop`**](../list/network/apple_remote_desktop.md)
+* [**`VLC`**](../list/multimedia/vlc.md)
 
 Finally apply all configurations for the installed software: perform sync, instantiate and install the instance following the [Notes section](https://github.com/alem0lars/configs_book/blob/master/osx/configuration/software/list/system/configuration_manager.md#notes)
