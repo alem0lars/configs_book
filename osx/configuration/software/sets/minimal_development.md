@@ -15,6 +15,7 @@ Install the software in the declared order:
 * [**`Copy'em Paste`**](../list/system/copyempaste.md)
 * [**`Adobe Air`**](../list/system/adobe_air.md)
 * [**`CheatSheet`**](../list/system/cheatsheet.md)
+* [**`Shortcat`**](../list/system/shortcat.md)
 * [**`XCode`**](../list/development/xcode.md)
 * [**`Git`**](../list/development/git.md)
 * [**`Ruby`**](../list/development/ruby.md)
