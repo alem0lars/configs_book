@@ -26,6 +26,7 @@ Install the software in the declared order:
 * [**`DaisyDisk`**](../list/fs/daisydisk.md)
 * [**`Archive Extractor`**](../list/fs/archive_extractor.md)
 * [**`Apple Remote Desktop`**](../list/network/apple_remote_desktop.md)
+* [**`Jump Desktop`**](../list/network/jump_desktop.md)
 * [**`VLC`**](../list/multimedia/vlc.md)
 * [**`ImageOptim`**](../list/multimedia/imageoptim.md)
 * [**`ImageMagick`**](../list/multimedia/imagemagick.md)
