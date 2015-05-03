@@ -1,4 +1,6 @@
-# `Transmit`
+#  `FTP` client
+
+The FTP client of choice is [`Transmit`](https://panic.com/transmit).
 
 ## Installation
 
