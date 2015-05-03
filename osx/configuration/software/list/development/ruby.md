@@ -38,16 +38,6 @@ $ brew install rbenv-aliases      # Add `alias` command, to create aliases for R
 $ brew install rbenv-vars         # An RbEnv plugin that safely sets global and per-project environment variables.
 ```
 
-## Installation
-
-After you've installed `Rbenv` you can install your first `Ruby` version.
-
-The following snippet will install the latest stable ruby version (using `Rbenv` and `ruby-build`):
-
-```ShellSession
-$ RUBY_CONFIGURE_OPTS="--with-openssl-dir=`brew --prefix openssl` --with-readline-dir=`brew --prefix readline` --with-libyaml-dir=`brew --prefix libyaml`" rbenv install $(rbenv install --list | grep "^\s*[0-9]\.[0-9]\.[0-9]\s*$" | tail -n 1)
-```
-
 ## Additional tools
 
 ### IRB extensions
