@@ -1,5 +1,5 @@
-# iMovie
+# `iMovie`
 
 ## Installation
 
-Install from Mac App Store
+Install from the `Mac App Store`.
