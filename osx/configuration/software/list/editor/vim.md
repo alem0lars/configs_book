@@ -9,7 +9,7 @@ For NeoVim:
 ```ShellSession
 $ brew tap neovim/homebrew-neovim
 $ brew install --HEAD neovim
-$ pip install neovim # To enable Python support inside NeoVim.
+$ sudo pip install neovim # To enable Python support inside NeoVim.
 ```
 
 ## Configuration
