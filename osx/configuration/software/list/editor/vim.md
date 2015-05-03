@@ -1,6 +1,6 @@
 # `Vim`
 
-You can choose to use VIm standalone (*MacVim*) or a VIm compatible modern alternative called *NeoVim*.
+The `Vim` version of choice is [`NeoVim`](http://neovim.io).
 
 ## Installation
 
