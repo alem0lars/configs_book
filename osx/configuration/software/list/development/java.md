@@ -29,6 +29,6 @@ $ brew install maven
 #### Installation
 
 ```ShellSession
-$ brew install ant
+$ brew install ant --with-bcel --with-ivy
 $ brew install ant-contrib
 ```
