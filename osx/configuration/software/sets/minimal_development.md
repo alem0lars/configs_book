@@ -33,6 +33,7 @@ Install the software in the declared order:
 * [**`Python`**](../list/development/python.md)
 * [**`Java`**](../list/development/java.md)
 * [**`Kaleidoscope`**](../list/development/kaleidoscope.md)
+* [**`xScope`**](../list/development/xscope.md)
 * [**Regex tool**](../list/development/regex_tool.md)
 * [**`iStat`**](../list/sysinfo/istat.md)
 * [**`Moom`**](../list/wm/moom.md)
