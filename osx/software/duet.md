@@ -1,11 +1,15 @@
-# Duet
+# `Duet`
+
+### Requirements
+
+* [Package Manager](../system/package_manager.md)
 
 ## Installation
 
 ```ShellSession
-$ brew cask install duet
+$ brew cask install duet --appdir="/Applications"
 ```
 
-## Other
+## Notes
 
-DuetDisplay should also be installed in the associated Apple device (e.g. iPhone or iPad).
+`DuetDisplay` should also be installed in the associated Apple device(s), e.g. `iPhone` or `iPad`.
