@@ -10,7 +10,7 @@ $ brew cask install iterm2 --appdir="/Applications"
 
 ## Configuration
 
-Make iTerm 2 the default terminal, by clicking on: `iTerm 2 ▸ Make iTerm2 Default Term`
+Make `iTerm2` the default terminal, by clicking on: `iTerm 2 ▸ Make iTerm2 Default Term`
 
-I use [`Fizzy`](https://github.com/alem0lars/fizzy) to configure `iTerm`.
-The relevant configs are [here](https://github.com/alem0lars/configs/tree/master/iterm).
+I use [`Fizzy`](https://github.com/alem0lars/fizzy) to configure `iTerm2`.
+The relevant configs are [here](https://github.com/alem0lars/configs/tree/master/iterm2).
