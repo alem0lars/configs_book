@@ -48,6 +48,16 @@ The following snippet will install the latest stable ruby version (using `Rbenv`
 $ RUBY_CONFIGURE_OPTS="--with-openssl-dir=`brew --prefix openssl` --with-readline-dir=`brew --prefix readline` --with-libyaml-dir=`brew --prefix libyaml`" rbenv install $(rbenv install --list | grep "^\s*[0-9]\.[0-9]\.[0-9]\s*$" | tail -n 1)
 ```
 
+## Additional tools
+
+### IRB extensions
+
+#### Installation
+
+```ShellSession
+$ sudo gem install irbtools irbtools-more
+```
+
 ## Configuration
 
 I use [`Fizzy`](https://github.com/alem0lars/fizzy) to configure `Ruby`.
