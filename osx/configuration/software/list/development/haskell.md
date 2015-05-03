@@ -1,5 +1,9 @@
 # Haskell
 
+### Requirements
+
+* [Package Manager](../system/package_manager.md)
+
 ## Installation
 
 ```ShellSession
