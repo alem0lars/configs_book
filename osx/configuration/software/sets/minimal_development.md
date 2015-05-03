@@ -34,5 +34,6 @@ Install the software in the declared order:
 * [**`ImageOptim`**](../list/multimedia/imageoptim.md)
 * [**`ImageMagick`**](../list/multimedia/imagemagick.md)
 * [**`Evernote`**](../list/notes/evernote.md)
+* [**`Google Chrome`**](../list/browse/google_chrome.md)
  
 Finally apply all configurations for the installed software: perform sync, instantiate and install the instance following the [Notes section](https://github.com/alem0lars/configs_book/blob/master/osx/configuration/software/list/system/configuration_manager.md#notes)
