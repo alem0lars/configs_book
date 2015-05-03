@@ -1,10 +1,10 @@
-# Unity3d
+# `Unity`
 
 ## Unity development environment
 
 ### Installation
 
-Unity doesn't work on case-sensitive filesystems by default.
+`Unity` doesn't work on case-sensitive filesystems by default.
 Since we *still* want a case-sensitive filesystem, since it's more modern, correct, UNIX-style,
 we need to:
 
@@ -16,7 +16,7 @@ We will call the volume `Unity`.
 
 #### Step 1
 
-1. In Disk Utility, create a New Image.
+1. In `Disk Utility`, create a new image.
 3. Choose the location to save the image file.
 4. Then, set the image characteristics as below:
   * **Name**: `Unity`
@@ -40,7 +40,7 @@ $ ln -s "/Volumes/Unity/Applications/Unity/Unity.app" "/Applications"
 
 #### Step 3
 
-When you open MonoDevelop-Unity with your current user, it will create some Library files and folders.
+When you open `MonoDevelop-Unity` with your current user, it will create some Library files and folders.
 
 It's a good practice that you also keep those files inside the volume, so you will need to:
 
@@ -64,23 +64,23 @@ It's a good practice that you also keep those files inside the volume, so you wi
    $ ln -s "/Volumes/Unity/Library/Application Support/MonoDevelop-Unity-4.0" "${HOME}/Library/Application Support/MonoDevelop-Unity-4.0"
    ```
    
-Now you can start MonoDevelop without any troubles :)
+Now you can start `MonoDevelop` without any troubles :)
 
 #### (Optional) Setup the Projects directory
 
-Not only the Unity application but also the projects should be stored in a case-insensitive filesystem, otherwise Unity will just crash.
+Not only the `Unity` application but also the projects should be stored in a case-insensitive filesystem, otherwise `Unity` will just crash.
 
 There are some options available:
 
-* The simplest is to create a directory inside the unity volume:
+* The simplest is to create a directory inside the `Unity` volume:
 
   ```ShellSession
   $ mkdir "/Volumes/Unity/Projects"
   ```
 
-* If you don't like the option above (*like me*), another option is to create a dedicated volume for unity project (e.g. a volume called `Unity Workspace` stored in `~/Develop/Workspaces`).
+* If you don't like the option above (*like me*), another option is to create a dedicated volume for `Unity` project (e.g. a volume called `Unity Workspace` stored in `~/Development/Workspaces`).
 
-## Unity Web Player
+## `Unity Web Player`
 
 ### Installation
 
