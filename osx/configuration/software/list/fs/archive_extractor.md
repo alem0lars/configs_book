@@ -1,4 +1,4 @@
-# Archive Extractor
+# Archive extractor
 
 ## Requirements
 
