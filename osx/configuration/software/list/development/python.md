@@ -17,7 +17,6 @@ $ brew install pyenv
 ### Extensions
 
 ```ShellSession
-$ brew install pyenv-pip-rehash # https://github.com/yyuu/pyenv-pip-rehash
 $ brew install pyenv-which-ext  # https://github.com/yyuu/pyenv-which-ext
 ```
 
@@ -38,17 +37,6 @@ By default the `pip` package manager and the `virtualenv` package aren't preinst
 ```ShellSession
 $ sudo easy_install pip
 $ sudo pip install virtualenv
-```
-
-### Development tools
-
-The development tools should be available system-wide.
-
-#### Installation
-
-```ShellSession
-$ sudo pip2 install pylint pep257 pep8 autopep8 pygments jedi ipython # Install on system-wide Python 2
-$ sudo pip3 install pylint pep257 pep8 autopep8 pygments jedi ipython # Install on system-wide Python 3
 ```
 
 ## Configuration
