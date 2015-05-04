@@ -13,7 +13,7 @@
 Keep in mind two important things:
 
 1. It's strongly suggested to install a clean version of `OSX`, i.e. use an external installer, like a `OSX` installer in a bootable USB-drive.
-2. When partitioning, be sure to leave empty space for `GNU/Linux`.
+2. When partitioning, *be sure to leave empty space for `GNU/Linux`*.
 
 **Check out the specific guide for installing `OSX`.**
 
@@ -27,6 +27,19 @@ Note that you also need a `UEFI` boot-loader (since `rEFInd` is a boot-manager, 
 **Check out the specific guide for installing `GNU/Linux`.**
 
 I use and suggest [this](../gentoo/installation/README.md).
+
+### Additional notes
+
+When performing partitioning I suggest to just use the following parititons:
+
+1. `root` (mounted in `/`)
+2. `swap`
+
+This is because *you don't need `boot`* (it's an `UEFI` system).
+
+I suggest mounting `/tmp` in `RAM` (usually `RAM` available in `Mac`s is enough).
+
+For other partitions, like `var`, `home`, etc.. I suggest you to *not create them*, because available space is not so much and dualboot setups are complicate, we want to not extend the complexity for getting almost nothing in advantage.
 
 ## Step 3: Install the boot-manager (`rEFInd`)
 
