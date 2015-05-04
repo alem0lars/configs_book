@@ -43,6 +43,17 @@ I suggest mounting `/tmp` in `RAM` (usually `RAM` available in `Mac`s is enough)
 
 For other partitions, like `var`, `home`, etc.. I suggest you to *not create them*, because available space is not so much and dualboot setups are complicate, we want to not extend the complexity for getting almost nothing in advantage.
 
+For example, I have the following partitioning:
+
+| Number |   Start   |   End     | Size      | File system | Name                 | Flags |
+|--------|-----------|-----------|-----------|-------------|----------------------|-------|
+|   1    | 0.02MiB   | 200MiB    | 200MiB    |    fat32    | EFI System Partition |  boot |
+|   2    | 200MiB    | 96126MiB  | 96126MiB  |             | Julia Main Disk      |       |
+|   3    | 96126MiB  | 96746MiB  | 620MiB    |    hfs+     | Recovery HD          |       |
+|   4    | 96747MiB  | 100747MiB | 4000MiB   |             | gnulinux_swap        |       |
+|   5    | 100748MiB | 200748MiB | 100000MiB |             | gnulinux_root        |       | 
+|   6    | 200749MiB | 239372MiB | 38623MiB  |             | archive              |       |
+
 ## Step 3: Install the boot-manager (`rEFInd`)
 
 You can install the boot-manager from `OSX` or `GNU/Linux`. However, the [documentation explicitly says](http://rodsbooks.com/refind/installing.html#installsh) you **should** install `rEFInd` from within `OSX`.
