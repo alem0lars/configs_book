@@ -251,6 +251,40 @@ Try to resolve this by:
 $ emerge --deselect sys-fs/udev
 ```
 
+## Set `gcc`
+
+After the upgrade you've just done, you'll have available hardened `gcc`.
+
+The following command shows you the available `gcc` profiles:
+
+```ShellSession
+$ gcc-config -l
+```
+
+Enable the profile like `[3] x86_64-pc-linux-gnu-4.8.4-hardenednopiessp` (containing `hardenednopiessp` at the end) which disables both `PIE` and `SSP`.
+
+In this example the profile is number 3, so to enable it we'll do:
+
+```Shell
+$ _profile_number=3
+$ gcc-config ${_profile_number}
+```
+
+## Reload the environment
+
+```ShellSession
+$ env-update
+$ source /etc/profile
+```
+
+## Install the kernel
+
+```ShellSession
+$ emerge hardened-sources
+```
+
+AFTER REBOOT
+
 ## Set some basic system-wide informations
 
 Set the hostname:
