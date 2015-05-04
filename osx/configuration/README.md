@@ -31,6 +31,10 @@ Keep in mind some softwares aren't named by the application or library name but 
 
 See [here](./fonts.md)
 
+## Accounts
+
+Go to `` ▶ `System Preferences` ▶ `Internet Accounts` and add (login into) your accounts, like `Google`, `Twitter`, `Facebook`, `LinkedIN`, `Flickr`.
+
 ## Troubleshooting
 
 * Check [here](http://support.apple.com/kb/PH18761) if your `Mac` is too slow with `Yosemite`.
