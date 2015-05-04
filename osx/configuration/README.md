@@ -33,7 +33,7 @@ See [here](./fonts.md)
 
 ## Accounts
 
-Go to ` ‣ System Preferences ‣ Internet Accounts` and add (login into) your accounts, like `Google`, `Twitter`, `Facebook`, `LinkedIN`, `Flickr`.
+Go to ` ‣ System Preferences ‣ Internet Accounts` and add your accounts, like `Google`, `Twitter`, `Facebook`, `LinkedIN`, `Flickr`.
 
 ## Troubleshooting
 
