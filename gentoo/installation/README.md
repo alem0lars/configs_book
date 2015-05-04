@@ -171,8 +171,7 @@ And perform the following changes:
 
 * Set `CFLAGS` to `-march=native -O2 -pipe`
 * Set `MAKEOPTS` to `-j<X>` where `<X>` is the cores count + 1.
-* Set`SYNC` to `rsync://rsync.de.gentoo.org/gentoo-portage` (maybe replace with some ones near you).
-* Add `systemd` to your useflags (`USE` variable).
+* Set `SYNC` to `rsync://rsync.de.gentoo.org/gentoo-portage` (maybe replace with some ones near you).
 
 ### Save `DNS` informations
 
@@ -236,9 +235,12 @@ $ eselect profile set <X> # Will set the profile to <X>
 
 ## Install `systemd`
 
-```ShellSession
-$ emerge -avDN @world # To be sure everything is emerged with new useflags (including `systemd` flag).
-```
+* Add `systemd` to your useflags.
+* Then run emerge, so packages relying upon `systemd` will be aware of the useflag:
+
+  ```ShellSession
+  $ emerge -avDN @world
+  ```
 
 ### Notes
 
