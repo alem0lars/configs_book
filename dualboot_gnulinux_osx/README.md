@@ -30,6 +30,8 @@ I use and suggest [this](../gentoo/installation/README.md).
 
 ### Additional notes
 
+#### Partitioning suggestions
+
 When performing partitioning I suggest to just use the following parititons:
 
 1. `root` (mounted in `/`)
