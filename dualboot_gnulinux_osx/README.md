@@ -74,6 +74,7 @@ Perform the following steps:
    
   ```ShellSession
   $ ./install.sh # From inside the extracted folder.
+  $ sudo bless --mount "/Volumes/EFI" --setBoot --file "/Volumes/EFI/EFI/refind/refind_x64.efi"
   ```
 
 ### Customizations
