@@ -54,6 +54,12 @@ For example, I have the following partitioning:
 |   5    | 100748MiB | 200748MiB | 100000MiB |             | gnulinux_root        |       | 
 |   6    | 200749MiB | 239372MiB | 38623MiB  |             | archive              |       |
 
+### Kernel configuration
+
+When configuring your kernel you should keep in mind your specific hardware (e.g. MacBook pro).
+
+You'll need to enable the [specific kernel options](https://wiki.gentoo.org/wiki/Apple_Macbook_Pro_Retina#Kernel_Configuration)
+
 ## Step 3: Install the boot-manager (`rEFInd`)
 
 You can install the boot-manager from `OSX` or `GNU/Linux`. However, the [documentation explicitly says](http://rodsbooks.com/refind/installing.html#installsh) you **should** install `rEFInd` from within `OSX`.
@@ -73,7 +79,6 @@ Perform the following steps:
 ### Customizations
 
 First of all, you need to mount the `EFI` partition, which contains among other things the `rEFInd` configuration. One way is to enable the `Debug` menu in `Disk Utility` and mount the partition called `EFI`.
-
 
 #### Adjust options
 
