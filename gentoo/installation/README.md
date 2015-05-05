@@ -1,5 +1,9 @@
 # `Gentoo` Installation
 
+This tutorial let you install a functioning but not configured `Gentoo` system.
+
+This is because IMHO 
+
 ## Requirements
 
 You'll need Internet connectivity.
