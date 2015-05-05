@@ -150,7 +150,8 @@ Go to the installation root mount directory and extract the downloaded `stage3` 
 ```ShellSession
 $ _root_dir="/mnt/gentoo"
 $ cd "${_root_dir}"
-$ tar xvjpf stage3-*.tar.bz2
+$ tar xvjpf "stage3-*.tar.bz2"
+$ rm "stage3-*.tar.bz2"
 ```
 
 ## Before `chroot`
@@ -277,13 +278,149 @@ $ env-update
 $ source /etc/profile
 ```
 
+## Mount the `EFI` partition into `/boot`
+
+```ShellSession
+$ _efi_device_path="/dev/sda1"
+$ mount "${_efi_device_path}" "/boot"
+```
+
+Now you can create the directory for storing `gentoo` boot images and related files:
+
+```ShellSession
+$ mkdir -p /boot/EFI/gentoo
+```
+
+## Install the bootloader
+
+The bootloader of choice is `rEFInd`.
+
+To install it follow the [official installation guide](http://www.rodsbooks.com/refind/installing.html).
+
+### Notes
+
+You may already have the bootloader installed (e.g. if using a dualboot setup). In that case, *skip this step* (e.g. if another OS is already installed (i.e. bootloader was installed in that installation) or if you've done a [dualboot setup](https://github.com/alem0lars/configs_book/blob/master/dualboot_gnulinux_osx/README.md#step-3-install-the-boot-manager-refind)).
+
 ## Install the kernel
 
 ```ShellSession
-$ emerge hardened-sources
+$ emerge mcelog hardened-sources
 ```
 
-AFTER REBOOT
+## Configure the kernel
+
+At this moment, we just need to be able to boot the kernel. Don't try to do a complete and the best configuration right now.
+You'll do it later (with a running system you'll feel more comfortable) or maybe you've saved it somewhere (like me, I use `Fizzy` to manage my kernel configuration as well as other configs) and you'll restore it, so this work will be useless after the restore.
+
+```ShellSession
+$ cd "/usr/src/linux"
+$ make menuconfig
+```
+
+Then enable the following options:
+
+* [Generic options](https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Kernel)
+* Those for [`systemd` support](https://wiki.gentoo.org/wiki/Systemd).
+* The ones needed for your physical hardware (see below).
+
+Finally, compile the kernel:
+
+```ShellSession
+$ cd "/usr/src/linux"
+$ make
+$ make modules_install
+$ cp "/usr/src/linux/arch/x86_64/bzImage" "/boot/EFI/gentoo/kernel-hardened-latest.efi"
+```
+
+#### Additional resources
+
+If doing a `GNU/Linux`-`OSX` dualboot setup, then read its dedicate [kernel configuration](https://github.com/alem0lars/configs_book/blob/master/dualboot_gnulinux_osx/README.md#kernel-configuration).
+
+## Generate `initramfs`
+
+Sometimes generating an `initramfs` is mandatory, sometimes not. However, *it's always suggested*!
+
+Install `dracut`:
+
+```ShellSession
+$ echo "sys-kernel/dracut" >> "/etc/portage/package.keywords"
+$ emerge sys-kernel/dracut
+```
+
+Generate the image `initramfs`:
+
+```
+$ dracut
+$ mv "$(ls /boot/initramfs*)" "/boot/EFI/gentoo/initramfs-latest"
+```
+
+## Configure the bootloader
+
+Add the following menu entry in `/boot/EFI/gentoo/refind/refind.conf`:
+
+```
+menuentry Gentoo {
+  volume KERNELS
+  loader /EFI/gentoo/kernel-hardened-latest.efi
+  initrd /EFI/gentoo/initramfs-latest
+}
+```
+
+## Configure `fstab`
+
+Edit the file `/etc/fstab` and one entry (line) for each partition you want to automatically mount at boot.
+
+First of all, cleanup the file.
+
+```
+$ echo > /etc/fstab
+```
+
+Add your `swap` partition:
+
+```ShellSession
+$ _swap_dev_path="/dev/sda4" # Replace it with your swap device.
+$ echo "${_swap_dev_path} none swap sw 0 0" >> /etc/fstab
+```
+
+Add your `root` partition:
+
+```ShellSession
+$ _root_dev_path="/dev/sda5" # Replace it with your root device.
+$ _root_def_fs="ext4
+$ echo "${_root_dev_path} / ${_root_dev_fs} noatime 0 1" >> /etc/fstab
+```
+
+Add directories holding temporary files in `RAM`:
+
+```ShellSession
+$ _tmp_size="6G"
+$ _tmp_portage_size="8G"
+echo "tmpfs /tmp tmpfs defaults,noatime,nosuid,size=${_tmp_size}" >> /etc/fstab
+echo "tmpfs /var/tmp/portage tmpfs defaults,noatime,nosuid,size=${_tmp_portage_size}" >> /etc/fstab
+```
+
+### Notes
+
+The example above mounts `tmp` in `RAM`. Ignore that line if you don't want that and, if you have a separate partition, add an entry for it.
+
+Be sure to add additional entries for all additional partitions you have and are not listed in the example above.
+
+## Set root password
+
+```ShellSession
+$ passwd
+```
+
+## Reboot
+
+yay! Now the basic installation is finished. *You can reboot your system but keep in mind that nothing is configured yet*.
+
+```ShellSession
+$ exit
+$ umount -a
+$ reboot
+```
 
 ## Set some basic system-wide informations
 
@@ -296,25 +433,22 @@ $ hostnamectl set-hostname ${_hostname}
 
 Set the locale:
 
-Edit `/etc/locale.conf` and uncomment just the line containing your locale (e.g. for me is `LANG="en_US.utf8"`) and be sure the other lines are commented too.
-
-$ localectl set-locale LANG=<LOCALE>
-To change the virtual console keymap:
+```
+$ _locale="en_US.utf8"
+$ localectl set-locale LANG=${_locale}
+```
 
 Set the virtual console keymap:
 
 ```ShellSession
-$ localectl set-keymap <KEYMAP>
-```
-
-Set the X11 layout:
-
-```ShellSession
-localectl set-x11-keymap <LAYOUT>
+$ _keymap="us"
+$ localectl set-keymap ${_keymap}
 ```
 
 Set time and date:
 
 ```ShellSession
-$ timedatectl TODO
+$ _timezone="UTC"
+$ timedatectl set-timezone ${_timezone}
+$ timedatectl set-ntp true
 ```
