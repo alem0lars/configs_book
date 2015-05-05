@@ -7,7 +7,7 @@ The network daemon of choice is `systemd-networkd`.
 For configuring the daemon you have 2 approaches available:
 
 1. Perfectly configure the connections available in the system. You want to use this approach if you don't have the right configurations already managed with a configuration management system or stored somewhere (like a `git` repository).
-2. Configure the connections just to be able to connect to the Internet. I recommend and use this choice because I want to manage all of my configurations (with `Fizzy`) and they're already stored. In this case, if you have a cable connection with `dhcp`, this should be enough:
+2. Configure the connections just to be able to connect to the Internet. *I recommend and use this approach* because I want to manage all of my configurations (with `Fizzy`) and they're already stored [somewhere](https://github.com/alem0lars/configs). In this case, if you have a cable connection with `dhcp`, the following networking configuration should be enough:
 
   Edit `/etc/systemd/network/wired.network`:
 
