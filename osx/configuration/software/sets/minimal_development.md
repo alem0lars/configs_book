@@ -53,4 +53,7 @@ Install the software in the declared order:
 * [**`Vim`**](../list/editor/vim.md)
 * [**`Toggl`**](../list/organize/toggl.md)
 
-Finally apply all configurations for the installed software: perform sync, instantiate and install the instance following the [Notes section](https://github.com/alem0lars/configs_book/blob/master/osx/configuration/software/list/system/configuration_manager.md#notes)
+## Configure installed software
+
+Finally apply all configurations for the installed software.
+If using `Fizzy`, **perform sync, instantiate and install the instance** following the [Notes section](https://github.com/alem0lars/configs_book/blob/master/osx/configuration/software/list/system/configuration_manager.md#notes)
