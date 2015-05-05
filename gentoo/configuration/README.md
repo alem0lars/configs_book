@@ -51,3 +51,9 @@ $ _timezone="UTC"
 $ timedatectl set-timezone ${_timezone}
 $ timedatectl set-ntp true
 ```
+
+## Install `ruby`
+
+Installing `ruby` is very early because it's needed to run `Fizzy`.
+
+If you don't want to use `Fizzy` you can safely skip this step or, anyways, install `ruby` later.
