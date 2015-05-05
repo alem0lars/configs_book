@@ -19,7 +19,7 @@ For configuring the daemon you have 2 approaches available:
   DHCP=yes
   ```
 
-In any case, you can find more setup informations [here](https://wiki.archlinux.org/index.php/Systemd-networkd#Basic_usage).
+In any case, you can find more informations [here](https://wiki.archlinux.org/index.php/Systemd-networkd#Basic_usage).
 
 ## Set some basic system-wide informations
 
