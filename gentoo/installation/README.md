@@ -400,8 +400,8 @@ Add directories holding temporary files in `RAM`:
 ```ShellSession
 $ _tmp_size="6G"
 $ _tmp_portage_size="8G"
-echo "tmpfs /tmp tmpfs defaults,noatime,nosuid,size=${_tmp_size}" >> /etc/fstab
-echo "tmpfs /var/tmp/portage tmpfs defaults,noatime,nosuid,size=${_tmp_portage_size}" >> /etc/fstab
+$ echo "tmpfs /tmp tmpfs defaults,noatime,nosuid,size=${_tmp_size}" >> /etc/fstab
+$ echo "tmpfs /var/tmp/portage tmpfs defaults,noatime,nosuid,size=${_tmp_portage_size}" >> /etc/fstab
 ```
 
 ### Notes
