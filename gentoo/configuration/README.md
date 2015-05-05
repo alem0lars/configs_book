@@ -52,8 +52,42 @@ $ timedatectl set-timezone ${_timezone}
 $ timedatectl set-ntp true
 ```
 
-## Install `ruby`
+## Install `Ruby`
 
-Installing `ruby` is very early because it's needed to run `Fizzy`.
+Installing `Ruby` very early is just because it's needed to run `Fizzy`.
+If you don't want to use `Fizzy` you can safely skip this step or, anyways, install `Ruby` later.
 
-If you don't want to use `Fizzy` you can safely skip this step or, anyways, install `ruby` later.
+```ShellSession
+$ emerge ruby
+```
+
+## Install `Git`
+
+Installing `Git` very early is just because it's needed to run `Fizzy`.
+If you don't want to use `Fizzy` you can safely skip this step or, anyways, install `Git` later.
+
+```ShellSession
+$ emerge dev-vcs/git
+```
+
+Also you may need to install your `SSH` keys, if used for the `Fizzy` repository.
+
+## (Optional) Install `Fizzy`
+
+`Fizzy` is a (hassle-free) configuration management. I (and suggest you to) use it for managing all of my configurations.
+
+To install `Fizzy`, run:
+
+```ShellSession
+$ echo "dev-ruby/thor ~amd64" >> "/etc/portage/package.keywords"
+$ emerge thor # Install thor, the only dependency of Fizzy.
+$ curl https://raw.githubusercontent.com/alem0lars/fizzy/master/fizzy | sudo tee /usr/local/bin/fizzy > /dev/null # Install Fizzy into /usr/local/bin/fizzy.
+$ chmod +x /usr/local/bin/fizzy
+```
+
+Sync your configurations:
+
+```ShellSession
+$ _configs_url="git@github.com:alem0lars/configs"
+$ fizzy cfg sync --url "${_configs_url}"
+```
