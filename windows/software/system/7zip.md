@@ -2,7 +2,7 @@
 
 ## Installation
 
-Run the following commands in an administrator console:
+Run the following commands *in an administrator console*:
 
 ```
 choco install 7zip
