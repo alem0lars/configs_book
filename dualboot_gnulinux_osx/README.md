@@ -50,9 +50,9 @@ For example, I have the following partitioning:
 |   1    | 0.02MiB   | 200MiB    | 200MiB    |    fat32    | EFI System Partition |  boot |
 |   2    | 200MiB    | 96126MiB  | 96126MiB  |             | Julia Main Disk      |       |
 |   3    | 96126MiB  | 96746MiB  | 620MiB    |    hfs+     | Recovery HD          |       |
-|   4    | 96747MiB  | 100747MiB | 4000MiB   |             | gnulinux_swap        |       |
-|   5    | 100748MiB | 200748MiB | 100000MiB |             | gnulinux_root        |       | 
-|   6    | 200749MiB | 239372MiB | 38623MiB  |             | archive              |       |
+|   4    | 96747MiB  | 100747MiB | 4000MiB   |    swap     | gnulinux_swap        |       |
+|   5    | 100748MiB | 200748MiB | 100000MiB |    ext4     | gnulinux_root        |       | 
+|   6    | 200749MiB | 239372MiB | 38623MiB  |    ext4     | archive              |       |
 
 ### Kernel configuration
 
