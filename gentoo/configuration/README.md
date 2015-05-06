@@ -1,93 +1,32 @@
 # `Gentoo` Configuration
 
-## Configure the network
+## Initial (temporary) configuration
 
-The network daemon of choice is `systemd-networkd`.
+The first step of the configuration is having a working system. We need to perform some basic configurations, just to be able to fully configure the system later on.
 
-For configuring the daemon you have 2 approaches available:
+To have a working system, you need to do some temporary configuration: follow the [Temporary configuration](./temporary_configuration.md) tutorial.
 
-1. Perfectly configure the connections available in the system. You want to use this approach if you don't have the right configurations already managed with a configuration management system or stored somewhere (like a `git` repository).
-2. Configure the connections just to be able to connect to the Internet. *I recommend and use this approach* because I want to manage all of my configurations (with `Fizzy`) and they're already stored [somewhere](https://github.com/alem0lars/configs). In this case, if you have a cable connection with `dhcp`, the following networking configuration should be enough:
+## System configuration
 
-  Edit `/etc/systemd/network/wired.network`:
+It's time to fully configure your system.
 
-  ```
-  [Match]
-  Name=enp*
+Here it's not our focus to configure specific end-user software, but the base system, including:
+1. Kernel.
+2. Main daemons.
+3. `Portage`.
+4. `Layman`.
 
-  [Network]
-  DHCP=yes
-  ```
+Follow the [Configurations install](./system_configuration.md) tutorial.
 
-In any case, you can find more informations [here](https://wiki.archlinux.org/index.php/Systemd-networkd#Basic_usage).
+## Update packages
 
-## Set some basic system-wide informations
-
-Set the hostname:
-
-```ShellSession
-$ _hostname="julia"
-$ hostnamectl set-hostname ${_hostname}
-```
-
-Set the locale:
+Now you should have new use flags, compiling options, etc.., so it's better to *recompile the entire system*.
 
 ```
-$ _locale="en_US.utf8"
-$ localectl set-locale LANG=${_locale}
+$ emerge -e system
+$ emerge -e world
 ```
 
-Set the virtual console keymap:
+## Install `layman`
 
-```ShellSession
-$ _keymap="us"
-$ localectl set-keymap ${_keymap}
-```
-
-Set time and date:
-
-```ShellSession
-$ _timezone="UTC"
-$ timedatectl set-timezone ${_timezone}
-$ timedatectl set-ntp true
-```
-
-## Install `Ruby`
-
-Installing `Ruby` very early is just because it's needed to run `Fizzy`.
-If you don't want to use `Fizzy` you can safely skip this step or, anyways, install `Ruby` later.
-
-```ShellSession
-$ emerge ruby
-```
-
-## Install `Git`
-
-Installing `Git` very early is just because it's needed to run `Fizzy`.
-If you don't want to use `Fizzy` you can safely skip this step or, anyways, install `Git` later.
-
-```ShellSession
-$ emerge dev-vcs/git
-```
-
-Also you may need to install your `SSH` keys, if used for the `Fizzy` repository.
-
-## (Optional) Install `Fizzy`
-
-`Fizzy` is a (hassle-free) configuration management. I (and suggest you to) use it for managing all of my configurations.
-
-To install `Fizzy`, run:
-
-```ShellSession
-$ echo "dev-ruby/thor ~amd64" >> "/etc/portage/package.keywords"
-$ emerge thor # Install thor, the only dependency of Fizzy.
-$ curl https://raw.githubusercontent.com/alem0lars/fizzy/master/fizzy | sudo tee /usr/local/bin/fizzy > /dev/null # Install Fizzy into /usr/local/bin/fizzy.
-$ chmod +x /usr/local/bin/fizzy
-```
-
-Sync your configurations:
-
-```ShellSession
-$ _configs_url="git@github.com:alem0lars/configs"
-$ fizzy cfg sync --url "${_configs_url}"
-```
+TODO
