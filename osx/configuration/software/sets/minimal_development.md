@@ -31,7 +31,7 @@ Install the software in the declared order:
 * [**`Subversion`**](../list/development/subversion.md)
 * [**`Ruby`**](../list/development/ruby.md)
 * [**`Python`**](../list/development/python.md)
-* [**`Python`**](../list/development/nodejs.md)
+* [**`NodeJS`**](../list/development/nodejs.md)
 * [**`Java`**](../list/development/java.md)
 * [**`Kaleidoscope`**](../list/development/kaleidoscope.md)
 * [**`xScope`**](../list/development/xscope.md)
