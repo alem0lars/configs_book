@@ -3,7 +3,7 @@
 ## Installation
 
 ```ShellSession
-$ brew install node --with-openssl --with-icu4c
+$ brew install node --with-openssl
 ```
 
 ## Common tools
