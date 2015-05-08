@@ -29,11 +29,15 @@ $ emerge -e world
 
 ## Install `layman`
 
-TODO
+```ShellSession
+$ emerge layman
+$ layman-updater -R # Generate `layman` configuration in `repos.conf`.
+```
 
 ## Install some basic packages
 
 ```ShellSession
 $ emerge pciutils usbutils # To work with PCI & USB devices.
 $ emerge parted # To manage partitions.
+$ emerge gentoolkit genlop eix # Some nice portage utilities.
 ```
