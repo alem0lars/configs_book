@@ -34,6 +34,7 @@ $ emerge -e world
 $ emerge pciutils usbutils # To work with PCI & USB devices.
 $ emerge parted # To manage partitions.
 $ emerge gentoolkit genlop eix # Some nice portage utilities.
+$ emerge nmap
 ```
 
 ## Install `layman`
