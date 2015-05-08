@@ -33,11 +33,20 @@ $ emerge -e world
 ```ShellSession
 $ emerge pciutils usbutils # To work with PCI & USB devices.
 $ emerge parted # To manage partitions.
-$ emerge layman gentoolkit genlop eix # Some nice portage utilities.
+$ emerge gentoolkit genlop eix # Some nice portage utilities.
 ```
 
-## Add overlays
+## Install `layman`
+
+Install `layman`:
 
 ```ShellSession
-$ layman -a sunrise
+$ emerge layman
+```
+
+Remove and regenerate old cache:
+
+```ShellSession
+$ rm -rf /var/cache/edb/dep 
+$ emerge --metadata
 ```
