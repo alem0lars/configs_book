@@ -225,6 +225,8 @@ $ chmod 1777 /dev/shm
 
 ```ShellSession
 $ emerge-webrsync
+$ mkdir /etc/portage/repos.conf/gentoo.conf
+$ cp /usr/share/portage/config/repos.conf /etc/portage/repos.conf/gentoo.conf
 $ emerge --sync
 ```
 
