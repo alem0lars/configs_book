@@ -51,3 +51,9 @@ Remove and regenerate old cache:
 $ rm -rf /var/cache/edb/dep 
 $ emerge --metadata
 ```
+
+## Install `Xmonad`
+
+```ShellSession
+$ emerge xmonad
+```
