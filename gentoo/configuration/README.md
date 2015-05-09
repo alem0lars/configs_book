@@ -50,6 +50,7 @@ Remove and regenerate old cache:
 ```ShellSession
 $ rm -rf /var/cache/edb/dep 
 $ emerge --metadata
+$ eix-sync
 ```
 
 ## Install `Xmonad`
