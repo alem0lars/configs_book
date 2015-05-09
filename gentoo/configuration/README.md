@@ -55,5 +55,5 @@ $ emerge --metadata
 ## Install `Xmonad`
 
 ```ShellSession
-$ emerge xmonad
+$ emerge xmonad xmonad-contrib
 ```
