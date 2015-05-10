@@ -16,6 +16,9 @@ Here it's not our focus to configure specific end-user software, but the base sy
 2. Main daemons.
 3. `Portage`.
 4. `Layman`.
+5. Display manager
+6. Window manager
+7. etc... (as much as you can)
 
 Follow the [Configurations install](./system_configuration.md) tutorial.
 
@@ -57,4 +60,11 @@ $ eix-sync
 
 ```ShellSession
 $ emerge xmonad xmonad-contrib
+```
+
+## Install `SLiM`
+
+```ShellSession
+$ emerge slim
+$ systemctl enable slim
 ```
