@@ -22,6 +22,24 @@ Here it's not our focus to configure specific end-user software, but the base sy
 
 Follow the [Configurations install](./system_configuration.md) tutorial.
 
+### Start and enable `networkd`
+
+```ShellSession
+$ systemctl enable systemd-networkd
+$ systemctl start systemd-networkd
+$ systemctl enable systemd-resolved
+$ systemctl start systemd-resolved
+$ ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+```
+
+### Start and enable `resolved`
+
+```ShellSession
+$ systemctl enable systemd-resolved
+$ systemctl start systemd-resolved
+$ ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+```
+
 ## Update packages
 
 Now you should have new use flags, compiling options, etc.., so it's better to *recompile the entire system*.
@@ -56,15 +74,22 @@ $ emerge --metadata
 $ eix-sync
 ```
 
+## Install `Xorg`
+
+```ShellSession
+$ emerge xorg-server
+```
+
 ## Install `Xmonad`
 
 ```ShellSession
 $ emerge xmonad xmonad-contrib
+$ emerge dzen
 ```
 
 ## Install `SLiM`
 
 ```ShellSession
-$ emerge slim
+$ emerge x11-misc/slim
 $ systemctl enable slim
 ```
