@@ -90,6 +90,12 @@ where:
 * `<NUMBER>`: is the partition number. It identifies which partition you want to give the name to.
 * `<NAME>`: the name to assign to the created partition.
 
+### Assign labels to partitions
+
+Every partition you've created should have a label associated. Doing this, allows you to find partitions by their label (under `/dev/disk/by-label`).
+
+To do so, see [here](https://wiki.archlinux.org/index.php/Persistent_block_device_naming#by-label)
+
 ### Format the partitions
 
 Every partition you've created should be formatted. The command depends on the filesystem:
