@@ -92,6 +92,8 @@ $ emerge x11-misc/trayer-srg
 $ emerge media-gfx/feh
 $ emerge app-admin/conky
 $ emerge x11-misc/parcellite x11-misc/autocutsel
+$ emerge app-shells/zsh
+$ emerge app-misc/tmux
 ```
 
 ## Install `chips`
