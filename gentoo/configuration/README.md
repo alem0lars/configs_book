@@ -74,21 +74,11 @@ $ emerge --metadata
 $ eix-sync
 ```
 
-## Install `Xorg`
+## Install `X` stack
 
 ```ShellSession
 $ emerge xorg-server
-```
-
-## Install `Xmonad`
-
-```ShellSession
 $ emerge xmonad xmonad-contrib
-```
-
-## Install `SLiM`
-
-```ShellSession
 $ emerge x11-misc/slim
 $ systemctl enable slim
 ```
