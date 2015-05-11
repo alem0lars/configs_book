@@ -93,3 +93,10 @@ $ emerge media-gfx/feh
 $ emerge app-admin/conky
 $ emerge x11-misc/parcellite x11-misc/autocutsel
 ```
+
+## Install `chips`
+
+Install all of the following [`chips`](https://github.com/alem0lars/chips):
+
+* [`GNU/Linux`](https://github.com/alem0lars/chips/tree/master/scripts/gnulinux): General purpose scripts for `GNU/Linux` scripts.
+* [`Gentoo`](https://github.com/alem0lars/chips/tree/master/scripts/gentoo): Scripts specific for `Gentoo` systems. 
