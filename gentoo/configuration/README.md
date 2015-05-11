@@ -94,6 +94,7 @@ $ emerge app-admin/conky
 $ emerge x11-misc/parcellite x11-misc/autocutsel
 $ emerge app-shells/zsh
 $ emerge app-misc/tmux
+$ emerge x11-misc/xclip
 ```
 
 ## Install `chips`
