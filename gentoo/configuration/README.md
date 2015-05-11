@@ -77,7 +77,7 @@ $ eix-sync
 ## Install `X` stack
 
 ```ShellSession
-$ emerge xorg-server
+$ emerge xorg-server setxkbmap
 $ emerge xmonad xmonad-contrib
 $ emerge x11-misc/slim
 $ systemctl enable slim
@@ -86,6 +86,10 @@ $ systemctl enable slim
 ## Install other software
 
 ```ShellSession
-$ emerge dzen
-$ emerge rxvt-unicode
+$ emerge x11-misc/dzen
+$ emerge x11-terms/rxvt-unicode x11-misc/urxvt-perls
+$ emerge x11-misc/trayer-srg
+$ emerge media-gfx/feh
+$ emerge app-admin/conky
+$ emerge x11-misc/parcellite
 ```
