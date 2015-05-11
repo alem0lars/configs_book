@@ -77,7 +77,7 @@ $ eix-sync
 ## Install `X` stack
 
 ```ShellSession
-$ emerge xorg-server setxkbmap
+$ emerge xorg-server setxkbmap xmodmap
 $ emerge xmonad xmonad-contrib
 $ emerge x11-misc/slim
 $ systemctl enable slim
