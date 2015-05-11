@@ -96,6 +96,12 @@ $ emerge app-shells/zsh
 $ emerge app-misc/tmux
 ```
 
+## Install fonts
+
+```ShellSession
+$ emerge powerline-fonts
+```
+
 ## Install `chips`
 
 Install all of the following [`chips`](https://github.com/alem0lars/chips):
