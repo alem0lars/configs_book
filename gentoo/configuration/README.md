@@ -84,7 +84,6 @@ $ emerge xorg-server
 
 ```ShellSession
 $ emerge xmonad xmonad-contrib
-$ emerge dzen
 ```
 
 ## Install `SLiM`
@@ -92,4 +91,11 @@ $ emerge dzen
 ```ShellSession
 $ emerge x11-misc/slim
 $ systemctl enable slim
+```
+
+## Install other software
+
+```ShellSession
+$ emerge dzen
+$ emerge rxvt-unicode
 ```
