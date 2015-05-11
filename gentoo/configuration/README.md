@@ -22,6 +22,20 @@ Here it's not our focus to configure specific end-user software, but the base sy
 
 Follow the [Configurations install](./system_configuration.md) tutorial.
 
+## Build the kernel
+
+Now the kernel is configured (i.e. the `.config` file has been copied to `/usr/src/linux`).
+We need to rebuild it to use the new configurations.
+
+Mount the `EFI` partition under `/boot` and run the following:
+
+```ShellSession
+$ _dst_kernel_image="/boot/EFI/gentoo/kernel-hardened-latest.efi"
+$ cd "/usr/src/linux"
+$ make && make modules_install
+$ cp "arch/x86_64/boot/bzImage" "${_dst_kernel_image}"
+```
+
 ### Start and enable `networkd`
 
 ```ShellSession
@@ -110,3 +124,11 @@ Install all of the following [`chips`](https://github.com/alem0lars/chips):
 
 * [`GNU/Linux`](https://github.com/alem0lars/chips/tree/master/scripts/gnulinux): General purpose scripts for `GNU/Linux` scripts.
 * [`Gentoo`](https://github.com/alem0lars/chips/tree/master/scripts/gentoo): Scripts specific for `Gentoo` systems. 
+
+## Setup device-specific software
+
+Sometimes you need to install (and configure) software specific to a particular device.
+
+The main example is installing drivers..
+
+[Here](./device_specific) is a list of device-specific software setup tutorials.
