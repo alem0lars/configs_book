@@ -134,9 +134,7 @@ The main example is installing drivers..
 
 [Here](./device_specific) is a list of device-specific software setup tutorials.
 
-## Create users
-
-Create your personal user:
+## Create your personal user
 
 ```ShellSession
 $ _comment="Personal user for Alessandro Molari" # Replace with yours.
@@ -162,4 +160,14 @@ Now allow `admin` to user `sudo`:
 ```ShellSession
 $ echo "%admin ALL=(ALL) ALL" > "/etc/sudoers.d/group_admin"
 $ chmod 600 "/etc/sudoers.d/group_admin"
+```
+
+Now perform user-level configuration.
+
+If you are using `Fizzy`, that's simple:
+
+```ShellSession
+$ _username="alem0lars" # Replace with yours.
+$ fizzy cfg instantiate --vars-name=julia_hck_gentoo --inst-name="user_${_username}"
+$ fizzy sys install --vars-name=julia_hck_gentoo --inst-name="user_${_username}"
 ```
