@@ -66,10 +66,10 @@ $ emerge -e world
 ## Install some basic packages
 
 ```ShellSession
-$ emerge pciutils usbutils # To work with PCI & USB devices.
+$ emerge pciutils usbutils # To work with `PCI `& `USB` devices.
 $ emerge parted # To manage partitions.
-$ emerge gentoolkit genlop eix # Some nice portage utilities.
-$ emerge nmap
+$ emerge gentoolkit genlop eix # Some nice `portage` utilities.
+$ emerge nmap # You may need nmap for file transfers (`ncat`).
 ```
 
 ## Install `layman`
@@ -100,16 +100,17 @@ $ systemctl enable slim
 ## Install other software
 
 ```ShellSession
-$ emerge x11-misc/dzen
-$ emerge x11-terms/rxvt-unicode x11-misc/urxvt-perls
+$ emerge app-admin/sudo
 $ emerge app-admin/conky
-$ emerge x11-misc/dmenu
-$ emerge x11-misc/xclip x11-misc/autocutsel x11-misc/parcellite
-$ emerge app-shells/zsh
 $ emerge app-misc/tmux
-$ emerge x11-misc/trayer-srg
+$ emerge app-shells/zsh
 $ emerge media-gfx/feh
 $ emerge media-sound/pavucontrol
+$ emerge x11-misc/dzen
+$ emerge x11-misc/dmenu
+$ emerge x11-misc/xclip x11-misc/autocutsel x11-misc/parcellite
+$ emerge x11-misc/trayer-srg
+$ emerge x11-terms/rxvt-unicode x11-misc/urxvt-perls
 ```
 
 ## Install fonts
@@ -137,8 +138,28 @@ The main example is installing drivers..
 
 Create your personal user:
 
-```
+```ShellSession
 $ _comment="Personal user for Alessandro Molari" # Replace with yours.
 $ _username="alem0lars" # Replace with yours.
 $ useradd -d "/home/${_username}" -s /bin/zsh -c "${_comment}" -m "${_username}"
+```
+
+Add the administrators group:
+
+```ShellSession
+$ groupadd admin
+```
+
+Add your administrative user (for me is my personal user) as member of `admin` group:
+
+```ShellSession
+$ _username="alem0lars" # Replace with your administrative user.
+$ gpasswd -a ${_username} admin
+```
+
+Now allow `admin` to user `sudo`:
+
+```ShellSession
+$ echo "%admin ALL=(ALL) ALL" > "/etc/sudoers.d/group_admin"
+$ chmod 600 "/etc/sudoers.d/group_admin"
 ```
