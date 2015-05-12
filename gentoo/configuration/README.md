@@ -132,3 +132,13 @@ Sometimes you need to install (and configure) software specific to a particular 
 The main example is installing drivers..
 
 [Here](./device_specific) is a list of device-specific software setup tutorials.
+
+## Create users
+
+Create your personal user:
+
+```
+$ _comment="Personal user for Alessandro Molari" # Replace with yours.
+$ _username="alem0lars" # Replace with yours.
+$ useradd -d "/home/${_username}" -s /bin/zsh -c "${_comment}" -m "${_username}"
+```
