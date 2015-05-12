@@ -162,7 +162,7 @@ $ echo "%admin ALL=(ALL) ALL" > "/etc/sudoers.d/group_admin"
 $ chmod 600 "/etc/sudoers.d/group_admin"
 ```
 
-Now perform user-level configuration.
+## User-level configuration
 
 If you are using `Fizzy`, that's simple:
 
