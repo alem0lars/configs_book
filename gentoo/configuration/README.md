@@ -171,3 +171,5 @@ $ _username="alem0lars" # Replace with yours.
 $ fizzy cfg instantiate --vars-name=julia_hck_gentoo --inst-name="user_${_username}"
 $ fizzy sys install --vars-name=julia_hck_gentoo --inst-name="user_${_username}"
 ```
+
+Answer no when `Fizzy` will ask you if you want to overwrite system files (like files in `/etc`) because they should belong to the `system` instance.
