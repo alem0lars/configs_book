@@ -142,17 +142,18 @@ $ _username="alem0lars" # Replace with yours.
 $ useradd -d "/home/${_username}" -s /bin/zsh -c "${_comment}" -m "${_username}"
 ```
 
-Add the administrators group:
+Create the administrators group:
 
 ```ShellSession
 $ groupadd admin
 ```
 
-Add your administrative user (for me is my personal user) as member of `admin` group:
+Add your user to groups:
 
 ```ShellSession
-$ _username="alem0lars" # Replace with your administrative user.
+$ _username="alem0lars" # Replace with yours.
 $ gpasswd -a ${_username} admin
+$ gpasswd -a ${_username} portage
 ```
 
 Now allow `admin` to user `sudo`:
