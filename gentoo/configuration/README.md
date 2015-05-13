@@ -179,6 +179,6 @@ $ fizzy sys install --vars-name=julia_hck_gentoo --inst-name="user_${_username}"
 ## Install additional software
 
 ```ShellSession
-$ emerge chromium
-$ emerge firefox
+$ emerge chromium # Login to sync (for me: everything except passwords).
+$ emerge firefox # Login to sync (for me: everything except passwords. My convention about device: <username>@<host> @ firefox
 ```
