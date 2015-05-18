@@ -1,18 +1,24 @@
 # VCS
 
-### `Git`
+## `Git`
+
+### Installation
 
 ```ShellSession
 $ emerge git
 ```
 
-### `Mercurial`
+## `Mercurial`
+
+### Installation
 
 ```ShellSession
 $ emerge mercurial
 ```
 
-### `Subversion`
+## `Subversion`
+
+### Installation
 
 ```ShellSession
 $ emerge subversion
