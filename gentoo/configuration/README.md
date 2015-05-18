@@ -182,12 +182,6 @@ See [here](./archive_configuration.md)
 
 ## Install additional software
 
-* Web browsers:
-
-  ```ShellSession
-  $ emerge chromium # Login to sync (for me: everything except passwords).
-  $ emerge firefox # Login to sync (for me: everything except passwords. Device name convention: <username>@<host> @ firefox
-  ```
-
+* [Web browsers](./software/web_browsers.md)
 * [`Perl`](./software/perl.md)
 * [VCS](./software/vcs.md)
