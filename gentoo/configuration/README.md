@@ -176,6 +176,42 @@ $ fizzy sys install --vars-name=julia_hck_gentoo --inst-name="user_${_username}"
 
 *Answer no when `Fizzy` will ask you if you want to overwrite system files* (like files in `/etc`) because they should belong to the `system` instance.
 
+## (Optional) Configure archive
+
+If you have a separate partition for your documents, projects, music, videos, etc.. like me (I call it archive), then you should setup it.
+
+*You should already have it mounted in `/archive` and an entry in `/etc/fstab`.*
+
+The basic directory structure is the following:
+
+```
+/archive
+  → documents
+  → graphics
+    → images
+  → audio
+    → music
+  → video
+    → movies
+  → development
+    → projects
+      → personal
+      → work
+      → contrib
+    → workspaces
+  → public
+```
+
+To create those directories run:
+
+```ShellSession
+$ mkdir -p /archive/documents
+$ mkdir -p /archive/graphics/images
+$ mkdir -p /archive/audio/music
+$ mkdir -p /archive/video/movies
+$ mkdir -p /archive/development/{workspaces,projects/{personal,work,contrib}}
+$ mkdir -p /archive/public
+```
 
 ## Install additional software
 
@@ -183,3 +219,16 @@ $ fizzy sys install --vars-name=julia_hck_gentoo --inst-name="user_${_username}"
 $ emerge chromium # Login to sync (for me: everything except passwords).
 $ emerge firefox # Login to sync (for me: everything except passwords. Device name convention: <username>@<host> @ firefox
 ```
+
+## `Perl`
+
+### Setup `CPAN`
+
+With every user you want perl being setup, run:
+
+```ShellSession
+$ cpan
+```
+
+and choose the default answer to all questions, except when it asks for adding environment variables to `.zshrc` because:
+1. We use Fizzy to manage configurations. Those environment variables are [here]()
