@@ -5,7 +5,7 @@
 ### Installation
 
 ```ShellSession
-$ emerge git
+$ emerge git git-flow
 ```
 
 ## `Mercurial`
