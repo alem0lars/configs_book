@@ -2,7 +2,7 @@
 
 If you have a separate partition for your documents, projects, music, videos, etc.. like me (I call it archive), then you should setup it.
 
-*You should already have it mounted in `/archive` and an entry in `/etc/fstab`.*
+*You should already have it mounted in `/archive` and an entry in `/etc/fstab` with the `acl` option.*
 
 ## Structure
 
