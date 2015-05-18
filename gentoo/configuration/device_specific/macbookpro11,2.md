@@ -11,3 +11,9 @@ Then install the drivers:
 ```ShellSession
 $ emerge broadcom-sta
 ```
+
+## Trackpad
+
+```ShellSession
+$ emerge xf86-input-mtrack
+```
