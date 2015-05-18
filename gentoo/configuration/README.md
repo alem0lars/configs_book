@@ -108,7 +108,7 @@ $ emerge media-gfx/feh
 $ emerge media-sound/pavucontrol
 $ emerge x11-misc/dzen
 $ emerge x11-misc/dmenu
-$ emerge x11-misc/xclip x11-misc/autocutsel x11-misc/parcellite
+$ emerge x11-misc/xclip x11-misc/xsel x11-misc/autocutsel x11-misc/parcellite
 $ emerge x11-misc/trayer-srg
 $ emerge x11-terms/rxvt-unicode x11-misc/urxvt-perls
 $ emerge x11-themes/FlatStudio # GTK 2/3 theme.
