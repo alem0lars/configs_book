@@ -178,40 +178,7 @@ $ fizzy sys install --vars-name=julia_hck_gentoo --inst-name="user_${_username}"
 
 ## (Optional) Configure archive
 
-If you have a separate partition for your documents, projects, music, videos, etc.. like me (I call it archive), then you should setup it.
-
-*You should already have it mounted in `/archive` and an entry in `/etc/fstab`.*
-
-The basic directory structure is the following:
-
-```
-/archive
-  → documents
-  → graphics
-    → images
-  → audio
-    → music
-  → video
-    → movies
-  → development
-    → projects
-      → personal
-      → work
-      → contrib
-    → workspaces
-  → public
-```
-
-To create those directories run:
-
-```ShellSession
-$ mkdir -p /archive/documents
-$ mkdir -p /archive/graphics/images
-$ mkdir -p /archive/audio/music
-$ mkdir -p /archive/video/movies
-$ mkdir -p /archive/development/{workspaces,projects/{personal,work,contrib}}
-$ mkdir -p /archive/public
-```
+See [here](./archive_configuration.md)
 
 ## Install additional software
 
