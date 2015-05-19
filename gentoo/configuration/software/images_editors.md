@@ -1,4 +1,4 @@
-# Image editors
+# Images editors
 
 ## `GIMP`
 
