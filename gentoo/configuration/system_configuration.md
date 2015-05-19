@@ -4,7 +4,7 @@ I (and suggest you to) use [`Fizzy`](https://github.com/alem0lars/fizzy) for man
 
 For me (and for those using `Fizzy`) this step comes for free.
 
-### Install `Fizzy`
+## Install `Fizzy`
 
 To install `Fizzy`, run:
 
@@ -15,14 +15,14 @@ $ curl https://raw.githubusercontent.com/alem0lars/fizzy/master/fizzy | sudo tee
 $ chmod +x /usr/local/bin/fizzy
 ```
 
-### Sync configurations
+## Sync configurations
 
 ```ShellSession
 $ _configs_url="git@github.com:alem0lars/configs" # Replace with your configurations repository.
 $ fizzy cfg sync --url "${_configs_url}"
 ```
 
-### Create the `system` instance
+## Create the `system` instance
 
 The `system` instance holds system-wide (as well as `root` user) configurations.
 
@@ -34,10 +34,20 @@ $ _vars_name="julia_hck_gentoo" # Replace with your variables name.
 $ fizzy cfg instantiate --vars-name="${_vars_name}" --inst-name="${_inst_name}"
 ```
 
-### Install the `system` instance
+## Install the `system` instance
 
 ```ShellSession
 $ _inst_name="system" # Replace if you prefer another name (like `root` or something else).
 $ _vars_name="julia_hck_gentoo" # Replace with your variables name.
 $ fizzy sys install --vars-name="${_vars_name}" --inst-name="${_inst_name}"
 ```
+
+## Make changes effective
+
+Run:
+
+```ShellSession
+$ eselect env update
+```
+
+Now reboot your system.
