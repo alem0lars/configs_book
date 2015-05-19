@@ -1,8 +1,8 @@
-# CLIUtils
+# `CLI` utils
 
 Some useful `CLI` utilities.
 
-## Tree
+## `Tree`
 
 ### Installation
 
