@@ -182,10 +182,11 @@ See [here](./archive_configuration.md)
 
 ## Install additional software
 
-* [Web browsers](./software/web_browsers.md)
-* [`Perl`](./software/perl.md)
-* [VCS](./software/vcs.md)
-* [`TeXlive`](./software/texlive.md)
-* [Image editors](./software/image_editors.md)
+* [Files management](./software/files_management.md)
+* [Images editors](./software/images_editors.md)
 * [Text editors](./software/text_editors.md)
-* [File manager](./software/file_manager.md)
+* [Web browsers](./software/web_browsers.md)
+* [VCS](./software/vcs.md)
+* [CLI utilities](./software/cli_utils.md)
+* [`Perl`](./software/perl.md)
+* [`TeXlive`](./software/texlive.md)
