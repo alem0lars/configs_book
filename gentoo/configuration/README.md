@@ -63,6 +63,12 @@ $ emerge -e system
 $ emerge -e world
 ```
 
+## Install daemons
+
+```ShellSession
+$ emerge wpa_supplicant
+```
+
 ## Install some basic packages
 
 ```ShellSession
