@@ -39,11 +39,15 @@ $ emerge ant-ivy
 
 ### `Maven`
 
+#### Installation
+
 ```ShellSession
 $ emerge maven-bin
 ```
 
-## Linters / Checkers
+### Linters / Checkers
+
+#### Installation
 
 ```ShellSession
 $ emerge findbugs
