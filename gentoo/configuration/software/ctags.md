@@ -5,7 +5,7 @@
 ### Installation
 
 ```ShellSession
-$ emerge exhuberant-ctags
+$ emerge ctags
 $ emerge eselect-ctags
 ```
 
