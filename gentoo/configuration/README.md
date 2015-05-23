@@ -182,7 +182,7 @@ $ fizzy sys install --vars-name=julia_hck_gentoo --inst-name="user_${_username}"
 
 *Answer no when `Fizzy` will ask you if you want to overwrite system files* (like files in `/etc`) because they should belong to the `system` instance.
 
-## (Optional) Configure archive
+## (Optional) Configure `archive`
 
 See [here](./archive_configuration.md)
 
