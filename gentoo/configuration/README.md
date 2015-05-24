@@ -170,6 +170,8 @@ $ echo "%admin ALL=(ALL) ALL" > "/etc/sudoers.d/group_admin"
 $ chmod 600 "/etc/sudoers.d/group_admin"
 ```
 
+Finally, add the `ssh` keys for the created user.
+
 ## User-level configuration
 
 If you are using `Fizzy`, that's simple:
