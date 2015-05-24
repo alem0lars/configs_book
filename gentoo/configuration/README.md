@@ -108,7 +108,6 @@ $ systemctl enable slim
 ```ShellSession
 $ emerge app-admin/sudo
 $ emerge app-admin/conky
-$ emerge app-misc/tmux
 $ emerge app-shells/zsh
 $ emerge media-gfx/feh
 $ emerge media-sound/pavucontrol
@@ -217,3 +216,4 @@ See [here](./archive_configuration.md)
 * [Virtualization](./software/virtualization.md)
 * [Password cracking](./software/password_cracking.md)
 * [Log tools](./software/log_tools.md)
+* [Terminal multiplexer](./software/terminal_multiplexer.md)
