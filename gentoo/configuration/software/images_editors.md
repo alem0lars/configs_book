@@ -5,7 +5,17 @@
 ### Installation
 
 ```ShellSession
-$ emerge gimp gimp-gmic gimp-lqr gimp-lensfun
+# emerge "media-gfx/gimp"
+```
+
+### Plugins
+
+#### Installation
+
+```ShellSession
+# emerge "media-plugins/gimp-gmic"
+# emerge "media-plugins/gimp-lqr"
+# emerge "media-plugins/gimp-lensfun"
 ```
 
 ## `Inkscape`
