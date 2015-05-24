@@ -1,4 +1,4 @@
-# Utils
+# Miscellaneous
 
 ## `parallel`
 
