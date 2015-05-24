@@ -33,3 +33,11 @@ $ gpasswd -a ${_username} wireshark
 ```ShellSession
 # emerge "net-analyzer/mtr"
 ```
+
+## `p0f`
+
+### Installation
+
+```ShellSession
+# emerge "net-analyzer/p0f"
+```
