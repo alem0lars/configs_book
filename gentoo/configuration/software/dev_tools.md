@@ -23,3 +23,11 @@
 ```ShellSession
 # emerge "media-gfx/aewan"
 ```
+
+## `colordiff`
+
+### Installation
+
+```ShellSession
+# emerge "app-misc/colordiff"
+```
