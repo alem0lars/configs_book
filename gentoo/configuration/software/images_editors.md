@@ -23,5 +23,5 @@
 ### Installation
 
 ```ShellSession
-$ emerge inkscape
+# emerge "media-gfx/inkscape"
 ```
