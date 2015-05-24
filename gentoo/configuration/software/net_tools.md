@@ -15,3 +15,11 @@
 ```ShellSession
 # emerge "net-misc/bridge-utils"
 ```
+
+## `urlview`
+
+### Installation
+
+```ShellSession
+# emerge "net-misc/urlview"
+```
