@@ -6,7 +6,7 @@
 
 ```ShellSession
 $ emerge chromium
-$ emerge www-plugins/chrome-binary-plugins
+$ emerge www-plugins/chrome-binary-plugins www-plugins/google-talkplugin
 ```
 
 ### Configuration
