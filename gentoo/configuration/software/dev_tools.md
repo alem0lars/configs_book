@@ -15,3 +15,11 @@
 ```ShellSession
 # emerge "app-text/highlight"
 ```
+
+## `aewan`
+
+### Installation
+
+```ShellSession
+# emerge "media-gfx/aewan"
+```
