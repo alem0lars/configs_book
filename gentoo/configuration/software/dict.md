@@ -17,5 +17,5 @@ You can use it to check correct / wrong words.
 
 ```ShellSession
 # _langs=(en it) # Replace with languages you want to spell-check.
-# for _lang in "${_langs[@]}"; do echo "app-dicts/aspell-${_lang}"; done
+# for _lang in "${_langs[@]}"; do emerge "app-dicts/aspell-${_lang}"; done
 ```
