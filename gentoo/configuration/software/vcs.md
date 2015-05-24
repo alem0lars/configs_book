@@ -11,6 +11,8 @@
 
 ### Tools
 
+#### Installation
+
 ```ShellSession
 # emerge "dev-vcs/tig"
 ```
