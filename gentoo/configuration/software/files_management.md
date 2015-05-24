@@ -32,6 +32,8 @@ Lists directories recursively, and produces an indented listing of files.
 
 ## `cv`
 
+### Installation
+
 ```ShellSession
 # emerge "sys-apps/cv"
 ```
