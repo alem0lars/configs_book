@@ -190,6 +190,7 @@ See [here](./archive_configuration.md)
 ## Install additional software
 
 * [Files management](./software/files_management.md)
+* [Files sharing](./software/files_sharing.md)
 * [Images editors](./software/images_editors.md)
 * [Images tools](./software/images_tools.md)
 * [Text editors](./software/text_editors.md)
