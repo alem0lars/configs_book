@@ -5,8 +5,8 @@
 ### Installation
 
 ```ShellSession
-$ emerge tcpflow
-$ emerge tcpdump
+# emerge "net-analyzer/tcpflow"
+# emerge "net-analyzer/tcpdump"
 ```
 
 ## `Wireshark`
@@ -14,7 +14,7 @@ $ emerge tcpdump
 ### Installation
 
 ```ShellSession
-$ emerge "net-analyzer/wireshark"
+# emerge "net-analyzer/wireshark"
 ```
 
 ### Configuration
@@ -22,8 +22,8 @@ $ emerge "net-analyzer/wireshark"
 To be able to use `Wireshark` with a normal user, you need to add it to the `wireshark` group:
 
 ```ShellSession
-$ _username="alem0lars" # Replace with yours.
-$ gpasswd -a ${_username} wireshark
+# _username="alem0lars" # Replace with yours.
+# gpasswd -a ${_username} wireshark
 ```
 
 ## `mtr`
