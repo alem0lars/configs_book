@@ -15,3 +15,11 @@ $ emerge phrack-all
 ```ShellSession
 $ emerge tldp-howto
 ```
+
+## `PMS`
+
+### Installation
+
+```ShellSession
+$ emerge pms
+```
