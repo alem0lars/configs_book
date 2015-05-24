@@ -1,4 +1,4 @@
-# Password cracker
+# Password cracking
 
 ## `johntheripper`
 
