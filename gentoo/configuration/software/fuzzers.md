@@ -5,5 +5,5 @@
 ### Installation
 
 ```ShellSession
-$ emerge afl
+# emerge "app-forensics/afl"
 ```
