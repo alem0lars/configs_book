@@ -7,7 +7,7 @@ Lists directories recursively, and produces an indented listing of files.
 ### Installation
 
 ```ShellSession
-$ emerge app-text/tree
+# emerge "app-text/tree"
 ```
 
 ## `ranger`
@@ -17,7 +17,7 @@ $ emerge app-text/tree
 ### Installation
 
 ```ShellSession
-$ emerge ranger
+# emerge "app-misc/ranger"
 ```
 
 ## `NCDU`
@@ -27,5 +27,5 @@ $ emerge ranger
 ### Installation
 
 ```ShellSession
-$ emerge ncdu
+# emerge "sys-fs/ncdu"
 ```
