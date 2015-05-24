@@ -5,7 +5,7 @@
 ### Installation
 
 ```ShellSession
-$ emerge phrack-all
+# emerge "app-doc/phrack-all"
 ```
 
 ## `TLDP`
@@ -13,7 +13,7 @@ $ emerge phrack-all
 ### Installation
 
 ```ShellSession
-$ emerge tldp-howto
+# emerge "app-doc/tldp-howto"
 ```
 
 ## `PMS`
@@ -21,5 +21,5 @@ $ emerge tldp-howto
 ### Installation
 
 ```ShellSession
-$ emerge pms
+# emerge "app-doc/pms"
 ```
