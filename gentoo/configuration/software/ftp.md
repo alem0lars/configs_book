@@ -5,5 +5,5 @@
 ### Installation
 
 ```ShellSession
-$ emerge lftp
+# emerge "net-ftp/lftp"
 ```
