@@ -1,4 +1,4 @@
-# Networking tools
+# Network tools
 
 ## `ipcalc`
 
