@@ -29,3 +29,9 @@ Lists directories recursively, and produces an indented listing of files.
 ```ShellSession
 # emerge "sys-fs/ncdu"
 ```
+
+## `cv`
+
+```ShellSession
+# emerge "sys-apps/cv"
+```
