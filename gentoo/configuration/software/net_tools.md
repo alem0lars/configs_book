@@ -23,3 +23,9 @@
 ```ShellSession
 # emerge "net-misc/urlview"
 ```
+
+## `httrack`
+
+```ShellSession
+# emerge "www-client/httrack"
+```
