@@ -192,6 +192,7 @@ See [here](./archive_configuration.md)
 
 * [Files management](./software/files_management.md)
 * [Images editors](./software/images_editors.md)
+* [Images tools](./software/images_tools.md)
 * [Text editors](./software/text_editors.md)
 * [Web clients](./software/web_clients.md)
 * [VCS](./software/vcs.md)
