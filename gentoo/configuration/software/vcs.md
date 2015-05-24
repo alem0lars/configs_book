@@ -5,7 +5,14 @@
 ### Installation
 
 ```ShellSession
-$ emerge git git-flow
+# emerge "dev-vcs/git"
+# emerge "dev-vcs/git-flow"
+```
+
+### Tools
+
+```ShellSession
+# emerge "dev-vcs/tig"
 ```
 
 ## `Mercurial`
@@ -13,7 +20,7 @@ $ emerge git git-flow
 ### Installation
 
 ```ShellSession
-$ emerge mercurial
+# emerge "dev-vcs/mercurial"
 ```
 
 ## `Subversion`
@@ -21,5 +28,5 @@ $ emerge mercurial
 ### Installation
 
 ```ShellSession
-$ emerge subversion
+# emerge "dev-vcs/subversion"
 ```
