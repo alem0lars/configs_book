@@ -6,6 +6,7 @@
 
 ```ShellSession
 $ emerge chromium
+$ emerge www-plugins/chrome-binary-plugins
 ```
 
 ### Configuration
