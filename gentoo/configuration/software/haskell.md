@@ -13,3 +13,13 @@
 ```ShellSession
 # emerge "dev-haskell/cabal-install"
 ```
+
+## Additional tools
+
+### `ghc-mod`
+
+#### Installation
+
+```ShellSession
+# emerge "app-emacs/ghc-mod"
+```
