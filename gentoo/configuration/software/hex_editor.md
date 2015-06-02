@@ -1,9 +1,17 @@
-# Hex editor
+# Debuggers
 
-The hex editor of choice is `radare`.
+## `radare`
 
-## Installation
+### Installation
 
 ```ShellSession
 # emerge "dev-util/radare2"
+```
+
+## `gdb`
+
+### Installation
+
+```ShellSession
+# emerge "sys-devel/gdb"
 ```
