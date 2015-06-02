@@ -54,6 +54,19 @@ $ systemctl start systemd-resolved
 $ ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
 ```
 
+## Local portage overlay
+
+Create it running:
+
+```ShellSession
+# mkdir -p /usr/local/portage/{metadata,profiles}
+# echo 'local' > /usr/local/portage/profiles/repo_name
+# echo 'masters = gentoo' > /usr/local/portage/metadata/layout.conf
+# chown -R portage:portage /usr/local/portage
+```
+
+Next, tell portage about the overlay. 
+
 ## Update packages
 
 Now you should have new use flags, compiling options, etc.., so it's better to *recompile the entire system*.
