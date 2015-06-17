@@ -203,7 +203,8 @@ See [here](./archive_configuration.md)
 ## Install additional software
 
 * [Web clients](./software/web_clients.md)
-* [IRC client](./software/irc_client.md)
+* [`IRC`](./software/irc.md)
+* [`Twitter`](./software/twitter.md)
 * [`FTP`](./software/ftp.md)
 * [Files management](./software/files_management.md)
 * [Files sharing](./software/files_sharing.md)
