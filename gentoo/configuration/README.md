@@ -39,19 +39,23 @@ $ cp "arch/x86_64/boot/bzImage" "${_dst_kernel_image}"
 ### Start and enable `networkd`
 
 ```ShellSession
-$ systemctl enable systemd-networkd
-$ systemctl start systemd-networkd
-$ systemctl enable systemd-resolved
-$ systemctl start systemd-resolved
-$ ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+# systemctl enable systemd-networkd
+# systemctl start systemd-networkd
 ```
 
 ### Start and enable `resolved`
 
 ```ShellSession
-$ systemctl enable systemd-resolved
-$ systemctl start systemd-resolved
-$ ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+# systemctl enable systemd-resolved
+# systemctl start systemd-resolved
+# ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+```
+
+### Start and enable `Avahi`
+
+```ShellSession
+# systemctl enable avahi-daemon
+# systemctl start avahi-daemon
 ```
 
 ## Local portage overlay

@@ -7,5 +7,10 @@ license.
 
 ```ShellSession
 # chmod +x "mathematica-*-linux.sh"
-# bash ./mathematica-*-linux.sh --target "/opt/mathematica"
+# bash ./mathematica-*-linux.sh
 ```
+
+Choose:
+
+* `/opt/mathematica` as installation directory.
+* `/usr/local/bin` to hold symlinks.
