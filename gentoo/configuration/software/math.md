@@ -14,3 +14,13 @@ Choose:
 
 * `/opt/mathematica` as installation directory.
 * `/usr/local/bin` to hold symlinks.
+
+## Troubleshooting
+
+### xdg error
+
+Run:
+
+```ShellSession
+# mkdir /usr/share/desktop-directories
+```
