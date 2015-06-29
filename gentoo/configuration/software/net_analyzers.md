@@ -41,3 +41,11 @@ To be able to use `Wireshark` with a normal user, you need to add it to the `wir
 ```ShellSession
 # emerge "net-analyzer/p0f"
 ```
+
+## `Tsung`
+
+### Installation
+
+```ShellSession
+# emerge "net-analyzer/tsung"
+```

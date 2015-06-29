@@ -34,3 +34,11 @@ Device name convention: `<username>@<host> @ firefox`.
 ```ShellSession
 # emerge "net-misc/httpie"
 ```
+
+## `Flash player`
+
+### Installation
+
+```ShellSession
+# emerge "www-plugins/adobe-flash"
+```

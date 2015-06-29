@@ -93,6 +93,7 @@ $ emerge pciutils usbutils # To work with `PCI `& `USB` devices.
 $ emerge parted # To manage partitions.
 $ emerge gentoolkit genlop eix # Some nice `portage` utilities.
 $ emerge nmap # You may need nmap for file transfers (`ncat`).
+# emerge "sys-fs/ntfs3g"
 ```
 
 ## Install `layman`
@@ -225,6 +226,7 @@ See [here](./archive_configuration.md)
 * [Development tools](./software/dev_tools.md)
 * [Debuggers](./software/debuggers.md)
 * [Fuzzers](./software/fuzzers.md)
+* [`ELF` tools](./software/elf_tools.md)
 * [Network analyzers](./software/net_analyzers.md)
 * [Network tools](./software/net_tools.md)
 * [Password cracking](./software/password_cracking.md)
@@ -234,6 +236,7 @@ See [here](./archive_configuration.md)
 * [Miscellaneous](./software/misc.md)
 
 * [Docs](./software/docs.md)
+* [Flashcards](./software/flashcards.md)
 
 * [`C`](./software/c.md)
 * [`Java`](./software/java.md)
