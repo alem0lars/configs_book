@@ -2,15 +2,19 @@
 
 ## Initial (temporary) configuration
 
-The first step of the configuration is having a working system. We need to perform some basic configurations, just to be able to fully configure the system later on.
+The first step of the configuration is having a working system. We need to
+perform some basic configurations, just to be able to fully configure the
+system later on.
 
-To have a working system, you need to do some temporary configuration: follow the [Temporary configuration](./temporary_configuration.md) tutorial.
+To have a working system, you need to do some temporary configuration: follow
+the [Temporary configuration](./temporary_configuration.md) tutorial.
 
 ## System configuration
 
 It's time to fully configure your system.
 
-Here it's not our focus to configure specific end-user software, but the base system, including:
+Here it's not our focus to configure specific end-user software, but the base
+system, including:
 
 1. Kernel.
 2. Main daemons.
@@ -24,7 +28,8 @@ Follow the [Configurations install](./system_configuration.md) tutorial.
 
 ## Build the kernel
 
-Now the kernel is configured (i.e. the `.config` file has been copied to `/usr/src/linux`).
+Now the kernel is configured (i.e. the `.config` file has been copied to
+`/usr/src/linux`).
 We need to rebuild it to use the new configurations.
 
 Mount the `EFI` partition under `/boot` and run the following:
@@ -73,7 +78,8 @@ Next, tell portage about the overlay.
 
 ## Update packages
 
-Now you should have new use flags, compiling options, etc.., so it's better to *recompile the entire system*.
+Now you should have new use flags, compiling options, etc.., so it's better to
+*recompile the entire system*.
 
 ```
 $ emerge -e system
@@ -199,7 +205,8 @@ $ fizzy cfg instantiate --vars-name=julia_hck_gentoo --inst-name="user_${_userna
 $ fizzy sys install --vars-name=julia_hck_gentoo --inst-name="user_${_username}"
 ```
 
-*Answer no when `Fizzy` will ask you if you want to overwrite system files* (like files in `/etc`) because they should belong to the `system` instance.
+*Answer no when `Fizzy` will ask you if you want to overwrite system files*
+(like files in `/etc`) because they should belong to the `system` instance.
 
 ## (Optional) Configure `archive`
 
@@ -221,6 +228,7 @@ See [here](./archive_configuration.md)
 * [Audio player](./software/audio_player.md)
 * [Office](./software/office.md)
 * [Math](./software/math.md)
+* [Documents viewers](./software/docs_viewers.md)
 * [Text editors](./software/text_editors.md)
 * [VCS](./software/vcs.md)
 * [Development tools](./software/dev_tools.md)
