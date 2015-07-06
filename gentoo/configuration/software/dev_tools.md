@@ -31,3 +31,11 @@
 ```ShellSession
 # emerge "app-misc/colordiff"
 ```
+
+## `dotenv`
+
+### Installation
+
+```ShellSession
+# emerge "dev-ruby/dotenv"
+```
