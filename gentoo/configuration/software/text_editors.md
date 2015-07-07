@@ -1,31 +1,32 @@
 # Text editors
 
-## `Vim`
+## Dependencies
+
+- [**Eclipse**](./ide.md) (needed by eclim).
+- **Eclim**:
+
+  - Download it from [here](http://sourceforge.net/projects/eclim/files/eclim)
+  - Run the installer:
+
+    ```ShellSession
+    $ java -jar eclim*.jar
+    ```
+
+    Be sure to:
+
+    - Uncheck the option to install vim files.
+    - Select all of the available eclipse features.
+
+## Installation
 
 ```ShellSession
-$ emerge vim
+# emerge "app-editors/vim"
 ```
 
 ## Set default editor
 
 ```ShellSession
-$ sudo eselect editor list                  # Shows the available editors.
-$ _editor_number=3                          # Replace with the `vim` editor number (possibly called `/usr/bin/vi`).
-$ sudo eselect editor set ${_editor_number} # Set the system editor (`EDITOR` environment variable).
-```
-
-## Dependencies
-
-If you want to use `eclim`, you should install `Eclipse` and run it in headless
-mode.
-
-```ShellSession
-# emerge "dev-util/eclipse-sdk-bin"
-```
-
-Now install eclim every user you want to use it:
-
-```ShellSession
-$ _eclipse_base_dir="/opt/eclipse-sdk-bin-4.4"
-$ vim "+DeployEclim ${_eclipse_base_dir}"
+# eselect editor list # Shows the available editors.
+# _editor_number=3 # The vim editor number (possibly called `/usr/bin/vi`).
+# eselect editor set ${_editor_number} # Set the system editor.
 ```
