@@ -22,3 +22,10 @@ mode.
 ```ShellSession
 # emerge "dev-util/eclipse-sdk-bin"
 ```
+
+Now install eclim every user you want to use it:
+
+```ShellSession
+$ _eclipse_base_dir="/opt/eclipse-sdk-bin-4.4"
+$ vim "+DeployEclim ${_eclipse_base_dir}"
+```
