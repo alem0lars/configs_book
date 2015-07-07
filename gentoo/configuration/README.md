@@ -248,7 +248,7 @@ See [here](./archive_configuration.md)
 * [Flashcards](./software/flashcards.md)
 
 * [`C`](./software/c.md)
-* [`Java`](./software/java.md)
+* [`JVM`](./software/jvm.md)
 * [`JSON`](./software/json.md)
 * [`Haskell`](./software/haskell.md)
 * [`NodeJS`](./software/nodejs.md)
