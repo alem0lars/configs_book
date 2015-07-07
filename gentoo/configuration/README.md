@@ -249,6 +249,7 @@ See [here](./archive_configuration.md)
 * [Flashcards](./software/flashcards.md)
 
 * [`C`](./software/c.md)
+* [`Android`](./software/android.md)
 * [`JVM`](./software/jvm.md)
 * [`JSON`](./software/json.md)
 * [`Haskell`](./software/haskell.md)
