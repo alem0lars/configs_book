@@ -1,7 +1,7 @@
 # NoMultiLib to Multilib
 
-Sometimes you have a Gentoo system with a multilib profile and you need to
-switch profile to nomultilib.
+Sometimes you have a Gentoo system with a nomultilib profile and you need to
+switch profile to multilib.
 
 This operation is really difficult, more than it seems, because you need to
 compile 32bit software, i.e. you need a 32bit compiler. But to have a 32bit
