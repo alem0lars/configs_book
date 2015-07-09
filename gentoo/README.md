@@ -15,4 +15,4 @@ See [here](./configuration/README.md).
 
 ## Troubleshoot
 
-See [here](./troubleshoot/README.md).
+See [here](./troubleshoot/nomultilib-to-multilib.md).
