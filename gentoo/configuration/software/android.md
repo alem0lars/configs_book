@@ -4,6 +4,7 @@
 
 ```ShellSession
 # emerge "dev-util/android-sdk-update-manager"
+# emerge "dev-util/android-tools"
 ```
 
 ## Configuration
@@ -18,6 +19,6 @@
 Install:
 - The latest `Android` entry (all sub-entries).
 - The latest `Android M` entry (all sub-entries).
-- The `Android SDK Tools`, `Android SDK Build Tools` and `Android SDK Platform Tools` relative to
-  the installed API levels.
+- The `Android SDK Tools`, `Android SDK Build Tools` and
+  `Android SDK Platform Tools` relative to the installed API levels.
 - The `Extra` entry (all sub-entries, except those not compatible with Linux).
