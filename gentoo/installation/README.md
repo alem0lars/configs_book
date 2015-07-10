@@ -307,13 +307,12 @@ The following command shows you the available `gcc` profiles:
 # gcc-config -l
 ```
 
-Enable the profile like `[3] x86_64-pc-linux-gnu-4.8.4-hardenednopiessp`
-(containing `hardenednopiessp` at the end) which disables both `PIE` and `SSP`.
+Enable the profile like `[1] x86_64-pc-linux-gnu-4.8.4`.
 
-In this example the profile is number 3, so to enable it we'll do:
+In this example the profile is number 1, so to enable it we'll do:
 
 ```Shell
-# _profile_number=3
+# _profile_number=1
 # gcc-config ${_profile_number}
 ```
 
