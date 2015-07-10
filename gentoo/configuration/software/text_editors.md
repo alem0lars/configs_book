@@ -15,7 +15,11 @@
     Be sure to:
 
     - Uncheck the option to install vim files.
-    - Select all of the available eclipse features.
+    - Select the following features:
+      - Java Development
+      - Android Development
+      - Scala Development Toolkit
+      - Groovy Development
 
 ## Installation
 
