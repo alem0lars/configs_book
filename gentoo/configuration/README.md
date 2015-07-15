@@ -274,3 +274,7 @@ See [here](./archive_configuration.md)
 * [Calc](./software/calc.md)
 * [IDS](./software/ids.md)
 * [Mumble](./software/mumble.md)
+
+## Fonts setup
+
+See [here](./fonts.md).

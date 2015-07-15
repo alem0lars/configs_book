@@ -1,6 +1,6 @@
 # Virtualization
 
-## `Virtualbox`
+## Virtualbox
 
 ### Installation
 
@@ -19,10 +19,24 @@ To be able to use `Virtualbox` with a normal user, you need to add it to the `vb
 # gpasswd -a ${_username} vboxusers
 ```
 
-## `Vagrant`
+## Vagrant
 
 ### Installation
 
 ```ShellSession
 # emerge "app-emulation/vagrant"
+```
+
+## KVM
+
+### Prerequisites
+
+Ensure your kernel is correctly configured (see
+[here](https://wiki.gentoo.org/wiki/QEMU)).
+
+### Installation
+
+```ShellSession
+# emerge "app-emulation/qemu"
+# gpasswd -a ${_username} kvm # Replace ${_username} with who can access VMs.
 ```
