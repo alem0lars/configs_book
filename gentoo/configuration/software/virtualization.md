@@ -27,6 +27,14 @@ To be able to use `Virtualbox` with a normal user, you need to add it to the `vb
 # emerge "app-emulation/vagrant"
 ```
 
+### Plugins
+
+#### Installation
+
+```ShellSession
+# vagrant plugin install vagrant-windows # Remove when updated to Vagrant 1.6+
+```
+
 ## KVM
 
 ### Prerequisites
