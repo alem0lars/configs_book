@@ -1,12 +1,20 @@
 # `Python`
 
-## `iPython`
+## REPL
 
 ### Installation
 
 
 ```ShellSession
 # emerge "dev-python/ipython"
+# emerge "dev-python/ptpython"
+```
+
+## VirtualEnv
+
+```ShellSession
+# emerge "dev-python/virtualenv"
+# emerge "dev-python/virtualenvwrapper"
 ```
 
 ## `SciPy`
