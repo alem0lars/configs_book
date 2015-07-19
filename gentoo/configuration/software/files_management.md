@@ -53,3 +53,11 @@ NCDU is a disk usage analyzer with an ncurses interface.
 ```ShellSession
 # emerge "sys-apps/cv"
 ```
+
+## Atool
+
+### Installation
+
+```ShellSession
+# emerge "app-arch/atool"
+```
