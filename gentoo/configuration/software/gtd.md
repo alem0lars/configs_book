@@ -4,6 +4,7 @@
 
 ```ShellSession
 # emerge "app-misc/task"
+# emerge "app-misc/vit"
 ```
 
 ## Configuration
