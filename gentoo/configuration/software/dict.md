@@ -1,5 +1,13 @@
 # Dict
 
+## Google Translate
+
+### Installation
+
+```ShellSession
+# emerge "app-text/translate-shell"
+```
+
 ## `Aspell`
 
 `Aspell` is the *spell-checking* solution of choice.
