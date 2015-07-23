@@ -1,4 +1,4 @@
-# `Gentoo` Configuration
+# Gentoo Configuration
 
 ## Initial (temporary) configuration
 
@@ -127,6 +127,12 @@ Remove and regenerate old cache:
 # emerge "xorg-server"
 # emerge "x11-misc/slim"
 # systemctl enable "slim"
+```
+
+## Install window manager
+
+```ShellSession
+# emerge "x11-wm/awesome"
 ```
 
 ## Install other software
