@@ -13,18 +13,20 @@ the [Temporary configuration](./temporary_configuration.md) tutorial.
 
 It's time to fully configure your system.
 
-Here it's not our focus to configure specific end-user software, but the base
-system, including:
+Here it's not our focus to configure specific end-user software, but the
+base system, including:
 
 1. Kernel.
 2. Main daemons.
-3. `Portage`.
-4. `Layman`.
+3. Portage.
+4. Layman.
 5. Display manager
 6. Window manager
 7. etc... (as much as you can)
 
-Follow the [Configurations install](./system_configuration.md) tutorial.
+Follow the
+[Configurations install](./system_configuration.md)
+tutorial.
 
 ## Build the kernel
 
@@ -32,35 +34,35 @@ Now the kernel is configured (i.e. the `.config` file has been copied to
 `/usr/src/linux`).
 We need to rebuild it to use the new configurations.
 
-Mount the `EFI` partition under `/boot` and run the following:
+Mount the EFI partition under `/boot` and run the following:
 
 ```ShellSession
-$ _dst_kernel_image="/boot/EFI/gentoo/kernel-hardened-latest.efi"
-$ cd "/usr/src/linux"
-$ make && make modules_install
-$ cp "arch/x86_64/boot/bzImage" "${_dst_kernel_image}"
+# _dst_kernel_image="/boot/EFI/gentoo/kernel-hardened-latest.efi"
+# cd "/usr/src/linux"
+# make && make modules_install
+# cp "arch/x86_64/boot/bzImage" "${_dst_kernel_image}"
 ```
 
-### Start and enable `networkd`
+### Start and enable Systemd-Networkd
 
 ```ShellSession
-# systemctl enable systemd-networkd
-# systemctl start systemd-networkd
+# systemctl enable "systemd-networkd"
+# systemctl start "systemd-networkd"
 ```
 
-### Start and enable `resolved`
+### Start and enable Systemd-Resolved
 
 ```ShellSession
-# systemctl enable systemd-resolved
-# systemctl start systemd-resolved
+# systemctl enable "systemd-resolved"
+# systemctl start "systemd-resolved"
 # ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
 ```
 
 ### Start and enable `Avahi`
 
 ```ShellSession
-# systemctl enable avahi-daemon
-# systemctl start avahi-daemon
+# systemctl enable "avahi-daemon"
+# systemctl start "avahi-daemon"
 ```
 
 ## Local portage overlay
@@ -74,95 +76,96 @@ Create it running:
 # chown -R portage:portage /usr/local/portage
 ```
 
-Next, tell portage about the overlay. 
+Next, tell portage about the overlay.
 
 ## Update packages
 
-Now you should have new use flags, compiling options, etc.., so it's better to
-*recompile the entire system*.
+Now you should have new use flags, compiling options, etc.., so it's better
+to *recompile the entire system*.
 
 ```
-$ emerge -e system
-$ emerge -e world
+# emerge -e "system"
+# emerge -e "world"
 ```
 
 ## Install daemons
 
 ```ShellSession
-$ emerge wpa_supplicant
+# emerge "wpa_supplicant"
 ```
 
 ## Install some basic packages
 
 ```ShellSession
-$ emerge pciutils usbutils # To work with `PCI `& `USB` devices.
-$ emerge parted # To manage partitions.
-$ emerge gentoolkit genlop eix # Some nice `portage` utilities.
-$ emerge nmap # You may need nmap for file transfers (`ncat`).
+# emerge pciutils usbutils # To work with `PCI `& `USB` devices.
+# emerge parted # To manage partitions.
+# emerge gentoolkit genlop eix # Some nice `portage` utilities.
 # emerge "sys-fs/ntfs3g"
 ```
 
-## Install `layman`
+## Install Layman
 
-Install `layman`:
+Install Layman:
 
 ```ShellSession
-$ emerge layman
+# emerge "app-portage/layman"
 ```
 
 Remove and regenerate old cache:
 
 ```ShellSession
-$ rm -rf /var/cache/edb/dep 
-$ emerge --metadata
-$ eix-sync
+# rm -rf "/var/cache/edb/dep"
+# emerge --metadata
+# eix-sync
 ```
 
-## Install `X` stack
+## Install X stack
 
 ```ShellSession
-$ emerge x11-apps/xrandr x11-apps/xdpyinfo setxkbmap xmodmap x11-apps/xinput xorg-server
-$ emerge xmonad xmonad-contrib
-$ emerge x11-misc/slim
-$ systemctl enable slim
+# emerge "x11-apps/xrandr" "x11-apps/xdpyinfo"
+# emerge "setxkbmap" "xmodmap" "x11-apps/xinput"
+# emerge "xorg-server"
+# emerge "x11-misc/slim"
+# systemctl enable "slim"
 ```
 
 ## Install other software
 
 ```ShellSession
-$ emerge app-admin/sudo
-$ emerge app-admin/conky
-$ emerge app-shells/zsh
-$ emerge media-gfx/feh
-$ emerge media-sound/pavucontrol
-$ emerge x11-misc/dzen
-$ emerge x11-misc/dmenu
-$ emerge x11-misc/xclip x11-misc/xsel x11-misc/autocutsel
-$ emerge x11-misc/trayer-srg
-$ emerge x11-terms/rxvt-unicode x11-misc/urxvt-perls
-$ emerge x11-themes/FlatStudio # GTK 2/3 theme.
+# emerge "app-admin/sudo"
+# emerge "app-shells/zsh"
+# emerge "media-gfx/feh"
+# emerge "media-sound/pavucontrol"
+# emerge "x11-misc/xclip" "x11-misc/xsel" "x11-misc/autocutsel"
+# emerge "x11-misc/trayer-srg"
+# emerge "x11-terms/rxvt-unicode" "x11-misc/urxvt-perls"
+# emerge "x11-themes/FlatStudio" # GTK 2/3 theme.
 ```
 
 ## Install fonts
 
 ```ShellSession
-$ emerge powerline-fonts
+# emerge "media-fonts/powerline-fonts"
 ```
 
-## Install `chips`
+## Install chips
 
-Install all of the following [`chips`](https://github.com/alem0lars/chips):
+Install all of the following [chips](https://github.com/alem0lars/chips):
 
-* [`GNU/Linux`](https://github.com/alem0lars/chips/tree/master/scripts/gnulinux): General purpose scripts for `GNU/Linux` scripts.
-* [`Gentoo`](https://github.com/alem0lars/chips/tree/master/scripts/gentoo): Scripts specific for `Gentoo` systems. 
+* [GNU/Linux](https://github.com/alem0lars/chips/tree/master/scripts/gnulinux):
+  General purpose scripts for GNU/Linux scripts.
+* [Gentoo](https://github.com/alem0lars/chips/tree/master/scripts/gentoo):
+  Scripts specific for Gentoo systems.
 
 ## Setup device-specific software
 
-Sometimes you need to install (and configure) software specific to a particular device.
+Sometimes you need to install (and configure) software specific to a
+particular device.
 
 The main example is installing drivers..
 
-[Here](./device_specific) is a list of device-specific software setup tutorials.
+[Here](./device_specific) is a list of device-specific software setup
+tutorials.
 
 ## Create your personal user
 
@@ -197,20 +200,21 @@ Finally, add the `ssh` keys for the created user.
 
 ## User-level configuration
 
-If you are using `Fizzy`, that's simple:
+If you are using Fizzy, that's simple:
 
 ```ShellSession
 $ _username="alem0lars" # Replace with yours.
-$ fizzy cfg instantiate --vars-name=julia_hck_gentoo --inst-name="user_${_username}"
-$ fizzy sys install --vars-name=julia_hck_gentoo --inst-name="user_${_username}"
+$ _vars_name="julia_hck_gentoo" # Replace with yours.
+$ fizzy cfg instantiate --vars-name=${_vars_name} --inst-name="user_${_username}"
+$ fizzy sys install --vars-name=${vars_name} --inst-name="user_${_username}"
 ```
 
-*Answer no when `Fizzy` will ask you if you want to overwrite system files*
+*Answer `no` when Fizzy will ask you to overwrite system files*.
 (like files in `/etc`) because they should belong to the `system` instance.
 
-## (Optional) Configure `archive`
+## (Optional) Configure archive
 
-See [here](./archive_configuration.md)
+See [here](./archive_configuration.md).
 
 ## Install additional software
 
@@ -223,7 +227,8 @@ See [here](./archive_configuration.md)
 * [Torrent](./software/torrent.md)
 * [Files management](./software/files_management.md)
 * [Files sharing](./software/files_sharing.md)
-* [Files sync](./software/files_sync.md) * [Images tools](./software/images_tools.md)
+* [Files sync](./software/files_sync.md)
+* [Images tools](./software/images_tools.md)
 * [Images viewers](./software/images_viewers.md)
 * [Images editors](./software/images_editors.md)
 * [GTD](./software/gtd.md)

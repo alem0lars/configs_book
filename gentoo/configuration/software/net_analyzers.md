@@ -1,6 +1,6 @@
 # Network Analyzers
 
-## `TCP`*
+## TCP packet demultiplexers
 
 ### Installation
 
@@ -9,7 +9,7 @@
 # emerge "net-analyzer/tcpdump"
 ```
 
-## `Wireshark`
+## Wireshark
 
 ### Installation
 
@@ -26,7 +26,7 @@ To be able to use `Wireshark` with a normal user, you need to add it to the `wir
 # gpasswd -a ${_username} wireshark
 ```
 
-## `mtr`
+## mtr
 
 ### Installation
 
@@ -34,7 +34,7 @@ To be able to use `Wireshark` with a normal user, you need to add it to the `wir
 # emerge "net-analyzer/mtr"
 ```
 
-## `p0f`
+## p0f
 
 ### Installation
 
@@ -42,10 +42,18 @@ To be able to use `Wireshark` with a normal user, you need to add it to the `wir
 # emerge "net-analyzer/p0f"
 ```
 
-## `Tsung`
+## Tsung
 
 ### Installation
 
 ```ShellSession
 # emerge "net-analyzer/tsung"
+```
+
+## NMap
+
+### Installation
+
+```ShellSession
+# emerge "net-analyzers/nmap"
 ```
