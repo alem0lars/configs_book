@@ -28,6 +28,11 @@ Follow the
 [Configurations install](./system_configuration.md)
 tutorial.
 
+## Additional hardware support
+
+For every additional hardware (not supported by default), follow the
+corresponding guide. The available ones are listed [here](./device_specific).
+
 ## Build the kernel
 
 Now the kernel is configured (i.e. the `.config` file has been copied to
