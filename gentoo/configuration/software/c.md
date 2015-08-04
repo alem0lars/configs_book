@@ -1,6 +1,6 @@
 # `C`
 
-## `ROOT`
+## ROOT
 
 ### Installation
 

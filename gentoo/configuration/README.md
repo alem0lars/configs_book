@@ -271,7 +271,7 @@ See [here](./archive_configuration.md).
 * [Screencasts](./software/screencasts.md)
 * [Docs](./software/docs.md)
 * [Flashcards](./software/flashcards.md)
-
+* [Cross compile](./software/cross_compile.md)
 * [C](./software/c.md)
 * [Android](./software/android.md)
 * [JVM](./software/jvm.md)
