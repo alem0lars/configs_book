@@ -8,8 +8,8 @@
 
 ## Additional compilers
 
-* `mingw32`:
+* MinGW:
 
   ```ShellSession
-  # crossdev -t i686-pc-mingw32
+  # crossdev -t i686-w64-mingw32
   ```
