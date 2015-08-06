@@ -1,5 +1,11 @@
 # Diagram tools
 
+## Mindmapping
+
+```ShellSession
+# emerge "app-misc/xmind"
+```
+
 ## PlantUML
 
 ### Installation
