@@ -130,8 +130,8 @@ Remove and regenerate old cache:
 # emerge "x11-apps/xrandr" "x11-apps/xdpyinfo"
 # emerge "setxkbmap" "xmodmap" "x11-apps/xinput"
 # emerge "xorg-server"
-# emerge "x11-misc/slim"
-# systemctl enable "slim"
+# emerge "x11-misc/lightdm"
+# systemctl enable lightdm
 ```
 
 ## Install window manager
@@ -269,6 +269,7 @@ See [here](./archive_configuration.md).
 * [Accounting](./software/accounting.md)
 * [GTD](./software/gtd.md)
 * [Screencasts](./software/screencasts.md)
+* [Screen sharing](./software/screen_sharing.md)
 * [Docs](./software/docs.md)
 * [Flashcards](./software/flashcards.md)
 * [Cross compile](./software/cross_compile.md)
