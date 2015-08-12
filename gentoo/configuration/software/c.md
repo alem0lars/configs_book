@@ -11,3 +11,9 @@
 ```ShellSession
 # emerge "dev-util/cmake"
 ```
+
+## Misc tools
+
+```ShellSession
+# emerge "dev-util/strace"
+```
