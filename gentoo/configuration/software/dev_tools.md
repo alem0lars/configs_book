@@ -39,3 +39,11 @@
 ```ShellSession
 # emerge "dev-ruby/dotenv"
 ```
+
+## The Silver Searcher
+
+### Installation
+
+```ShellSession
+# emerge "sys-apps/the_silver_searcher"
+```
