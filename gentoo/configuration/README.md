@@ -259,6 +259,7 @@ See [here](./archive_configuration.md).
 * [Debuggers](./software/debuggers.md)
 * [Fuzzers](./software/fuzzers.md)
 * [ELF tools](./software/elf_tools.md)
+* [Carving](./software/carving.md)
 * [Network analyzers](./software/net_analyzers.md)
 * [Network tools](./software/net_tools.md)
 * [Password cracking](./software/password_cracking.md)
