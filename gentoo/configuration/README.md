@@ -256,6 +256,7 @@ See [here](./archive_configuration.md).
 * [Semantic tools](./software/semantic_tools.md)
 * [VCS](./software/vcs.md)
 * [Development tools](./software/dev_tools.md)
+* [Electronics](./software/electronics.md)
 * [Debuggers](./software/debuggers.md)
 * [Fuzzers](./software/fuzzers.md)
 * [ELF tools](./software/elf_tools.md)

@@ -1,6 +1,6 @@
 # Accounting
 
-## `ledger`
+## ledger
 
 ### Installation
 
