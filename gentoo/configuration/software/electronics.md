@@ -53,6 +53,9 @@ Install the following libraries (with `32bit` support enabled):
   # ./MPLABX-v*-linux-installer.sh
   ```
 
+  As destination folder choose: `/opt/microchip/mplabx/v${version}`, replacing
+  ${version} with the version of MPLabX being installed.
+
 ### Compilers
 
 You should install the following compilers:
@@ -77,4 +80,44 @@ You should install the following compilers:
   # ./xc8-v*-full-install-linux-installer.run
   # ./xc16-v*-full-install-linux-installer.run
   # ./xc32-v*-full-install-linux-installer.run
+
+  As destination folder choose: `/opt/microchip/${compilername}/v${version}`,
+  replacing:
+
+  * `${compilername}` with the name of the compiler being installed.
+  * `${version}` with the version of the compiler being installed.
+
+#### Plugins
+
+Install the following MPLabX plugins:
+
+* SEGGER JLink Probe
+* dsPIC Filter Designer
+* DMCI
+* MPLAB Harmony Configurator
+* Power Monitor
+* ELFViewer
+* MPLABX KeeLoq Plugin
+* MPLAB Code Configurator
+* Digital Compensator Design Tool Plugin
+
+### Frameworks
+
+#### Microchip Harmony
+
+* Download from the framework from
+  [here](http://www.microchip.com/pagehandler/en_us/devtools/mplabharmony/home.html)
+* Make the installer runnable:
+
+  ```ShellSession
+  # chmod +x harmony_v*_linux_installer.run
   ```
+
+* Install the framework, by running the installer:
+
+  ```ShellSession
+  # ./harmony_v*_linux_installer.run
+  ```
+
+  As destination folder choose: `/opt/microchip/harmony/v${version}`, replacing
+  ${version} with the version of harmony being installed.
