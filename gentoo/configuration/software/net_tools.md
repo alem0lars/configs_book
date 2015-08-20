@@ -1,31 +1,31 @@
 # Network tools
 
-## `ipcalc`
-
-### Installation
+## ipcalc
 
 ```ShellSession
 # emerge "net-misc/ipcalc"
 ```
 
-## `bridge-utils`
-
-### Installation
+## bridge-utils
 
 ```ShellSession
 # emerge "net-misc/bridge-utils"
 ```
 
-## `urlview`
-
-### Installation
+## urlview
 
 ```ShellSession
 # emerge "net-misc/urlview"
 ```
 
-## `httrack`
+## httrack
 
 ```ShellSession
 # emerge "www-client/httrack"
+```
+
+## Bind tools
+
+```ShellSession
+# emerge "net-dns/bind-tools"
 ```
