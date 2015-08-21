@@ -29,3 +29,11 @@
 - Open `File → Settings Repository` and enter the repository url that holds your
   IntelliJ IDEA configurations. Mine is:
   [git@github.com:alem0lars/configs-intellij-idea.git](https://github.com/alem0lars/configs-intellij-idea).
+
+## NetBeans
+
+### Installation
+
+```ShellSession
+# emerge "dev-util/netbeans"
+```
