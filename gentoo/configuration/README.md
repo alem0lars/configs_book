@@ -276,6 +276,7 @@ See [here](./archive_configuration.md).
 * [Flashcards](./software/flashcards.md)
 * [Cross compile](./software/cross_compile.md)
 * [C](./software/c.md)
+* [D](./software/dlang.md)
 * [Android](./software/android.md)
 * [JVM](./software/jvm.md)
 * [JSON](./software/json.md)
