@@ -9,6 +9,7 @@ you just need to enable the `dlang` use-flag.
 
 ```ShellSession
 # emerge "dev-lang/dmd"
+# emerge "dev-util/dub"
 ```
 
 ### Notes
