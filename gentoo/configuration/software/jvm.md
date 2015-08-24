@@ -1,8 +1,6 @@
-# `JVM`
+# JVM
 
 ## Java
-
-### Installation
 
 ```ShellSession
 # emerge "virtual/jdk"
@@ -30,9 +28,7 @@ For every user (except `root`) set the default `Java` virtual machine user-wide:
 $ eselect java-vm set user ${_n} # Replace `${_n}` with your chosen user-wide `Java` virtual machine.
 ```
 
-## `Scala`
-
-### Installation
+## Scala
 
 ```ShellSession
 # emerge "dev-lang/scala"
@@ -46,36 +42,45 @@ Set the default scala version:
 # eselect scala set 1 # Replace 1 with your chosen Scala profile.
 ```
 
+## Tomcat
+
+```ShellSession
+# emerge "www-servers/tomcat"
+```
+
+Now you need to manually install `tomcat-dbcp.jar` because it's not installed by
+default (see [Issue #144276](https://bugs.gentoo.org/show_bug.cgi?id=144276)):
+
+* Download and extract the tomcat archive from [here](http://tomcat.apache.org).
+* Now from inside the extracted folder run:
+
+  ```ShellSession
+  # _version=8 # The installed tomcat package version number (e.g. `7` or `8`).
+  # cp ./lib/tomcat-dbcp.jar /usr/share/tomcat-${_version}/lib
+  ```
+
 ## Additional resources
 
-### `Ant`
-
-#### Installation
+### Ant
 
 ```ShellSession
 # emerge "dev-java/ant"
 # emerge "dev-java/ant-ivy"
 ```
 
-### `Maven`
-
-#### Installation
+### Maven
 
 ```ShellSession
 # emerge "dev-java/maven-bin"
 ```
 
-### `SBT`
-
-#### Installation
+### SBT
 
 ```ShellSession
 # emerge "dev-java/sbt"
 ```
 
 ### Linters / Checkers
-
-#### Installation
 
 ```ShellSession
 $ emerge findbugs
