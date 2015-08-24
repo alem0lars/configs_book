@@ -67,9 +67,7 @@ To access the manager app, you should setup users to something like:
 <role rolename="manager-gui" />
 <role rolename="manager-script" />
 <role rolename="manager-jmx" />
-<user username="manager-gui" password="<manager-gui-password>" roles="manager-gui" />
-<user username="manager-script" password="<manager-script-password>" roles="manager-script" />
-<user username="manager-jmx" password="<manager-jmx-password>" roles="manager-jmx" />
+<user username="main-manager" password="<password>" roles="manager-gui,manager-script,manager-jmx" />
 ```
 
 ## Additional resources
