@@ -236,6 +236,7 @@ See [here](./archive_configuration.md).
 * [Twitter](./software/twitter.md)
 * [FTP](./software/ftp.md)
 * [Torrent](./software/torrent.md)
+* [Usenet](./software/usenet.md)
 * [Files management](./software/files_management.md)
 * [Files sharing](./software/files_sharing.md)
 * [Files sync](./software/files_sync.md)
