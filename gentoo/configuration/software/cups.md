@@ -4,6 +4,8 @@
 # emerge "net-print/cups"
 ```
 
+## Users setup
+
 Any user that needs to print should be added to the `lp` group:
 
 ```ShellSession
@@ -16,6 +18,14 @@ any system user that is allowed to edit these settings should be in the
 
 ```ShellSession
 # gpasswd -a ${username} lpadmin
+```
+
+## Daemon setup
+
+To autostart the daemon at boot, run:
+
+```ShellSession
+# systemctl enable cups
 ```
 
 ## Install printers
