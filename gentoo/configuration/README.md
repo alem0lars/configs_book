@@ -128,7 +128,7 @@ Remove and regenerate old cache:
 
 ```ShellSession
 # emerge "x11-apps/xrandr" "x11-apps/xdpyinfo"
-# emerge "setxkbmap" "xmodmap" "x11-apps/xinput"
+# emerge "setxkbmap" "xmodmap" "x11-apps/xinput" "xbacklight"
 # emerge "xorg-server"
 # emerge "x11-misc/lightdm"
 # systemctl enable lightdm
