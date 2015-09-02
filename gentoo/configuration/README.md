@@ -229,6 +229,7 @@ See [here](./archive_configuration.md).
 
 ## Install additional software
 
+* [Backup](./software/backup.md)
 * [Web clients](./software/web_clients.md)
 * [Mail](./software/mail.md)
 * [RSS](./software/rss.md)
