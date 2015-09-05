@@ -248,6 +248,7 @@ See [here](./archive_configuration.md).
 * [Prototyping](./software/prototyping.md)
 * [Diagram tools](./software/diagram_tools.md)
 * [Audio player](./software/audio_player.md)
+* [Video player](./software/video_player.md)
 * [Office](./software/office.md)
 * [Math](./software/math.md)
 * [Signal processing](./software/signal_processing.md)
