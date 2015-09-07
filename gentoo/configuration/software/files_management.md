@@ -1,5 +1,11 @@
 # Files management
 
+## Tagging
+
+```ShellSession
+# emerge "app-misc/tmsu"
+```
+
 ## Tree
 
 Lists directories recursively, and produces an indented listing of files.
