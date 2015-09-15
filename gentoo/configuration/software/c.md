@@ -16,6 +16,7 @@
 
 ```ShellSession
 # emerge "dev-util/strace"
+# emerge "dev-util/splint"
 ```
 
 ## Libraries
