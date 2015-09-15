@@ -17,3 +17,9 @@
 ```ShellSession
 # emerge "dev-util/strace"
 ```
+
+## Libraries
+
+```ShellSession
+# emerge "dev-util/cunit"
+```
