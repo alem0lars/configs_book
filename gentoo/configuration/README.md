@@ -105,6 +105,7 @@ to *recompile the entire system*.
 # emerge pciutils usbutils # To work with `PCI `& `USB` devices.
 # emerge parted # To manage partitions.
 # emerge gentoolkit genlop eix # Some nice `portage` utilities.
+# emerge "sys-apps/gentoo-functions"
 # emerge "dev-util/debugedit"
 # emerge "sys-fs/ntfs3g"
 ```
