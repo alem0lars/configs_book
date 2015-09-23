@@ -274,6 +274,7 @@ See [here](./archive_configuration.md).
 * [Password manager](./software/password_manager.md)
 * [Miscellaneous](./software/misc.md)
 * [Accounting](./software/accounting.md)
+* [Calendar](./software/calendar.md)
 * [GTD](./software/gtd.md)
 * [Screencasts](./software/screencasts.md)
 * [Screen sharing](./software/screen_sharing.md)
