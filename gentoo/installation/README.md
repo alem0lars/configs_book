@@ -74,6 +74,7 @@ Create the EFI partition with label `EFI` and filesystem `fat32` of size at leas
 * Create physical volumes
 * Create volume groups
 * Create logical volumes
+* Format the logical volumes
 
 ##### Encrypt partition (*optional*)
 
