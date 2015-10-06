@@ -62,11 +62,22 @@ task).
 If doing a `GNU/Linux`-`OSX` dualboot setup, then read its dedicate
 [partitioning suggestions](https://github.com/alem0lars/configs_book/blob/master/dualboot_gnulinux_osx/README.md#partitioning-suggestions).
 
-### Create partitions
+### Create EFI partition (*optional*)
+
+Create the EFI partition with label `EFI` and filesystem `fat32` of size at least `128MiB`.
+
+### Create other partitions
 
 #### With `LVM`
 
-TODO
+* Create a partition of type `lvm` for hosting the disk's physical volume
+* Create physical volumes
+* Create volume groups
+* Create logical volumes
+
+##### Encrypt partition (*optional*)
+
+This step consists on encrypting the whole disk, thus *it is optional*.
 
 #### Without `LVM`
 
