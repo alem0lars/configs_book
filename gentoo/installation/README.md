@@ -393,7 +393,7 @@ Generate the image `initramfs`:
 
 ```
 # dracut
-# mv "$(ls /boot/initramfs*)" "/boot/EFI/gentoo/initramfs-latest"
+# mv "$(ls /boot/initramfs*)" "/boot/EFI/gentoo/initramfs-latest.img"
 ```
 
 ## Configure the bootloader
