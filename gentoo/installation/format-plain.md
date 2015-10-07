@@ -42,3 +42,10 @@ Every partition you've created should have a label associated. Doing this,
 allows you to find partitions by their label (under `/dev/disk/by-label`).
 
 To do so, see [here](https://wiki.archlinux.org/index.php/Persistent_block_device_naming#by-label)
+
+# Format the partitions
+
+
+### Format the partitions
+
+Every partition you've created should be formatted, using `mkfs.*` tools.
