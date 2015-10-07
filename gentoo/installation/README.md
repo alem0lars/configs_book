@@ -221,7 +221,6 @@ And perform the following changes:
 
 * Set `CFLAGS` to `-march=native -O2 -pipe`
 * Set `MAKEOPTS` to `-j<X>` where `<X>` is the cores count + 1.
-* Set `SYNC` to `rsync://rsync.de.gentoo.org/gentoo-portage` (maybe replace with some ones near you).
 
 ### Save `DNS` informations
 
@@ -273,20 +272,19 @@ Also ensure that mode `1777` is set:
 
 ```ShellSession
 # emerge-webrsync
-# mkdir /etc/portage/repos.conf/gentoo.conf
+# mkdir /etc/portage/repos.conf
 # cp /usr/share/portage/config/repos.conf /etc/portage/repos.conf/gentoo.conf
 # emerge --sync
 ```
 
 ## Set the right profile
 
-I suggest you to use the `hardened` profile. It should appear as something like
-`[14] hardened/linux/amd64/`.
-
 ```
 # eselect profile list # Will list all of the available profiles.
 # eselect profile set <X> # Will set the profile to <X>
 ```
+
+My personal preference is the *`systemd`*, *multilib*, *non-hardened* profile.
 
 ## Install `systemd`
 
@@ -349,13 +347,46 @@ files:
 # mkdir -p /boot/EFI/gentoo
 ```
 
-## Install the bootloader
+## Bootloader
+
+There are many bootloaders available:
+* `rEFInd`: useful if you have dual-boot with MacOSX.
+* `systemd-boot` (aka `gummiboot`): minimalistic, best approach for `EFI`-based systems using `systemd`.
+* `GRUB2`: bootloader with a ton of features. I suggest you to use this choice if you don't have an `EFI` system.
+
+### Initial notes
+
+In a `EFI` system, you need to be sure the `efivarfs` is mounted.
+If `efivarfs` is not automatically mounted at `/sys/firmware/efi/efivars` by `systemd` during boot, then you need to manually mount it to expose UEFI Variable support to the userspace tools like `efibootmgr`, etc.:
+
+```ShellSession
+# mount -t efivarfs efivarfs /sys/firmware/efi/efivars
+```
+
+Also I suggest you to install common tools:
+
+```ShellSession
+# emerge "sys-boot/efibootmgr"
+# emerge "sys-libs/efivar"
+```
+
+### systemd-boot
+
+Consider the `EFI` partition mounted in `$esp`.
+
+Install the bootloader:
+
+```
+# bootctl --path=$esp install
+```
+
+### rEFInd
 
 The bootloader of choice is `rEFInd`.
 
 To install it follow the [official installation guide](http://www.rodsbooks.com/refind/installing.html).
 
-### Notes
+#### Notes
 
 You may already have the bootloader installed (e.g. if using a dualboot setup).
 In that case, *skip this step* (e.g. if another OS is already installed
@@ -365,7 +396,7 @@ In that case, *skip this step* (e.g. if another OS is already installed
 ## Install the kernel
 
 ```ShellSession
-# emerge mcelog hardened-sources
+# emerge mcelog gentoo-sources
 ```
 
 ## Configure the kernel
