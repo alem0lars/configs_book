@@ -17,3 +17,11 @@ To mount the encrypted partition `dev/sdaX` mapped in `/dev/mapper/primary`, whe
 ```
 
 And enter the encryption password.
+
+# Mount an encrypted volume at boot time
+
+Edit `/etc/crypttab`:
+
+```
+<MAPPING_NAME> UUID=<DEVICE_UUID> none luks,timeout=180
+```
