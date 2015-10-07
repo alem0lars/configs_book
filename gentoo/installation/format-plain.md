@@ -36,7 +36,7 @@ where:
   give the name to.
 * `<NAME>`: the name to assign to the created partition.
 
-### Assign labels to partitions
+# Assign labels to partitions
 
 Every partition you've created should have a label associated. Doing this,
 allows you to find partitions by their label (under `/dev/disk/by-label`).
