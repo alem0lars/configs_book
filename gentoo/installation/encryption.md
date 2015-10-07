@@ -1,7 +1,7 @@
 # Install dependencies
 
 ```ShellSession
-# emerge "lvm2"
+# emerge "cryptsetup"
 ```
 
 # Create encrypted partition
