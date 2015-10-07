@@ -280,8 +280,7 @@ In this example the profile is number 1, so to enable it we'll do:
 ## Mount the `EFI` partition into `/boot`
 
 ```ShellSession
-# _efi_device_path="/dev/sda1"
-# mount "${_efi_device_path}" "/boot"
+# mount "/dev/sda1" "/boot"
 ```
 
 Now you can create the directory for storing gentoo boot images and related
@@ -370,7 +369,7 @@ Finally, compile the kernel:
 # cd "/usr/src/linux"
 # make
 # make modules_install
-# cp "/usr/src/linux/arch/x86_64/bzImage" "/boot/EFI/gentoo/kernel-hardened-latest.efi"
+# cp "/usr/src/linux/arch/x86_64/bzImage" "/boot/EFI/gentoo/kernel-latest.efi"
 ```
 
 #### Additional resources
@@ -386,7 +385,7 @@ However, *it's always suggested*!
 Install `dracut`:
 
 ```ShellSession
-# echo "sys-kernel/dracut" >> "/etc/portage/package.keywords"
+# echo "sys-kernel/dracut" >> "/etc/portage/package.keywords/tmp"
 # emerge sys-kernel/dracut
 ```
 
