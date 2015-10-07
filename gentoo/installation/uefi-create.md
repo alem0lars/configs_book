@@ -3,7 +3,7 @@
 * Create the EFI partition with label `EFI` of type `EFI` (code: `EF00`) of size at least `512MiB`:
 
   ```ShellSession
-  # gdisk /dev/sda
+  # gdisk "/dev/sda"
   Command (? for help): n
   Partition number (1-128, default 1): 1
   First sector (...): <enter>
@@ -17,5 +17,5 @@
 * Format the created partition as `fat32`:
 
   ```ShellSession
-  mkfs.vfat -F 32 /dev/sda1
+  # mkfs.vfat -F 32 "/dev/sda1"
   ```
