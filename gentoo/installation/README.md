@@ -415,32 +415,28 @@ automatically mount at boot.
 
 First of all, cleanup the file.
 
-```
+```ShellSession
 # echo > /etc/fstab
 ```
 
 Add your `swap` partition:
 
 ```ShellSession
-# _swap_dev_path="/dev/sda4" # Replace it with your swap device.
-# echo "${_swap_dev_path} none swap sw 0 0" >> /etc/fstab
+# echo "/dev/sda4 none swap sw 0 0" >> /etc/fstab # Replace it with your swap device.
 ```
 
 Add your `root` partition:
 
 ```ShellSession
-# _root_dev_path="/dev/sda5" # Replace it with your root device.
-# _root_def_fs="ext4
-# echo "${_root_dev_path} / ${_root_dev_fs} noatime 0 1" >> /etc/fstab
+# echo "/dev/sda5 / ext4 noatime 0 1" >> /etc/fstab # Replace it with your root device.
 ```
 
 Add directories holding temporary files in `RAM`:
 
 ```ShellSession
-# _tmp_size="6G"
-# _tmp_portage_size="8G"
-# echo "tmpfs /tmp tmpfs defaults,noatime,nosuid,size=${_tmp_size}" >> /etc/fstab
-# echo "tmpfs /var/tmp/portage tmpfs defaults,noatime,nosuid,size=${_tmp_portage_size}" >> /etc/fstab
+tmpfs		/var/tmp/portage		tmpfs	size=2G,uid=portage,gid=portage,mode=775,noatime	0 0
+# echo "tmpfs /tmp tmpfs defaults,noatime,nosuid,size=6G 0 0" >> /etc/fstab # Replace your desired size.
+# echo "tmpfs /var/tmp/portage tmpfs uid=portage,gid=portage,mode=775,noatime,size=4G 0 0" >> /etc/fstab # Replace with your desired size.
 ```
 
 ### Notes
