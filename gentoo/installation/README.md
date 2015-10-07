@@ -294,7 +294,7 @@ files:
 
 There are many bootloaders available:
 * `rEFInd`: useful if you have dual-boot with MacOSX.
-* `systemd-boot` (aka `gummiboot`): minimalistic, best approach for `EFI`-based systems using `systemd`.
+* `systemd-boot`: minimalistic, best approach for `EFI`-based systems using `systemd`.
 * `GRUB2`: bootloader with a ton of features. I suggest you to use this choice if you don't have an `EFI` system.
 
 ### Initial notes
@@ -398,7 +398,24 @@ Generate the image `initramfs`:
 
 ## Configure the bootloader
 
-Add the following menu entry in `/boot/EFI/gentoo/refind/refind.conf`:
+### systemd-boot
+
+Add the `gentoo` entry under edit `/boot/loader/entries/gentoo.conf`:
+
+```
+TODO
+```
+
+Edit `/boot/loader/loader.conf` to set the `gentoo` entry as the default one:
+
+```
+timeout 4
+default arch
+```
+
+### rEFInd
+
+Edit the file `refind.conf` and add the menuentry:
 
 ```
 menuentry Gentoo {
