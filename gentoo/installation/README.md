@@ -320,8 +320,8 @@ Consider the `EFI` partition mounted in `$esp`.
 
 Install the bootloader:
 
-```
-# bootctl --path=$esp install
+```ShellSession
+# bootctl --path=/boot install
 ```
 
 ### rEFInd
@@ -340,7 +340,8 @@ In that case, *skip this step* (e.g. if another OS is already installed
 ## Install the kernel
 
 ```ShellSession
-# emerge mcelog gentoo-sources
+# emerge "app-admin/mcelog"
+# emerge "sys-kernel/gentoo-sources"
 ```
 
 ## Configure the kernel
