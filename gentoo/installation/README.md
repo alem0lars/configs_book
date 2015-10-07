@@ -400,18 +400,26 @@ Generate the image `initramfs`:
 
 ### systemd-boot
 
-Add the `gentoo` entry under edit `/boot/loader/entries/gentoo.conf`:
+* Add the `gentoo` entry (under `/boot/loader/entries/gentoo.conf`):
 
-```
-TODO
-```
+  ```
+  title   gentoo
+  linux   /gentoo-kernel.elf
+  initrd  /gentoo-initramfs.img
+  options cryptdevice=UUID=<YOUR_DEVICE_UUID>:primary root=/dev/primary/root rw
+  ```
 
-Edit `/boot/loader/loader.conf` to set the `gentoo` entry as the default one:
+  replacing `<YOUR_DEVICE_UUID>` with the UUID of the device.
 
-```
-timeout 4
-default arch
-```
+  *The example above uses both LVM and LUKS.*
+  Adapt it to suit your needs.
+
+* Edit `/boot/loader/loader.conf` to set the `gentoo` entry as the default one:
+
+  ```
+  timeout 4
+  default arch
+  ```
 
 ### rEFInd
 
