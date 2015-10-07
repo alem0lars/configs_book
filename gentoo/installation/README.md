@@ -382,6 +382,13 @@ If doing a `GNU/Linux`-`OSX` dualboot setup, then read its dedicate
 Sometimes generating an `initramfs` is mandatory, sometimes not.
 However, *it's always suggested*!
 
+### Initial notes
+
+* If your setup relies on LVM, you should add `lvm` to the variable `DRACUT_MODULES` inside `/etc/portage/make.conf` and add the command-line argument `-a lvm` when running `dracut`.
+* If your setup relies on encrypted volumes (DM-Crypt LUKS), you should add `crypt` to the variable `DRACUT_MODULES` inside `/etc/portage/make.conf` and add the command-line argument `-a crypt` when running `dracut`.
+
+### Installation
+
 Install `dracut`:
 
 ```ShellSession
@@ -389,10 +396,12 @@ Install `dracut`:
 # emerge sys-kernel/dracut
 ```
 
+### Generation
+
 Generate the image `initramfs`:
 
 ```
-# dracut
+# dracut # You may need to add modules as command-line arguments (see notes above).
 # mv "$(ls /boot/initramfs*)" "/boot/EFI/gentoo/initramfs-latest.img"
 ```
 
