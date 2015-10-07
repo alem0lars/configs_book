@@ -1,16 +1,36 @@
 # Format using LVM
 
-## Install dependencies
+## Steps
+
+1. Activate the following kernel options:
+
+  ```
+  Device Drivers  --->
+     Multiple devices driver support (RAID and LVM)  --->
+         <*> Device mapper support
+             <*> Crypt target support
+             <*> Snapshot target
+             <*> Mirror target
+         <*> Multipath target
+             <*> I/O Path Selector based on the number of in-flight I/Os
+             <*> I/O Path Selector based on the service time
+  ```
+
+2. Install dependencies
 
 ```ShellSession
 # emerge "lvm2"
 ```
 
-## Steps
+3. **Enable LVM service**:
 
-1. **Create partitions of type `lvm`** (for every partition you want to use).
+  ```ShellSession
+  # systemctl enable lvm2-monitor.service
+  ```
 
-2. **Create physical volumes**, one for every `lvm` partition you've created in `step (1)`.
+4. **Create partitions of type `lvm`** (for every partition you want to use).
+
+5. **Create physical volumes**, one for every `lvm` partition you've created in `step (3)`.
  
    For example to create the physical volume for the partition `/dev/mapper/primary`, run:
   
@@ -18,7 +38,7 @@
    # pvcreate "/dev/mapper/primary"
    ```
 
-* **Create volume groups**: you have complete choice here (multiple physical volumes can join the same group).
+6. **Create volume groups**: you have complete choice here (multiple physical volumes can join the same group).
   
   Personally, I prefer to create:
   * A `primary` volume group holding all of the system logical volumes.
@@ -30,7 +50,7 @@
   # vgcreate "primary" "/dev/mapper/primary"
   ```
 
-* **Create logical volumes**: these fit in the same role of normal partitions in non-LVM setups.
+7. **Create logical volumes**: these fit in the same role of normal partitions in non-LVM setups.
 
   To create a partition of size `4` gigabytes, inside the volume group `primary`, called `swap`, run:
   
@@ -44,4 +64,4 @@
   # lvcreate -l +100%FREE "primary" -n "swap"
   ```
   
-* **Format the logical volumes**, using `mkfs.*` tools.
+8. **Format the logical volumes**, using `mkfs.*` tools.
