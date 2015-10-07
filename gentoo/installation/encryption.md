@@ -1,3 +1,9 @@
+# Install dependencies
+
+```ShellSession
+# emerge "lvm2"
+```
+
 # Create encrypted partition
 
 To encrypt (password-based) the partition `/dev/sdaX`, run:
