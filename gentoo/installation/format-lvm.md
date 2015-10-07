@@ -1,5 +1,11 @@
 # Format using LVM
 
+## Install dependencies
+
+```ShellSession
+# emerge "lvm2"
+```
+
 ## Steps
 
 1. **Create partitions of type `lvm`** (for every partition you want to use).
