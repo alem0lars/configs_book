@@ -21,7 +21,7 @@ correct (e.g. `ping www.google.com`).
 
 Here you have many choices:
 
-1. Create LVM based partitioning layout
+1. Create LVM based partitioning layout (*suggested*).
 2. Create "normal" partitions, without any logical volume management.
 
 In any case, you'll need the following partitions:
@@ -36,21 +36,22 @@ In any case, you'll need the following partitions:
 3. `boot` partition:
   * Holds bootloader informations.
   * You shouldn't have this partition if you have a `UEFI` system.
-  * If you haven't an `UEFI` system this partition is *optional*: you can have
+  * If you don't have an `UEFI` system this partition is *optional*: you can have
     the `/boot` directory inside the `root` partition instead of having a
-    separate partition. However, creating a separate partition is always
-    preferred.
+    separate partition. However, *creating a separate partition is always
+    preferred*.
 
 4. `efi` partition:
+  * *Needed if you have a `UEFI` system*.
   * Holds informations used by the boot-manager and boot-loaders.
   * If you're doing a dualboot setup with `OSX` you already have this partition.
 
 5. `tmp` partition:
-  * It will be mounted in `/`.
-  * This partition is *optional*: you can have the `/tmp` directory inside the
-    `root` partition or mounted in `RAM`. In that cases you shouldn't have this
-    partition. If you have enough RAM for `/tmp` (it depends, but IMHO `8GB` is
-    enough), then the `RAM` method is preferred.
+  * It will be mounted in `/tmp`.
+  * This partition is *optional*: other options include having the `/tmp` directory inside the
+    `root` partition or mounting `tmp` in `RAM`. In that cases you shouldn't have this
+    partition. If you have enough RAM for `/tmp` (it depends, but typically `8GB` is
+    enough), the RAM method is preferred.
 
 Of course you can add as many partitions as you want but keep in mind you should
 create a new partition only if you have a really valid reason to do that,
@@ -62,102 +63,45 @@ task).
 If doing a `GNU/Linux`-`OSX` dualboot setup, then read its dedicate
 [partitioning suggestions](https://github.com/alem0lars/configs_book/blob/master/dualboot_gnulinux_osx/README.md#partitioning-suggestions).
 
-### Create EFI partition (*optional*)
+### Create EFI partition (*UEFI-only*)
 
-Create the EFI partition with label `EFI` and filesystem `fat32` of size at least `128MiB`.
+*This step is needed only if you're using `UEFI`.*
+
+See [here](./uefi-create.md)
 
 ### Create other partitions
 
+#### Encryption
+
+*Optional.*
+
+See [here](./encryption.md)
+
 #### With `LVM`
 
-* Create a partition of type `lvm` for hosting the disk's physical volume
-* Create physical volumes
-* Create volume groups
-* Create logical volumes
-* Format the logical volumes
-
-##### Encrypt partition (*optional*)
-
-This step consists on encrypting the whole disk, thus *it is optional*.
+See [here](./format-lvm.md)
 
 #### Without `LVM`
 
-Open `parted` (the partitioning tool of choice):
-
-```ShellSession
-# _dev_name="/dev/sda" # Replace with the path of your disk device.
-# parted -a optimal "${_dev_name}"
-# unit mib # Set MiB as the default unit (the unit to use when no one is specified).
-```
-
-For each partition you want to create, do the following:
-
-```
-(parted) mkpart primary <FILESYSTEM> <START> <END>
-```
-
-where:
-
-* `<FILESYSTEM>`: replace with the filesystem you want to use for that partition
-  (e.g. `ext4`, `linux-swap`, etc..).
-* `<START>`: the first byte to use. It's the `End` of the previous partition
-  (you can see it with the command `print`) *plus `1MiB`* which is `1` because
-  the current default unit is `MiB`, for aligning the partitions correctly.
-* `<END>`: the last byte to use. You can calculate it as `<START> + <SIZE>`
-  where `<SIZE>` is the size you want to give at the partition.
-
-Assign a name to the created partition:
-
-```
-(parted) name <NUMBER> <NAME>
-```
-
-where:
-
-* `<NUMBER>`: is the partition number. It identifies which partition you want to
-  give the name to.
-* `<NAME>`: the name to assign to the created partition.
-
-### Assign labels to partitions
-
-Every partition you've created should have a label associated. Doing this,
-allows you to find partitions by their label (under `/dev/disk/by-label`).
-
-To do so, see [here](https://wiki.archlinux.org/index.php/Persistent_block_device_naming#by-label)
-
-### Format the partitions
-
-Every partition you've created should be formatted. The command depends on the
-filesystem:
-
-* `ext4`:
-
-  ```ShellSession
-  # _dev_path="/dev/sda5" # Replace with your path.
-  # mkfs.ext4 "${_dev_path}"
-  ```
-
-* `swap`:
-
-  ```ShellSession
-  # _dev_path="/dev/sda4" # Replace with your path.
-  # mkswap "${_dev_path}"
-  ```
+See [here](./format-plain.md)
 
 ### Mount the partitions
 
 ```ShellSession
-# _swap_dev_path="/dev/sda4" # Replace with your swap path.
-# _root_dev_path="/dev/sda5" # Replace with your root path.
-# swapon "${_swap_dev_path}"
+# swapon "/dev/sda4" # Replace with your swap partition.
 # mkdir "/mnt/gentoo"
-# mount "${_root_dev_path}" "/mnt/gentoo"
+# mount "/dev/sda5" "/mnt/gentoo" # Replace with your root partition.
 ```
 
 Of course for any additional partition you have you should create the directory
-(relative to the root path) and mount the partition into it. For example if you
-have a `var` partition in `/dev/sda7`, then you've done:
-`mkdir /mnt/var  && mount /dev/sda7 /mnt/gentoo/var`.
+(relative to the root path) and mount the partition into it.
+
+For example if you have a `var` partition in `/dev/sda7`, you should do:
+
+```ShellSession
+# mkdir "/mnt/var"
+# mount "/dev/sda7" "/mnt/gentoo/var"
+```
 
 ## Check the date is correct
 
