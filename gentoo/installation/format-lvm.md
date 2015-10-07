@@ -18,9 +18,9 @@
 
 2. Install dependencies
 
-```ShellSession
-# emerge "lvm2"
-```
+  ```ShellSession
+  # emerge "lvm2"
+  ```
 
 3. **Enable LVM service**:
 
