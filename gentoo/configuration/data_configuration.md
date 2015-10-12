@@ -1,15 +1,15 @@
-# Archive configuration
+# Data configuration
 
-If you have a separate partition for your documents, projects, music, videos, etc.. like me (I call it archive), then you should setup it.
+If you have a separate partition for your documents, projects, music, videos, etc.. like me (I call it data), then you should setup it.
 
-*You should already have it mounted in `/archive` and an entry in `/etc/fstab` with the `acl` option.*
+*You should already have it mounted in `/data` and an entry in `/etc/fstab` with the `acl` option.*
 
 ## Structure
 
 The basic directory structure is the following:
 
 ```
-/archive
+/data
   → documents
   → graphics
     → images
