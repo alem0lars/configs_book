@@ -123,6 +123,7 @@ Remove and regenerate old cache:
 ```ShellSession
 # rm -rf "/var/cache/edb/dep"
 # emerge --metadata
+# eix-update
 # eix-sync
 ```
 
@@ -149,10 +150,8 @@ Remove and regenerate old cache:
 # emerge "app-shells/zsh"
 # emerge "media-gfx/feh"
 # emerge "media-sound/pavucontrol"
-# emerge "x11-misc/xclip" "x11-misc/xsel" "x11-misc/autocutsel"
-# emerge "x11-misc/trayer-srg"
+# emerge "x11-misc/xclip" "x11-misc/xsel"
 # emerge "x11-terms/rxvt-unicode" "x11-misc/urxvt-perls"
-# emerge "x11-themes/FlatStudio" # GTK 2/3 theme.
 ```
 
 ## Install fonts
@@ -205,8 +204,8 @@ $ gpasswd -a ${_username} portage
 Now allow `admin` to user `sudo`:
 
 ```ShellSession
-$ echo "%admin ALL=(ALL) ALL" > "/etc/sudoers.d/group_admin"
-$ chmod 600 "/etc/sudoers.d/group_admin"
+$ echo "%admin ALL=(ALL) ALL" > "/etc/sudoers.d/group-admin"
+$ chmod 600 "/etc/sudoers.d/group-admin"
 ```
 
 Finally, add the `ssh` keys for the created user.
@@ -218,16 +217,17 @@ If you are using Fizzy, that's simple:
 ```ShellSession
 $ _username="alem0lars" # Replace with yours.
 $ _vars_name="julia_hck_gentoo" # Replace with yours.
+$ _meta_name="meta-user.yml" # Replace with yours.
 $ fizzy cfg instantiate --vars-name=${_vars_name} --inst-name="user_${_username}"
-$ fizzy sys install --vars-name=${vars_name} --inst-name="user_${_username}"
+$ fizzy sys install --vars-name=${vars_name} --inst-name="user-${_username}" --meta-name="${_meta_name}"
 ```
 
-*Answer `no` when Fizzy will ask you to overwrite system files*.
-(like files in `/etc`) because they should belong to the `system` instance.
+You may want to run the snippet above for every user you want to be configured in your system.
+I personally run this for alem0lars and root.
 
-## (Optional) Configure archive
+## (Optional) Configure data
 
-See [here](./archive_configuration.md).
+See [here](./data_configuration.md).
 
 ## Install additional software
 
