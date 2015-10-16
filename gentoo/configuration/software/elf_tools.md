@@ -1,6 +1,6 @@
-# `ELF` tools
+# ELF tools
 
-## `elfkickers`
+## elfkickers
 
 ### Installation
 
