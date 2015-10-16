@@ -13,3 +13,9 @@
   ```ShellSession
   # crossdev -t i686-w64-mingw32
   ```
+
+* Armv5tel:
+
+  ```ShellSession
+  # crossdev -t armv5tel
+  ```
