@@ -1,5 +1,5 @@
 # Backup
 
 ```ShellSession
-# emerge "app-backup/obnam"
+# emerge "app-backup/burp"
 ```
