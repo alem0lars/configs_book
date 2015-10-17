@@ -52,12 +52,12 @@ NCDU is a disk usage analyzer with an ncurses interface.
 # emerge "sys-fs/ncdu"
 ```
 
-## Cv
+## Progress
 
 ### Installation
 
 ```ShellSession
-# emerge "sys-apps/cv"
+# emerge "sys-apps/progress"
 ```
 
 ## Atool
