@@ -14,7 +14,6 @@
 
 ```ShellSession
 # emerge "dev-python/virtualenv"
-# emerge "dev-python/virtualenvwrapper"
 ```
 
 ## `SciPy`
