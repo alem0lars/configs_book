@@ -32,4 +32,5 @@
 ```ShellSession
 # eselect editor list # Shows the available editors.
 # eselect editor set 3 # Set the system editor
+# source /etc/profile
 ```
