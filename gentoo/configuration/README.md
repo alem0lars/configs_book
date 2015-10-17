@@ -182,30 +182,31 @@ tutorials.
 ## Create your personal user
 
 ```ShellSession
-$ _comment="Personal user for Alessandro Molari" # Replace with yours.
-$ _username="alem0lars" # Replace with yours.
-$ useradd -d "/home/${_username}" -s /bin/zsh -c "${_comment}" -m "${_username}"
+# _comment="Personal user for Alessandro Molari" # Replace with yours.
+# _username="alem0lars" # Replace with yours.
+# useradd -d "/home/${_username}" -s /bin/zsh -c "${_comment}" -m "${_username}"
 ```
 
 Create the administrators group:
 
 ```ShellSession
-$ groupadd admin
+# groupadd admin
 ```
 
 Add your user to groups:
 
 ```ShellSession
-$ _username="alem0lars" # Replace with yours.
-$ gpasswd -a ${_username} admin
-$ gpasswd -a ${_username} portage
+# _username="alem0lars" # Replace with yours.
+# gpasswd -a ${_username} admin
+# gpasswd -a ${_username} portage
+# gpasswd -a ${_username} systemd-journal
 ```
 
-Now allow `admin` to user `sudo`:
+Allow `admin` to user `sudo`:
 
 ```ShellSession
-$ echo "%admin ALL=(ALL) ALL" > "/etc/sudoers.d/group-admin"
-$ chmod 600 "/etc/sudoers.d/group-admin"
+# echo "%admin ALL=(ALL) ALL" > "/etc/sudoers.d/group-admin"
+# chmod 600 "/etc/sudoers.d/group-admin"
 ```
 
 Finally, add the `ssh` keys for the created user.
