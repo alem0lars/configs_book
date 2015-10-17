@@ -1,8 +1,5 @@
-# `RSS`
-
-## Installation
+# RSS
 
 ```ShellSession
-# emerge "net-news/canto-daemon"
-# emerge "net-news/canto-curses"
+# emerge "net-news/newsbeuter"
 ```
