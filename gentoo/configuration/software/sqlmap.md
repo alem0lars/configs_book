@@ -1,6 +1,4 @@
-# `sqlmap`
-
-## Installation
+# sqlmap
 
 ```ShellSession
 # emerge "dev-db/sqlmap"
