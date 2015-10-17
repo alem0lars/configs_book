@@ -13,13 +13,13 @@
 List available distributions with the following command:
 
 ```ShellSession
-$ eselect pdftex list
+# eselect pdftex list
 ```
 
 Set the distribution:
 
 ```ShellSession
-$ eselect pdftex set 1
+# eselect pdftex set 1
 ```
 
 ## Troubleshooting
