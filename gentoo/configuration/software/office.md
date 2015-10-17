@@ -10,4 +10,4 @@
 
 ### Addons
 
-* (**VibreOffice**)[https://github.com/seanyeh/vibreoffice]
+* [**VibreOffice**](https://github.com/seanyeh/vibreoffice)
