@@ -13,19 +13,19 @@
 To set the `Java` `nsplugin` run:
 
 ```ShellSession
-$ eselect java-nsplugin set ${_n} # Replace `${_n}` with your chosen `nsplugin`.
+$ eselect java-nsplugin set ${_arch} ${_n} # Replace ${_arch} with the CPU architecture (32bit or 64bit) and ${_n} with your chosen nsplugin.
 ```
 
 Set the default `Java` virtual machine system-wide:
 
 ```ShellSession
-$ eselect java-vm set system ${_n} # Replace `${_n}` with your chosen user-wide `Java` virtual machine.
+$ eselect java-vm set system ${_n} # Replace ${_n} with your chosen user-wide Java virtual machine.
 ```
 
 For every user (except `root`) set the default `Java` virtual machine user-wide:
 
 ```ShellSession
-$ eselect java-vm set user ${_n} # Replace `${_n}` with your chosen user-wide `Java` virtual machine.
+$ eselect java-vm set user ${_n} # Replace ${_n} with your chosen user-wide Java virtual machine.
 ```
 
 ## Scala
