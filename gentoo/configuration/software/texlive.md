@@ -3,9 +3,9 @@
 ## Installation
 
 ```ShellSession
-$ emerge dev-tex/texmfind # Contains a program to search for the Gentoo package containing a tex package.
-$ emerge app-eselect/eselect-pdftex
-$ emerge texlive
+# emerge "dev-tex/texmfind" # Contains a program to search for the Gentoo package containing a tex package
+# emerge "app-eselect/eselect-pdftex"
+# emerge "app-text/texlive"
 ```
 
 ## Configuration
@@ -24,10 +24,10 @@ $ eselect pdftex set 1
 
 ## Troubleshooting
 
-### Update `TeXlive`
+### Update TeXlive
 
 Run:
 
 ```ShellSession
-$ texmf-update
+# texmf-update
 ```
