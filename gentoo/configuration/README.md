@@ -298,7 +298,6 @@ See [here](./data_configuration.md).
 * [Log tools](./software/log_tools.md)
 * [Terminal multiplexer](./software/terminal_multiplexer.md)
 * [Calc](./software/calc.md)
-* [IDS](./software/ids.md)
 * [Mumble](./software/mumble.md)
 
 ## Fonts setup
