@@ -94,6 +94,6 @@ To access the manager app, you should setup users to something like:
 ### Linters / Checkers
 
 ```ShellSession
-$ emerge findbugs
-$ emerge checkstyle
+# emerge "dev-util/findbugs"
+# emerge "dev-util/checkstyle"
 ```
