@@ -1,16 +1,12 @@
 # System monitoring
 
-## `htop`
-
-### Installation
+## htop
 
 ```ShellSession
 # emerge "sys-process/htop"
 ```
 
-## `dstat`
-
-### Installation
+## dstat
 
 ```ShellSession
 # emerge "sys-apps/dstat"
