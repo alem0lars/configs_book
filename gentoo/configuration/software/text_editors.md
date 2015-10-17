@@ -31,6 +31,5 @@
 
 ```ShellSession
 # eselect editor list # Shows the available editors.
-# _editor_number=3 # The vim editor number (possibly called `/usr/bin/vi`).
-# eselect editor set ${_editor_number} # Set the system editor.
+# eselect editor set 3 # Set the system editor
 ```
