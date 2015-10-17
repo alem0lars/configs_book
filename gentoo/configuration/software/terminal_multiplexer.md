@@ -1,8 +1,6 @@
 # Terminal multiplexer
 
-## `tmux`
-
-### Installation
+## tmux
 
 ```ShellSession
 # emerge "app-misc/tmux"
