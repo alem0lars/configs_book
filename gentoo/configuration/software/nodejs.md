@@ -3,5 +3,5 @@
 ## Installation
 
 ```ShellSession
-# emerge "dev-lang/nodejs"
+# emerge "dev-libs/nodejs"
 ```
