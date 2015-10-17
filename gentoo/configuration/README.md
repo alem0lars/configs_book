@@ -242,7 +242,6 @@ See [here](./data_configuration.md).
 * [Usenet](./software/usenet.md)
 * [Files management](./software/files_management.md)
 * [Files sharing](./software/files_sharing.md)
-* [Files sync](./software/files_sync.md)
 * [Images tools](./software/images_tools.md)
 * [Images viewers](./software/images_viewers.md)
 * [Images editors](./software/images_editors.md)
