@@ -20,6 +20,7 @@
 # emerge "dev-util/uncrustify"
 # emerge "dev-util/valgrind"
 # emerge "dev-util/complexity"
+# emerge "dev-util/global"
 ```
 
 ## Libraries
