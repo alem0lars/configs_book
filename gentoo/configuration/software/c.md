@@ -19,6 +19,7 @@
 # emerge "dev-util/splint"
 # emerge "dev-util/uncrustify"
 # emerge "dev-util/valgrind"
+# emerge "dev-util/complexity"
 ```
 
 ## Libraries
