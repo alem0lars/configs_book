@@ -18,6 +18,7 @@
 # emerge "dev-util/strace"
 # emerge "dev-util/splint"
 # emerge "dev-util/uncrustify"
+# emerge "dev-util/valgrind"
 ```
 
 ## Libraries
