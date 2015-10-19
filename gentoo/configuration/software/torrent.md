@@ -2,7 +2,8 @@
 
 ```ShellSession
 # emerge "net-p2p/deluge"
-# useradd -m -g nogroup -s /bin/false deluge
+# groupadd deluge
+# useradd -m -g deluge -s /bin/false deluge
 
 ```
 
