@@ -1,6 +1,6 @@
 # Usenet
 
 ```ShellSession
-# emerge "net-nntp/nzb-get"
+# emerge "net-nntp/nzbget"
 # gpasswd -a "alem0lars" "nzbget"
 ```
