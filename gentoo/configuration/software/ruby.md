@@ -1,8 +1,6 @@
-# `Ruby`
+# Ruby
 
-## `bundler`
-
-### Installation
+## bundler
 
 ```ShellSession
 # emerge "dev-ruby/bundler"
