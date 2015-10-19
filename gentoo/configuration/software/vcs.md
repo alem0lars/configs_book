@@ -7,6 +7,7 @@
 ```ShellSession
 # emerge "dev-vcs/git"
 # emerge "dev-vcs/git-flow"
+# emerge "dev-vcs/git-big-picture"
 ```
 
 ### Tools
