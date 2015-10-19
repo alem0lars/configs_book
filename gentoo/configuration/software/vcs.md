@@ -8,6 +8,8 @@
 # emerge "dev-vcs/git-big-picture"
 # emerge "dev-vcs/gitstats"
 # emerge "dev-vcs/git-mantle"
+# emerge "dev-vcs/git-imerge"
+# emerge "dev-vcs/git-crypt"
 ```
 
 ### Tools
