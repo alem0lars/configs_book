@@ -6,6 +6,8 @@
 # emerge "dev-vcs/git"
 # emerge "dev-vcs/git-flow"
 # emerge "dev-vcs/git-big-picture"
+# emerge "dev-vcs/gitstats"
+# emerge "dev-vcs/git-mantle"
 ```
 
 ### Tools
