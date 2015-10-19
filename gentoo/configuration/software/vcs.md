@@ -1,8 +1,6 @@
 # VCS
 
-## `Git`
-
-### Installation
+## Git
 
 ```ShellSession
 # emerge "dev-vcs/git"
@@ -12,23 +10,17 @@
 
 ### Tools
 
-#### Installation
-
 ```ShellSession
 # emerge "dev-vcs/tig"
 ```
 
-## `Mercurial`
-
-### Installation
+## Mercurial
 
 ```ShellSession
 # emerge "dev-vcs/mercurial"
 ```
 
-## `Subversion`
-
-### Installation
+## Subversion
 
 ```ShellSession
 # emerge "dev-vcs/subversion"
