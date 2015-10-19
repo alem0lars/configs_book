@@ -293,7 +293,6 @@ See [here](./data_configuration.md).
 * [R](./software/r.md)
 * [TeXlive](./software/texlive.md)
 * [ctags](./software/ctags.md)
-* [Socat](./software/socat.md)
 * [sqlmap](./software/sqlmap.md)
 * [Virtualization](./software/virtualization.md)
 * [Log tools](./software/log_tools.md)
