@@ -29,3 +29,9 @@
 ```ShellSession
 # emerge "net-dns/bind-tools"
 ```
+
+## socat
+
+```ShellSession
+# emerge "net-misc/socat"
+```
