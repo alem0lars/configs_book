@@ -10,12 +10,11 @@
 
 ### Configuration
 
-To be able to use `Virtualbox` with a normal user, you need to add it to
+To be able to use Virtualbox with a normal user, you need to add it to
 the `vboxusers` group:
 
 ```ShellSession
-# _username="alem0lars" # Replace with yours.
-# gpasswd -a "${_username}" "vboxusers"
+# gpasswd -a "alem0lars" "vboxusers" # Replace with yours.
 ```
 
 ### Notes
@@ -26,8 +25,7 @@ A good mount-point for the external hard-drive is: `/vm`.
 In that case, prior to use virtual machines you'll need to mount it:
 
 ```ShellSession
-# _dev_path="/dev/sdb1" # Replace with yours.
-# mount "${_dev_path}" "/vm"
+# mount "${_dev_path}" "/dev/sdb1" # Replace with yours.
 ```
 
 ## Vagrant
