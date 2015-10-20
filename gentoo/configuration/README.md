@@ -151,7 +151,7 @@ Remove and regenerate old cache:
 # emerge "media-gfx/feh"
 # emerge "media-sound/pavucontrol"
 # emerge "x11-misc/xclip" "x11-misc/xsel"
-# emerge "x11-terms/rxvt-unicode" "x11-misc/urxvt-perls"
+# emerge "x11-terms/rxvt-unicode" "x11-misc/urxvt-perls" "x11-misc/urxvt-font-size"
 ```
 
 ## Install fonts
