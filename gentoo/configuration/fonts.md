@@ -1,5 +1,11 @@
 # Fonts
 
+## Main font
+
+```ShellSession
+# emerge "media-fonts/pragmatapro"
+```
+
 ## Additional fonts
 
 - **Roboto**:
