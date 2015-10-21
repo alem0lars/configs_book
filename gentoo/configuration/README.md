@@ -113,23 +113,6 @@ See [here](./software/portage.md)
 # emerge "sys-fs/ntfs3g"
 ```
 
-## Install Layman
-
-Install Layman:
-
-```ShellSession
-# emerge "app-portage/layman"
-```
-
-Remove and regenerate old cache:
-
-```ShellSession
-# rm -rf "/var/cache/edb/dep"
-# emerge --metadata
-# eix-update
-# eix-sync
-```
-
 ## Install X stack
 
 ```ShellSession
