@@ -43,4 +43,6 @@ Remove and regenerate old cache:
 # emerge "app-portage/euscan"
 # emerge "app-portage/metagen"
 # emerge "app-portage/pfl"
+# emerge "app-portage/portpeek"
+# emerge "app-portage/grs"
 ```
