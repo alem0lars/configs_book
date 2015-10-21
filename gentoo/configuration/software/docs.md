@@ -1,6 +1,6 @@
 # Docs
 
-## `Phrack`
+## Phrack
 
 ### Installation
 
@@ -8,7 +8,7 @@
 # emerge "app-doc/phrack-all"
 ```
 
-## `TLDP`
+## TLDP
 
 ### Installation
 
@@ -16,10 +16,11 @@
 # emerge "app-doc/tldp-howto"
 ```
 
-## `PMS`
+## Portage
 
 ### Installation
 
 ```ShellSession
 # emerge "app-doc/pms"
+# emerge "app-portage/eclass-manpages"
 ```
