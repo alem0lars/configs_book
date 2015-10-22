@@ -1,25 +1,13 @@
 # `Haskell`
 
-## Installation
-
 ```ShellSession
 # emerge "dev-lang/ghc"
 ```
 
-## `cabal`
-
-### Installation
+## Tools
 
 ```ShellSession
 # emerge "dev-haskell/cabal-install"
-```
-
-## Additional tools
-
-### `ghc-mod`
-
-#### Installation
-
-```ShellSession
 # emerge "app-emacs/ghc-mod"
+# emerge "dev-haskell/stack"
 ```
