@@ -268,6 +268,7 @@ See [here](./data_configuration.md).
 * [Cross compile](./software/cross_compile.md)
 * [C](./software/c.md)
 * [D](./software/dlang.md)
+* [Julia](./software/julia.md)
 * [Android](./software/android.md)
 * [JVM](./software/jvm.md)
 * [JSON](./software/json.md)
