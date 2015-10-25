@@ -186,6 +186,7 @@ Add your user to groups:
 # gpasswd -a ${_username} admin
 # gpasswd -a ${_username} portage
 # gpasswd -a ${_username} systemd-journal
+# gpasswd -a ${_username} games
 ```
 
 Allow `admin` to user `sudo`:
