@@ -232,7 +232,6 @@ My personal preference is the *`systemd`*, *multilib*, *non-hardened* profile.
 
 ## Install `systemd`
 
-* Add `systemd` to your useflags.
 * Run emerge, so packages relying upon systemd will be aware of the useflag:
 
   ```ShellSession
