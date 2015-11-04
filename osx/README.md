@@ -11,8 +11,4 @@ There are two macro-steps:
 
 ## Installation
 
-See [here](./installation/README.md).
-
-## Configuration
-
-See [here](./configuration/README.md).
+See [here](./installation.md).
