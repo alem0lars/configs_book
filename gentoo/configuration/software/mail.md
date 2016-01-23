@@ -1,15 +1,7 @@
 # Mail
 
-## mutt
-
-### Installation
+## Thunderbird
 
 ```ShellSession
-# emerge "mail-client/mutt"
-```
-
-### muttprint
-
-```ShellSession
-# emerge "app-misc/muttprint"
+# emerge "mail-client/thunderbird"
 ```
