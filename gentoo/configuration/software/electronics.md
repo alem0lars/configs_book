@@ -121,3 +121,9 @@ Install the following MPLabX plugins:
 
   As destination folder choose: `/opt/microchip/harmony/v${version}`, replacing
   ${version} with the version of harmony being installed.
+
+## FPGA
+
+```ShellSession
+# emerge "sci-electronics/quartus-prime-lite"
+```
