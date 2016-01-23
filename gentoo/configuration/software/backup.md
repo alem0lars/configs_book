@@ -1,5 +1,5 @@
 # Backup
 
 ```ShellSession
-# emerge "app-backup/burp"
+# emerge "app-backup/attic"
 ```
