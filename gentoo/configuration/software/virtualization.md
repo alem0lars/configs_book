@@ -28,6 +28,12 @@ In that case, prior to use virtual machines you'll need to mount it:
 # mount "${_dev_path}" "/dev/sdb1" # Replace with yours.
 ```
 
+## Vagrant
+
+```ShellSession
+# emerge "app-emulation/vagrant"
+```
+
 ## KVM
 
 ```ShellSession
