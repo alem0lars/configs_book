@@ -4,36 +4,36 @@
 
 1. Activate the following kernel options:
 
-  ```
-  Device Drivers  --->
-     Multiple devices driver support (RAID and LVM)  --->
-         <*> Device mapper support
-             <*> Crypt target support
-             <*> Snapshot target
-             <*> Mirror target
-         <*> Multipath target
-             <*> I/O Path Selector based on the number of in-flight I/Os
-             <*> I/O Path Selector based on the service time
-  ```
+```
+Device Drivers  --->
+   Multiple devices driver support (RAID and LVM)  --->
+       <*> Device mapper support
+           <*> Crypt target support
+           <*> Snapshot target
+           <*> Mirror target
+       <*> Multipath target
+           <*> I/O Path Selector based on the number of in-flight I/Os
+           <*> I/O Path Selector based on the service time
+```
 
 2. Install dependencies
 
-  ```ShellSession
-  # emerge "lvm2"
-  ```
+```ShellSession
+# emerge "lvm2"
+```
 
 3. **Enable LVM service**:
 
-  ```ShellSession
-  # systemctl enable lvm2-monitor.service
-  ```
+```ShellSession
+# systemctl enable lvm2-monitor.service
+```
 
 4. **Create partitions of type `lvm`** (for every partition you want to use).
 
 5. **Create physical volumes**, one for every `lvm` partition you've created in `step (3)`.
  
    For example to create the physical volume for the partition `/dev/mapper/primary`, run:
-  
+ 
    ```ShellSession
    # pvcreate "/dev/mapper/primary"
    ```

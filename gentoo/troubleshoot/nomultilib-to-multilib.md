@@ -1,4 +1,4 @@
-# NoMultiLib to Multilib
+# No multi-lib to multi-lib
 
 Sometimes you have a Gentoo system with a nomultilib profile and you need to
 switch profile to multilib.
@@ -33,26 +33,26 @@ It's described here:
 
 - Install binaries for 32bit toolchain:
 
-  ```ShellSession
-  # PORTAGE_BINHOST="http://packages.gentooexperimental.org/packages/amd64-stable/" emerge -avG gcc glibc binutils libtool
-  ```
+```ShellSession
+# PORTAGE_BINHOST="http://packages.gentooexperimental.org/packages/amd64-stable/" emerge -avG gcc glibc binutils libtool
+```
 
 - Select the compiler:
 
-  ```ShellSession
-  # gcc-config 1 # Replace 1 with the compiler you want.
-  # source /etc/profile # Or open a new shell (maybe it's better).
-  ```
+```ShellSession
+# gcc-config 1 # Replace 1 with the compiler you want.
+# source /etc/profile # Or open a new shell (maybe it's better).
+```
 
 - Reinstall the 32bit toolchain (source-based):
 
-  ```ShellSession
-  # emerge glibc libtool binutils coreutils
-  # emerge gcc
-  ```
+```ShellSession
+# emerge glibc libtool binutils coreutils
+# emerge gcc
+```
 
 - Re-emerge system:
 
-  ```ShellSession
-  # emerge -e system
-  ```
+```ShellSession
+# emerge -e system
+```

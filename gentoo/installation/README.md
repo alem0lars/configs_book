@@ -27,13 +27,16 @@ Here you have many choices:
 In any case, you'll need the following partitions:
 
 1. `root` partition:
+
   * It will be mounted in `/`.
   * Suggested filesystem: `ext4`.
 
 2. `swap` partition:
+
   * It will be serve as swapping space.
 
 3. `boot` partition:
+
   * Holds bootloader informations.
   * You shouldn't have this partition if you have a `UEFI` system.
   * If you don't have an `UEFI` system this partition is *optional*: you can have
@@ -42,11 +45,13 @@ In any case, you'll need the following partitions:
     preferred*.
 
 4. `efi` partition:
+
   * *Needed if you have a `UEFI` system*.
   * Holds informations used by the boot-manager and boot-loaders.
   * If you're doing a dualboot setup with `OSX` you already have this partition.
 
 5. `tmp` partition:
+
   * It will be mounted in `/tmp`.
   * This partition is *optional*: other options include having the `/tmp` directory inside the
     `root` partition or mounting `tmp` in `RAM`. In that cases you shouldn't have this
@@ -60,7 +65,7 @@ task).
 
 #### Additional resources
 
-If doing a `GNU/Linux`-`OSX` dualboot setup, then read its dedicate
+If doing a `GNU/Linux`-`OSX` dual-boot setup, then read its dedicate
 [partitioning suggestions](https://github.com/alem0lars/configs_book/blob/master/dualboot_gnulinux_osx/README.md#partitioning-suggestions).
 
 ### Create EFI partition (*UEFI-only*)
