@@ -1,7 +1,8 @@
 # Ruby
 
-## bundler
+## Tools
 
 ```ShellSession
 # emerge "dev-ruby/bundler"
+# emerge "dev-ruby/awesome_print"
 ```
