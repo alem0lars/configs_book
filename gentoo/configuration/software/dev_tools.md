@@ -1,48 +1,36 @@
 # Development tools
 
-## `cloc`
-
-### Installation
+## cloc
 
 ```ShellSession
 # emerge "dev-util/cloc"
 ```
 
-## `highlight`
-
-### Installation
+## highlight
 
 ```ShellSession
 # emerge "app-text/highlight"
 ```
 
-## `aewan`
-
-### Installation
+## aewan
 
 ```ShellSession
 # emerge "media-gfx/aewan"
 ```
 
-## `colordiff`
-
-### Installation
+## colordiff
 
 ```ShellSession
 # emerge "app-misc/colordiff"
 ```
 
-## `dotenv`
-
-### Installation
+## dotenv
 
 ```ShellSession
 # emerge "dev-ruby/dotenv"
 ```
 
 ## The Silver Searcher
-
-### Installation
 
 ```ShellSession
 # emerge "sys-apps/the_silver_searcher"

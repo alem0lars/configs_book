@@ -54,10 +54,10 @@ default (see [Issue #144276](https://bugs.gentoo.org/show_bug.cgi?id=144276)):
 * Download and extract the tomcat archive from [here](http://tomcat.apache.org).
 * Now from inside the extracted folder run:
 
-  ```ShellSession
-  # _version=8 # The installed tomcat package version number (e.g. `7` or `8`).
-  # cp ./lib/tomcat-dbcp.jar /usr/share/tomcat-${_version}/lib
-  ```
+```ShellSession
+# _version=8 # The installed tomcat package version number (e.g. `7` or `8`).
+# cp ./lib/tomcat-dbcp.jar /usr/share/tomcat-${_version}/lib
+```
 
 ### Configuration
 
@@ -96,4 +96,10 @@ To access the manager app, you should setup users to something like:
 ```ShellSession
 # emerge "dev-util/findbugs"
 # emerge "dev-util/checkstyle"
+```
+
+### ANTLR
+
+```ShellSession
+# emerge "dev-java/antlr"
 ```
