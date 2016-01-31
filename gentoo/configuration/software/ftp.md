@@ -1,9 +1,7 @@
-# `FTP`
+# FTP
 
-## `lftp`
-
-### Installation
+## lftp
 
 ```ShellSession
-# emerge "net-ftp/lftp"
+# emerge "net-ftp/yafc"
 ```
