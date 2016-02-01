@@ -1,15 +1,6 @@
 # Audio player
 
-## cmus
-
-### Installation
-
 ```ShellSession
-# emerge "media-sound/cmus"
-```
-
-## Spotify
-
-```ShellSession
-# emerge "media-sound/spotify"
+# emerge "media-sound/cmus" "media-sound/cmusfm"
+# emerge "media-sound/beets"
 ```
