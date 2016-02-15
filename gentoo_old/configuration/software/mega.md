@@ -1,6 +1,6 @@
 # Mega
 
 ```ShellSession
-# emerge "mega-cli"
-# emerge "megasync"
+# emerge "megatools" 
+# emerge "megasync" 
 ```
