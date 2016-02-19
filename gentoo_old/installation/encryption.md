@@ -9,7 +9,7 @@
 To encrypt (password-based) the partition `/dev/sdaX`, run:
 
 ```ShellSession
-# cryptsetup luksFormat `/dev/sdaX`
+# cryptsetup luksFormat '/dev/sdaX'
 ```
 
 And enter the encryption password twice.
