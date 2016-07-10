@@ -67,3 +67,7 @@ NCDU is a disk usage analyzer with an ncurses interface.
 ```ShellSession
 # emerge "app-arch/atool"
 ```
+
+## fzf
+
+Fuzzy file finder: [fzf](https://github.com/junegunn/fzf)
