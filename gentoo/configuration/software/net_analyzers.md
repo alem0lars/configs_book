@@ -51,3 +51,5 @@ the `wireshark` group:
 ```ShellSession
 # emerge "net-analyzer/speedtest-cli"
 ```
+
+## `netuse`
