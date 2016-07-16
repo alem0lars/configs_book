@@ -7,3 +7,5 @@
 ```ShellSession
 # emerge "sys-process/parallel"
 ```
+
+## `stress`
