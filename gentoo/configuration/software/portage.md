@@ -9,7 +9,7 @@
 ## ElogV
 
 ```ShellSession
-# emerge "dev-python/pyliblzma" "app-portage/elogv"
+# emerge "app-portage/elogv"
 # chown portage:portage "/var/log/portage/elog"
 ```
 
