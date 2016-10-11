@@ -45,4 +45,5 @@ Remove and regenerate old cache:
 # emerge "app-portage/pfl"
 # emerge "app-portage/portpeek"
 # emerge "app-portage/grs"
+# emerge "app-admin/eclean-kernel"
 ```
